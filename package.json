@@ -1,0 +1,56 @@
+{
+  "name": "next-ts-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --ext .ts,.js,.tsx,.jsx src"
+  },
+  "lint-staged": {
+    "src/*.{ts,js,tsx,jsx}": "eslint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.8.3",
+    "@material-ui/icons": "^4.5.1",
+    "@types/node": "^13.5.0",
+    "@types/react": "^16.9.19",
+    "next": "^9.2.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@typescript-eslint/eslint-plugin": "^2.17.0",
+    "@typescript-eslint/parser": "^2.17.0",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "babel-eslint": "^10.0.3",
+    "core-js": "^3.6.4",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-flowtype": "^4.6.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "husky": "^4.2.0",
+    "jest": "^24.9.0",
+    "json": "^9.0.6",
+    "lint-staged": "^10.0.1",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5"
+  }
+}

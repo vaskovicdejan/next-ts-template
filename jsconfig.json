@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": [
+      "esnext",
+      "esnext.asynciterable",
+      "dom"
+    ],
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "strict": true,
+    "noEmit": true,
+    "noLib" : false,
+    "experimentalDecorators": true,
+    "newLine": "LF",
+    "baseUrl": "src",
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "../*": [
+        "./*"
+      ],
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}
