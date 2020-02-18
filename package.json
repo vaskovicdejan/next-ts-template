@@ -18,7 +18,7 @@
     }
   },
   "dependencies": {
-    "@material-ui/core": "^4.8.3",
+    "@material-ui/core": "^4.9.3",
     "@material-ui/icons": "^4.5.1",
     "@types/node": "^13.5.0",
     "@types/react": "^16.9.19",
@@ -49,6 +49,7 @@
     "json": "^9.0.6",
     "lint-staged": "^10.0.1",
     "prettier": "^1.19.1",
+    "styled-jsx": "^3.2.4",
     "ts-jest": "^24.3.0",
     "typescript": "^3.7.5",
     "webpack": "^4.41.5"

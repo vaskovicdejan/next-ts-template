@@ -1,17 +1,10 @@
 import React from 'react'
-import Head from 'next/head'
-import Nav from '../components/nav'
+import { Layout } from '../components/Layout';
 
 class Home extends React.Component {
   render() {
     return (
-      <div>
-        <Head>
-          <title>Home</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
-
-        <Nav />
+      <Layout>
 
         <div className="hero">
           <h1 className="title">Welcome to Next.js!</h1>
@@ -84,7 +77,7 @@ class Home extends React.Component {
             color: #333;
           }
         `}</style>
-      </div>
+      </Layout>
     )
   }
 }
