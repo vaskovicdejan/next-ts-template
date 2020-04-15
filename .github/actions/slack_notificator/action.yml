@@ -1,0 +1,15 @@
+name: 'Slack Notificator Action'
+description: 'Notificats to the Slack.'
+author: 'Kenji Saito <ken-yo@mbr.nifty.com>'
+branding:
+  icon: 'terminal'
+  color: 'yellow'
+inputs:
+  webhook_url:
+    description: WebHook URL to send notify
+    required: true
+  text:
+    required: true
+runs:
+  using: 'docker'
+  image: './Dockerfile'

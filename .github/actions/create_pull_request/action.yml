@@ -1,0 +1,26 @@
+name: 'Create GitHub Pull Reaquest Action'
+description: 'Creates a Pull Request for GitHub.'
+author: 'Kenji Saito <ken-yo@mbr.nifty.com>'
+branding:
+  icon: 'terminal'
+  color: 'yellow'
+inputs:
+  branch_name:
+    description: (head) branch name
+  target_branch_name:
+    description: target(base) branch name to merge
+    default: master
+  title:
+    description: title for pull request
+    default: create by GitHub Action
+  body:
+    description: body text for pull request
+    default: ''
+  github_token:
+    required: true
+  repository:
+    description: target repository
+    required: true
+runs:
+  using: 'docker'
+  image: './Dockerfile'

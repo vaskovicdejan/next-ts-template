@@ -1,6 +1,11 @@
-name: Build and Test
+name: Node.js modules auto update
  
-on: pull_request
+on:
+  push:
+    branches:    
+    - master 
+  schedule:
+    - cron:  '0 0 * * 1'
 
 jobs:
   test:
@@ -8,7 +13,51 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - uses: docker://node:lts-buster-slim
-    - run: yarn install
-    - run: yarn build
-    - run: yarn test
-  
+    - run: |
+        yarn install && \
+        yarn build && \
+        yarn test
+    - name: Commit files
+      run: |
+        git config --local user.email "ken-yo@mbr.nifty.com"
+        git config --local user.name "Kenji Saito"
+        TIMESTAMP=$(date)
+        BRANCH_NAME="feature/bump-modules-$(date "+%Y%m%d-%H%M%S")"
+        git checkout -b "${BRANCH_NAME}"
+        if [ $(git diff | wc -l) -eq 0 ]; then
+          echo "::set-env name=CHANGE_STATE::no_changed"
+          exit 0
+        fi
+        git add *
+        git commit -m "Auto update at ${TIMESTAMP}"
+        echo "::set-env name=BRANCH_NAME::${BRANCH_NAME}"
+        echo "::set-env name=TIMESTAMP::${TIMESTAMP}"
+        echo "::set-env name=CHANGE_STATE::changed"
+    - name: Push Changes
+      if: success() && env.CHANGE_STATE == 'changed'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
+        branch: ${{ env.BRANCH_NAME }}
+    - name: Create pull request
+      if: success() && env.CHANGE_STATE == 'changed'
+      uses: ./.github/actions/create_pull_request
+      with:
+        branch_name: ${{ env.BRANCH_NAME }}
+        title: ${{ format('Auto update at {0}', env.TIMESTAMP) }}
+        body: ${{ format('Update the modules at {0}', env.TIMESTAMP) }}
+        github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
+        repository: ${{ github.repository }}
+    - name: Send result with Pull Request
+      if: success() && env.CHANGE_STATE == 'changed'
+      uses: ./.github/actions/slack_notificator
+      with:
+        webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
+        text: ${{ format('{0} {1}\nPull Request <{2}>', github.workflow, job.status, env.PULL_REQUEST_HTML_URL) }}
+
+    - name: Send result without Pull Request
+      if: success() && env.CHANGE_STATE != 'changed'
+      uses: ./.github/actions/slack_notificator
+      with:
+        webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
+        text: ${{ format('{0} {1}', github.workflow, job.status) }}
