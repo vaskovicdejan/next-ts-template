@@ -8,13 +8,15 @@ on:
     - cron:  '0 0 * * 1'
 
 jobs:
-  test:
+  auto_update:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - uses: docker://node:lts-buster-slim
-    - run: |
+    - name: update and test
+      run: |
         yarn install && \
+        yarn upgrade && \
         yarn build && \
         yarn test
     - name: Commit files
