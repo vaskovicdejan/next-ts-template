@@ -19,7 +19,7 @@ jobs:
         yarn upgrade && \
         yarn build && \
         yarn test && \
-        rm -rf coverage node_modules
+        rm -rf coverage node_modules .next build
     - name: Commit files
       run: |
         git config --local user.email "ken-yo@mbr.nifty.com"
