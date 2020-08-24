@@ -19,6 +19,7 @@ jobs:
         yarn: true
     - name: update and test
       run: |
+        yarn install && \
         yarn build && \
         yarn test && \
         rm -rf coverage node_modules .next build
