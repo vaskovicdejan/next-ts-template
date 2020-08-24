@@ -14,9 +14,11 @@ jobs:
     - uses: actions/checkout@master
     - uses: docker://node:lts-buster-slim
     - name: update and test
+      uses: poad/update-node-modules@master
+      with:
+        yarn: true
+    - name: update and test
       run: |
-        yarn install && \
-        yarn upgrade && \
         yarn build && \
         yarn test && \
         rm -rf coverage node_modules .next build
