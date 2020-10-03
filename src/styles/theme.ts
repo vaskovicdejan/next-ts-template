@@ -4,7 +4,7 @@ import { green } from '@material-ui/core/colors';
 // A theme with custom primary and secondary color.
 // It's optional.
 
-const options: any = {
+const options = {
   palette: {
     primary: {
       main: '#2d2d2d',

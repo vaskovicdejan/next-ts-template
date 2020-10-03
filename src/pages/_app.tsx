@@ -5,29 +5,30 @@ import { ThemeProvider } from '@material-ui/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import theme from '../styles/theme';
 
-
 interface HistoryState {
   targetUrl: string
 }
 
 class MyApp extends App {
-  componentDidMount() {
+  componentDidMount = (): void => {
     // Remove the server-side injected CSS.
     const jssStyles = document.querySelector('#jss-server-side');
     if (jssStyles && jssStyles.parentNode) {
       jssStyles.parentNode.removeChild(jssStyles);
     }
-  }
+  };
 
-  onRedirectCallback = (appState: HistoryState) => {
+  /* eslint-disable no-restricted-globals */
+  onRedirectCallback = (appState: HistoryState): void => {
     history.state.push(
       appState && appState.targetUrl
         ? appState.targetUrl
-        : window.location.pathname
+        : window.location.pathname,
     );
   };
-  
-  render() {
+  /* eslint-enable no-restricted-globals */
+
+  render(): JSX.Element {
     const { Component, pageProps } = this.props;
     return (
       <ThemeProvider theme={theme}>

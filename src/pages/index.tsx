@@ -1,37 +1,35 @@
-import React from 'react'
-import { Layout } from '../components/Layout';
+import React from 'react';
+import Layout from '../components/Layout';
 
 class Home extends React.Component {
-  render() {
-    return (
-      <Layout>
-
-        <div className="hero">
-          <h1 className="title">Welcome to Next.js!</h1>
-          <p className="description">
+  render = (): JSX.Element => (
+    <Layout>
+      <div className="hero">
+        <h1 className="title">Welcome to Next.js!</h1>
+        <p className="description">
             To get started, edit <code>pages/index.js</code> and save to reload.
-          </p>
+        </p>
 
-          <div className="row">
-            <a href="https://nextjs.org/docs" className="card">
-              <h3>Documentation &rarr;</h3>
-              <p>Learn more about Next.js in the documentation.</p>
-            </a>
-            <a href="https://nextjs.org/learn" className="card">
-              <h3>Next.js Learn &rarr;</h3>
-              <p>Learn about Next.js by following an interactive tutorial!</p>
-            </a>
-            <a
-              href="https://github.com/zeit/next.js/tree/master/examples"
-              className="card"
-            >
-              <h3>Examples &rarr;</h3>
-              <p>Find other example boilerplates on the Next.js GitHub.</p>
-            </a>
-          </div>
+        <div className="row">
+          <a href="https://nextjs.org/docs" className="card">
+            <h3>Documentation &rarr;</h3>
+            <p>Learn more about Next.js in the documentation.</p>
+          </a>
+          <a href="https://nextjs.org/learn" className="card">
+            <h3>Next.js Learn &rarr;</h3>
+            <p>Learn about Next.js by following an interactive tutorial!</p>
+          </a>
+          <a
+            href="https://github.com/zeit/next.js/tree/master/examples"
+            className="card"
+          >
+            <h3>Examples &rarr;</h3>
+            <p>Find other example boilerplates on the Next.js GitHub.</p>
+          </a>
         </div>
+      </div>
 
-        <style jsx>{`
+      <style jsx>{`
           .hero {
             width: 100%;
             color: #333;
@@ -77,9 +75,8 @@ class Home extends React.Component {
             color: #333;
           }
         `}</style>
-      </Layout>
-    )
-  }
+    </Layout>
+  );
 }
 
-export default Home
+export default Home;

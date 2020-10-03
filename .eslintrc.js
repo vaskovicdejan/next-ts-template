@@ -3,11 +3,10 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    es6: true
+    es2020: true,
+    jest: true
   },
-  parser: 'babel-eslint',
   parserOptions: {
-    parser: '@typescript-eslint/parser',
     ecmaFeatures: {
       jsx: true
     },
@@ -15,18 +14,18 @@ module.exports = {
     useJSXTextNode: true
   },
   extends: [
-    'prettier',
-    'prettier/react',
-    'prettier/@typescript-eslint',
-    'plugin:prettier/recommended',
+    "airbnb-typescript/base",
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended'
   ],
   plugins: [
-    'prettier',
-    'react'
+    'react',
+    'jest'
   ],
   settings: {
+    react: {
+      version: "detect"
+    }
   },
   // add your custom rules here
   rules: {
@@ -39,7 +38,6 @@ module.exports = {
       'always',
       { markers: ['/ <reference'] }
     ],
-    'prettier/prettier': 'error',
     'max-len': ['error', {'code': 100}],
     'prefer-promise-reject-errors': ['off'],
     'react/jsx-filename-extension': ['off'],
