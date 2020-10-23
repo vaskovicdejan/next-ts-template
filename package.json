@@ -1,4 +1,6 @@
 {
+  "name": "my-app",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "test": "jest --passWithNoTests",
@@ -19,7 +21,7 @@
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@material-ui/styles": "^4.10.0",
-    "@types/node": "^14.11.10",
+    "@types/node": "^14.14.2",
     "@types/react": "^16.9.53",
     "cross-fetch": "^3.0.6",
     "next": "^9.5.5",
@@ -27,8 +29,8 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.4.1",
-    "@typescript-eslint/parser": "^4.4.1",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
     "@zeit/next-css": "^1.0.1",
     "eslint": "^7.11.0",
     "eslint-config-airbnb-base": "^14.2.0",
@@ -39,10 +41,10 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.1.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.21.4",
-    "eslint-plugin-react-hooks": "^4.1.2",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^4.3.0",
-    "jest": "^26.5.3",
+    "jest": "^26.6.1",
     "lint-staged": "^10.4.2",
     "next-compose-plugins": "^2.2.0",
     "next-transpile-modules": "^4.1.0",
