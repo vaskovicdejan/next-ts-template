@@ -31,14 +31,14 @@ jobs:
         BRANCH_NAME="feature/bump-modules-$(date "+%Y%m%d-%H%M%S")"
         git checkout -b "${BRANCH_NAME}"
         if [ $(git diff | wc -l) -eq 0 ]; then
-          echo "::set-env name=CHANGE_STATE::no_changed"
+          echo "CHANGE_STATE=no_changed" >> $GITHUB_ENV
           exit 0
         fi
         git add *
         git commit -m "Auto update at ${TIMESTAMP}"
-        echo "::set-env name=BRANCH_NAME::${BRANCH_NAME}"
-        echo "::set-env name=TIMESTAMP::${TIMESTAMP}"
-        echo "::set-env name=CHANGE_STATE::changed"
+        echo "BRANCH_NAME=${BRANCH_NAME}" >> $GITHUB_ENV
+        echo "TIMESTAMP=${TIMESTAMP}" >> $GITHUB_ENV
+        echo "CHANGE_STATE=changed" >> $GITHUB_ENV
     - name: Push Changes
       if: success() && env.CHANGE_STATE == 'changed'
       uses: ad-m/github-push-action@master

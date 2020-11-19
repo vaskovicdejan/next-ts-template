@@ -23,7 +23,7 @@ fi
 
 PULL_REQUEST_URL=$(echo ${RESPONSE} | jq -r ".url")
 PULL_REQUEST_HTML_URL=$(echo ${RESPONSE} | jq -r ".html_url")
-echo "::set-env name=PULL_REQUEST_URL::${PULL_REQUEST_URL}"
-echo "::set-env name=PULL_REQUEST_HTML_URL::${PULL_REQUEST_HTML_URL}"
+echo "PULL_REQUEST_URL=${PULL_REQUEST_URL}" >> $GITHUB_ENV
+echo "PULL_REQUEST_HTML_URL=${PULL_REQUEST_HTML_URL}" >> $GITHUB_ENV
 
 exit $?
