@@ -3,7 +3,7 @@ name: Node.js modules auto update
 on:
   push:
     branches:    
-    - master 
+    - main 
   schedule:
     - cron:  '0 0 * * 1'
 
