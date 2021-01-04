@@ -47,13 +47,14 @@ jobs:
         branch: ${{ env.BRANCH_NAME }}
     - name: Create pull request
       if: success() && env.CHANGE_STATE == 'changed'
-      uses: ./.github/actions/create_pull_request
+      uses: poad/github-pull-requester@main
       with:
-        branch_name: ${{ env.BRANCH_NAME }}
+        head-branch: ${{ env.BRANCH_NAME }}
         title: ${{ format('Auto update at {0}', env.TIMESTAMP) }}
         body: ${{ format('Update the modules at {0}', env.TIMESTAMP) }}
-        github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
+        github-token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
         repository: ${{ github.repository }}
+        owner: ${{ github.repository.owner.name }}
     - name: Send result with Pull Request
       if: success() && env.CHANGE_STATE == 'changed'
       uses: ./.github/actions/slack_notificator
