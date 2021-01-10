@@ -6,6 +6,9 @@ on:
     - main 
   schedule:
     - cron:  '0 0 * * 1'
+  pull_request:
+    branches: [ main ]
+
 
 jobs:
   auto_update:
@@ -29,7 +32,7 @@ jobs:
         git config --local user.name "Kenji Saito"
         TIMESTAMP=$(date)
         BRANCH_NAME="feature/bump-modules-$(date "+%Y%m%d-%H%M%S")"
-        git checkout -b "${BRANCH_NAME}"
+        git switch -c "${BRANCH_NAME}"
         if [ $(git diff | wc -l) -eq 0 ]; then
           echo "CHANGE_STATE=no_changed" >> $GITHUB_ENV
           exit 0
@@ -41,20 +44,28 @@ jobs:
         echo "CHANGE_STATE=changed" >> $GITHUB_ENV
     - name: Push Changes
       if: success() && env.CHANGE_STATE == 'changed'
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@v0.6.0
       with:
         github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
         branch: ${{ env.BRANCH_NAME }}
     - name: Create pull request
+      id: create-pull-request
       if: success() && env.CHANGE_STATE == 'changed'
       uses: poad/github-pull-requester@main
       with:
-        head-branch: ${{ env.BRANCH_NAME }}
+        head_branch: ${{ env.BRANCH_NAME }}
         title: ${{ format('Auto update at {0}', env.TIMESTAMP) }}
         body: ${{ format('Update the modules at {0}', env.TIMESTAMP) }}
-        github-token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
-        repository: ${{ github.repository }}
-        owner: ${{ github.repository.owner.name }}
+        github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
+        repository: next-ts-template
+        owner: poad
+    - name: Extract response
+      env:
+        RESULT: ${{ steps.create-pull-request.outputs.result }}
+      run: |
+        PULL_REQUEST_HTML_URL=$(echo ${RESULT} | jq -r .data.html_url)
+        echo "PULL_REQUEST_HTML_URL=${PULL_REQUEST_HTML_URL}" >> $GITHUB_ENV
+
     - name: Send result with Pull Request
       if: success() && env.CHANGE_STATE == 'changed'
       uses: ./.github/actions/slack_notificator
