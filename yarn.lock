@@ -832,10 +832,10 @@
     "@types/prop-types" "*"
     csstype "^3.0.2"
 
-"@types/react@^17.0.5":
-  version "17.0.5"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.5.tgz#3d887570c4489011f75a3fc8f965bf87d09a1bea"
-  integrity sha512-bj4biDB9ZJmGAYTWSKJly6bMr4BLUiBrx9ujiJEoP9XIDY9CTaPGxE5QWN/1WjpPLzYF7/jRNnV2nNxNe970sw==
+"@types/react@^17.0.6":
+  version "17.0.6"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.6.tgz#0ec564566302c562bf497d73219797a5e0297013"
+  integrity sha512-u/TtPoF/hrvb63LdukET6ncaplYsvCvmkceasx8oG84/ZCsoLxz9Z/raPBP4lTAiWW1Jb889Y9svHmv8R26dWw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -4558,10 +4558,10 @@ next-compose-plugins@^2.2.1:
   resolved "https://registry.yarnpkg.com/next-compose-plugins/-/next-compose-plugins-2.2.1.tgz#020fc53f275a7e719d62521bef4300fbb6fde5ab"
   integrity sha512-OjJ+fV15FXO2uQXQagLD4C0abYErBjyjE0I0FHpOEIB8upw0hg1ldFP6cqHTJBH1cZqy96OeR3u1dJ+Ez2D4Bg==
 
-next-transpile-modules@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/next-transpile-modules/-/next-transpile-modules-7.1.0.tgz#f4cae86913c9f28e66926d19e1c672a33d28f653"
-  integrity sha512-om3XfamWztW0zAdirCoyjcMNiQg3zesUlCSWh1FS6t1LgqUT+AjH1Zc5OpLMZtj7qsbwmLIOeFN72qrnhbpefw==
+next-transpile-modules@^7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/next-transpile-modules/-/next-transpile-modules-7.1.1.tgz#6a07908662ec73788eae349e3da0d82e6e1fabee"
+  integrity sha512-5RMqiNAWkulK8/2Lx6MrPKlurro8zENbzB5sw47QKUyjzjHJ5+RJuBC1oNHK3PypISSAm/j31Vv5EULy+GTE6Q==
   dependencies:
     enhanced-resolve "^5.7.0"
     escalade "^3.1.1"
