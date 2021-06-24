@@ -11,10 +11,6 @@ on:
 
   # Try enabling auto-merge for the specified pull request or all open pull requests if none is specified.
   workflow_dispatch:
-    inputs:
-      pull-request:
-        description: Pull Request Number
-        required: false
 
 jobs:
   auto_update:
@@ -68,11 +64,14 @@ jobs:
     - name: Extract response
       env:
         RESULT: ${{ steps.create-pull-request.outputs.result }}
+        RESULT_JSON: ${{ toJSON(steps.create-pull-request.outputs.result) }}
       run: |
         PULL_REQUEST_HTML_URL=$(echo ${RESULT} | jq -r .data.html_url)
         echo "PULL_REQUEST_HTML_URL=${PULL_REQUEST_HTML_URL}" >> $GITHUB_ENV
         PULL_REQUEST_NUMBER=$(echo ${RESULT} | jq -r .data.number)
         echo "PULL_REQUEST_NUMBER=${PULL_REQUEST_NUMBER}" >> $GITHUB_ENV
+        PULL_REQUEST_ID=$(echo ${RESULT} | jq -r .data.node_id)
+        echo "PULL_REQUEST_ID=${PULL_REQUEST_ID}" >> $GITHUB_ENV
 
     - name: Send result with Pull Request
       if: success() && env.CHANGE_STATE == 'changed'
@@ -90,42 +89,10 @@ jobs:
 
     - name: Pull request auto merge enabler
       if: success() && env.CHANGE_STATE == 'changed'
-      env:
-        GRAPHQL_ENDPOINT: ${{ github.graphql_url }}
-        repo_name : ${{ github.event.repository.name }}
-        repo_owner: ${{ github.event.repository.owner.name }}
-        pull_request_number: ${{ env.PULL_REQUEST_NUMBER }}
-      run: |
-        get_query=$(cat <<EOF
-        {
-            "query": "query {
-              repository(owner:\"$repo_owner\", name:\"$repo_name\") {
-                pullRequest(number: $pull_request_number) {
-                  id
-                }
-              }
-            }"
-        }
-        EOF
-        )
-        result=$(curl -sSL -H "Authorization: bearer ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}" \
-            -d @- ${GRAPHQL_ENDPOINT} "$get_query"
-        )
-        PULL_REQUEST_ID=$(echo $result | jq .data.repository.pullRequest.id)
-
-        enable_auto_merge_request=$(cat <<EOF
-        {
-          "query": "mutation {
-            enablePullRequestAutoMerge(input: {
-              pullRequestId:\"$PULL_REQUEST_ID\",
-              clientMutationId : null
-            }) {
-              clientMutationId
-            }
-          }"
-        }
-        EOF
-        )
-        curl -sSL -H "Authorization: bearer ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}" \
-            -d @- ${GRAPHQL_ENDPOINT} "$enable_auto_merge_request"
-        $? || exit 1;
+      uses: poad/github-pull-request-auto-merge-enable-action@v1.0.0
+      with:
+        pull_request_id: ${{ env.PULL_REQUEST_ID }}
+        github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
+        repository: ${{ github.event.repository.name }}
+        owner: ${{ github.repository_owner }}
+        merge_method: SQUASH
