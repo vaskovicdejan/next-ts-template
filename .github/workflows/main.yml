@@ -59,8 +59,9 @@ jobs:
         title: ${{ format('Auto update at {0}', env.TIMESTAMP) }}
         body: ${{ format('Update the modules at {0}', env.TIMESTAMP) }}
         github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
-        repository: next-ts-template
-        owner: poad
+        repository: ${{ github.event.repository.name }}
+        owner: ${{ github.repository_owner }}
+
     - name: Extract response
       env:
         RESULT: ${{ steps.create-pull-request.outputs.result }}
