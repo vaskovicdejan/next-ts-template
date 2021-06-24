@@ -53,7 +53,7 @@ jobs:
     - name: Create pull request
       id: create-pull-request
       if: success() && env.CHANGE_STATE == 'changed'
-      uses: poad/github-pull-requester@v0.0.1
+      uses: poad/github-pull-requester@v1.0.0
       with:
         head_branch: ${{ env.BRANCH_NAME }}
         title: ${{ format('Auto update at {0}', env.TIMESTAMP) }}
