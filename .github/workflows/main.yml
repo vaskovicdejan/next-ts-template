@@ -50,6 +50,12 @@ jobs:
       with:
         github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
         branch: ${{ env.BRANCH_NAME }}
+
+    - name: Prepare create pull request
+      run: |
+        repo=$(echo "${{ github.repository }}" | cut -d'/' -f2)
+        echo "REPO_NAME=${repo}" >> $GITHUB_ENV
+
     - name: Create pull request
       id: create-pull-request
       if: success() && env.CHANGE_STATE == 'changed'
@@ -59,7 +65,7 @@ jobs:
         title: ${{ format('Auto update at {0}', env.TIMESTAMP) }}
         body: ${{ format('Update the modules at {0}', env.TIMESTAMP) }}
         github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
-        repository: ${{ github.event.repository.name }}
+        repository: ${{ env.REPO_NAME }}
         owner: ${{ github.repository_owner }}
 
     - name: Extract response
