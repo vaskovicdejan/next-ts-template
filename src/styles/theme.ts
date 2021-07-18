@@ -1,4 +1,4 @@
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createTheme } from '@material-ui/core/styles';
 import { green } from '@material-ui/core/colors';
 
 // A theme with custom primary and secondary color.
@@ -22,6 +22,6 @@ const options = {
   drawerWidth: 240,
 };
 
-const theme = createMuiTheme(options);
+const theme = createTheme(options);
 export type Theme = typeof theme;
 export default theme;

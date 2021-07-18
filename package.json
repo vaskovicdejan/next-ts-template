@@ -7,15 +7,8 @@
     "dev": "next",
     "build": "next build && next export && rm -rf build && mv out build",
     "start": "next start",
-    "lint": "eslint --ext .ts,.js,.tsx,.jsx src"
-  },
-  "lint-staged": {
-    "src/*.{ts,js,tsx,jsx}": "eslint"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "lint": "eslint --ext .ts,.js,.tsx,.jsx src",
+    "format": "prettier --write src/**/*.{ts,tsx}"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.1",
@@ -24,11 +17,14 @@
     "@types/node": "^16.3.3",
     "@types/react": "^17.0.14",
     "cross-fetch": "^3.1.4",
+    "linaria": "^2.1.0",
     "next": "^11.0.1",
+    "next-linaria": "^0.11.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.6",
     "@typescript-eslint/eslint-plugin": "^4.28.3",
     "@typescript-eslint/parser": "^4.28.3",
     "eslint": "^7.31.0",
@@ -46,6 +42,7 @@
     "jest": "^27.0.6",
     "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^8.0.0",
+    "prettier": "^2.3.2",
     "ts-jest": "^27.0.3",
     "typescript": "^4.3.5"
   }
