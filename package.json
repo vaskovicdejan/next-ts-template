@@ -7,8 +7,7 @@
     "dev": "next",
     "build": "next build && next export && rm -rf build && mv out build",
     "start": "next start",
-    "lint": "eslint --ext .ts,.js,.tsx,.jsx src",
-    "format": "prettier --write src/**/*.{ts,tsx}"
+    "lint": "eslint --ext .ts,.js,.tsx,.jsx src"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.3",
@@ -25,6 +24,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
+    "@swc/core": "^1.2.76",
     "@typescript-eslint/eslint-plugin": "^4.29.1",
     "@typescript-eslint/parser": "^4.29.1",
     "eslint": "^7.32.0",
@@ -42,7 +42,7 @@
     "jest": "^27.0.6",
     "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^8.0.0",
-    "prettier": "^2.3.2",
+    "swc-loader": "^0.1.14",
     "ts-jest": "^27.0.4",
     "typescript": "^4.3.5"
   }

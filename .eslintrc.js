@@ -14,8 +14,9 @@ module.exports = {
     useJSXTextNode: true
   },
   extends: [
-    "airbnb-typescript/base",
+    'airbnb-typescript/base',
     'plugin:react/recommended',
+    'plugin:@next/next/recommended',
     'plugin:@typescript-eslint/recommended'
   ],
   plugins: [
@@ -38,7 +39,8 @@ module.exports = {
       'always',
       { markers: ['/ <reference'] }
     ],
-    'max-len': ['error', {'code': 120}],
+    'max-len': ['error', {'code': 200}],
+    '@next/next/no-img-element': ['off'],
     'prefer-promise-reject-errors': ['off'],
     'react/jsx-filename-extension': ['off'],
     'react/prop-types': ['off'],
