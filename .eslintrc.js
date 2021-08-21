@@ -39,6 +39,10 @@ module.exports = {
       'always',
       { markers: ['/ <reference'] }
     ],
+    'import/no-extraneous-dependencies': ['off', {
+      devDependencies: true,
+      optionalDependencies: false,
+    }],
     'max-len': ['error', {'code': 200}],
     '@next/next/no-img-element': ['off'],
     'prefer-promise-reject-errors': ['off'],
