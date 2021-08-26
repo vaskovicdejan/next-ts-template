@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
-    "@swc/core": "^1.2.81",
+    "@swc/core": "^1.2.82",
     "@typescript-eslint/eslint-plugin": "^4.29.3",
     "@typescript-eslint/parser": "^4.29.3",
     "eslint": "^7.32.0",
