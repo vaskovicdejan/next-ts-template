@@ -13,7 +13,7 @@
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
     "@material-ui/styles": "^4.11.4",
-    "@types/node": "^16.7.1",
+    "@types/node": "^16.7.2",
     "@types/react": "^17.0.19",
     "cross-fetch": "^3.1.4",
     "linaria": "^2.1.0",
@@ -44,6 +44,6 @@
     "next-transpile-modules": "^8.0.0",
     "swc-loader": "^0.1.14",
     "ts-jest": "^27.0.5",
-    "typescript": "^4.3.5"
+    "typescript": "^4.4.2"
   }
 }
