@@ -13,10 +13,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: docker://node:lts-buster-slim
-    - run: yarn install
-    - run: yarn build
-    - run: yarn test
+
+    - name: Use Node.js 14.x
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14.x
+        check-latest: true
+        cache: npm
+
+    - run: npm install
+    - run: npm run lint
+    - run: npm run build
+    - run: npm run test
   
     - name: Pull request auto merge enabler
       if: github.event_name == 'pull_request'
