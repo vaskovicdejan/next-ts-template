@@ -21,10 +21,10 @@ jobs:
         check-latest: true
         cache: npm
 
-    - run: npm install
-    - run: npm run lint
-    - run: npm run build
-    - run: npm run test
+    - run: yarn install
+    - run: yarn lint
+    - run: yarn build
+    - run: yarn test
   
   configure:
     runs-on: ubuntu-latest
