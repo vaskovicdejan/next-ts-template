@@ -39,6 +39,9 @@ jobs:
   
   configure:
     runs-on: ubuntu-latest
+
+    if: github.actor != 'dependabot[bot]'
+
     steps:
     - name: Pull request auto merge enabler
       if: github.event_name == 'pull_request'
