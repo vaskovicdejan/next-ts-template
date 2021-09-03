@@ -50,6 +50,7 @@ module.exports = {
     'react/prop-types': ['off'],
     'import/extensions': ['off'],
     'jsx-a11y/anchor-is-valid': ['off'],
-    'no-return-assign': ['off']
+    'no-return-assign': ['off'],
+    'react/display-name': ['off'],
   }
 }

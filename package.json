@@ -16,15 +16,15 @@
     "@types/node": "16.7.10",
     "@types/react": "17.0.19",
     "cross-fetch": "3.1.4",
-    "linaria": "2.1.0",
     "next": "^11.1.2",
-    "next-linaria": "0.11.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.4",
-    "@swc/core": "1.2.84",
+    "@swc/cli": "^0.1.49",
+    "@swc/core": "^1.2.84",
+    "@types/styled-components": "^5.1.13",
     "@typescript-eslint/eslint-plugin": "^4.30.0",
     "@typescript-eslint/parser": "^4.30.0",
     "eslint": "7.32.0",
