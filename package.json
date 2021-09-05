@@ -7,15 +7,14 @@
     "dev": "next",
     "build": "next build && next export && rm -rf build && mv out build",
     "start": "next start",
-    "lint": "eslint --ext .ts,.js,.tsx,.jsx src"
+    "lint": "eslint --ext .ts,.js,.tsx,.jsx src",
+    "all": "yarn install && yarn lint && yarn build && yarn test"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
     "@material-ui/styles": "^4.11.4",
-    "@types/node": "16.7.10",
     "@types/react": "17.0.19",
-    "cross-fetch": "3.1.4",
     "next": "^11.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -24,6 +23,9 @@
   "devDependencies": {
     "@swc/cli": "^0.1.49",
     "@swc/core": "^1.2.84",
+    "@swc/jest": "^0.2.2",
+    "@types/jest": "^27.0.1",
+    "@types/node": "16.7.10",
     "@types/styled-components": "^5.1.13",
     "@typescript-eslint/eslint-plugin": "^4.30.0",
     "@typescript-eslint/parser": "^4.30.0",
@@ -43,7 +45,6 @@
     "next-compose-plugins": "2.2.1",
     "next-transpile-modules": "8.0.0",
     "swc-loader": "0.1.14",
-    "ts-jest": "27.0.5",
     "typescript": "4.4.2"
   }
 }
