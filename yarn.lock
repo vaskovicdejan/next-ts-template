@@ -457,6 +457,18 @@
     jest-util "^27.2.5"
     slash "^3.0.0"
 
+"@jest/console@^27.3.0":
+  version "27.3.0"
+  resolved "https://registry.yarnpkg.com/@jest/console/-/console-27.3.0.tgz#a55f03a4f7e1e92a5879bdab2e8b9fe4dd5312ba"
+  integrity sha512-+Tr/xoNiosjckq96xIGpDaGsybeIm45VWXpSvDR8T9deXmWjYKX85prhz8yFPhLG4UVOeMo/B6RI/+flw3sO8A==
+  dependencies:
+    "@jest/types" "^27.2.5"
+    "@types/node" "*"
+    chalk "^4.0.0"
+    jest-message-util "^27.3.0"
+    jest-util "^27.3.0"
+    slash "^3.0.0"
+
 "@jest/core@^27.2.5":
   version "27.2.5"
   resolved "https://registry.yarnpkg.com/@jest/core/-/core-27.2.5.tgz#854c314708cee0d892ac4f531b9129f00a21ee69"
@@ -562,12 +574,12 @@
     graceful-fs "^4.2.4"
     source-map "^0.6.0"
 
-"@jest/test-result@^27.2.5":
-  version "27.2.5"
-  resolved "https://registry.yarnpkg.com/@jest/test-result/-/test-result-27.2.5.tgz#e9f73cf6cd5e2cc6eb3105339248dea211f9320e"
-  integrity sha512-ub7j3BrddxZ0BdSnM5JCF6cRZJ/7j3wgdX0+Dtwhw2Po+HKsELCiXUTvh+mgS4/89mpnU1CPhZxe2mTvuLPJJg==
+"@jest/test-result@^27.2.5", "@jest/test-result@^27.3.0":
+  version "27.3.0"
+  resolved "https://registry.yarnpkg.com/@jest/test-result/-/test-result-27.3.0.tgz#e093c5d9eb34afa1b653cdb550c4bcaeb3096233"
+  integrity sha512-5+rYZgj562oPKjExQngfboobeIF2FSrgAvoxlkrogEMIbgT7FY+VAMIkp03klVfJtqo3XKzVWkTfsDSmZFI29w==
   dependencies:
-    "@jest/console" "^27.2.5"
+    "@jest/console" "^27.3.0"
     "@jest/types" "^27.2.5"
     "@types/istanbul-lib-coverage" "^2.0.0"
     collect-v8-coverage "^1.0.0"
@@ -3663,16 +3675,16 @@ jest-validate@^27.2.5, jest-validate@^27.3.0:
     pretty-format "^27.3.0"
 
 jest-watcher@^27.2.5:
-  version "27.2.5"
-  resolved "https://registry.yarnpkg.com/jest-watcher/-/jest-watcher-27.2.5.tgz#41cd3e64dc5bea8a4327083d71ba7667be400567"
-  integrity sha512-umV4qGozg2Dn6DTTtqAh9puPw+DGLK9AQas7+mWjiK8t0fWMpxKg8ZXReZw7L4C88DqorsGUiDgwHNZ+jkVrkQ==
+  version "27.3.0"
+  resolved "https://registry.yarnpkg.com/jest-watcher/-/jest-watcher-27.3.0.tgz#13730b347e2ae8ba3c9435055bdad2ad73e5c348"
+  integrity sha512-xpTFRhqzUnNwTGaSBoHcyXROGbAfj2u4LS7Xosb+hzgrFgWgiHtCy3PWyN1DQk31Na98bBjXKxAbfSBACrvEiQ==
   dependencies:
-    "@jest/test-result" "^27.2.5"
+    "@jest/test-result" "^27.3.0"
     "@jest/types" "^27.2.5"
     "@types/node" "*"
     ansi-escapes "^4.2.1"
     chalk "^4.0.0"
-    jest-util "^27.2.5"
+    jest-util "^27.3.0"
     string-length "^4.0.1"
 
 jest-worker@27.0.0-next.5:
