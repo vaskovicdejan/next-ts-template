@@ -1,8 +1,8 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
-class Home extends React.Component {
-  render = (): JSX.Element => (
+const Home = (): JSX.Element => {
+  return (
     <Layout>
       <div className="hero">
         <h1 className="title">Welcome to Next.js!</h1>
@@ -74,6 +74,6 @@ class Home extends React.Component {
       `}</style>
     </Layout>
   );
-}
+};
 
 export default Home;

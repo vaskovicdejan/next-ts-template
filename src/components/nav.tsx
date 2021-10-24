@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { Box, List, ListItem } from '@mui/material';
 
 const links = [
   { href: 'https://zeit.co/now', label: 'ZEIT' },
@@ -10,19 +11,19 @@ const links = [
 }));
 
 const Nav = (): JSX.Element => (
-  <nav>
-    <ul>
-      <li>
+  <Box>
+    <List>
+      <ListItem>
         <Link href="/">
           <a>Home</a>
         </Link>
-      </li>
+      </ListItem>
       {links.map(({ key, href, label }) => (
-        <li key={key}>
+        <ListItem key={key}>
           <a href={href}>{label}</a>
-        </li>
+        </ListItem>
       ))}
-    </ul>
+    </List>
 
     <style jsx>{`
       :global(body) {
@@ -49,7 +50,7 @@ const Nav = (): JSX.Element => (
         font-size: 13px;
       }
     `}</style>
-  </nav>
+  </Box>
 );
 
 export default Nav;
