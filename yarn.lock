@@ -3997,12 +3997,12 @@ jss-plugin-default-unit@^10.8.0:
     jss "10.8.2"
 
 jss-plugin-global@^10.8.0:
-  version "10.8.1"
-  resolved "https://registry.yarnpkg.com/jss-plugin-global/-/jss-plugin-global-10.8.1.tgz#992a14210c567178eb4cd385edcd267ae8cc6f28"
-  integrity sha512-ERYLzD+L/v3yQL2mM5/PE+3xU/GCXcfXuGIL1kVkiEIpXnWtND/Mphf2iHQaqedx59uhiVHFZaMtv6qv+iNsDw==
+  version "10.8.2"
+  resolved "https://registry.yarnpkg.com/jss-plugin-global/-/jss-plugin-global-10.8.2.tgz#1a35632a693cf50113bcc5ffe6b51969df79c4ec"
+  integrity sha512-UaYMSPsYZ7s/ECGoj4KoHC2jwQd5iQ7K+FFGnCAILdQrv7hPmvM2Ydg45ThT/sH46DqktCRV2SqjRuxeBH8nRA==
   dependencies:
     "@babel/runtime" "^7.3.1"
-    jss "10.8.1"
+    jss "10.8.2"
 
 jss-plugin-nested@^10.8.0:
   version "10.8.2"
