@@ -43,7 +43,8 @@
     "types": [
       "@types/node",
       "@types/react"
-    ]
+    ],
+    "incremental": true
   },
   "exclude": [
     "node_modules",

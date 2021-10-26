@@ -11,8 +11,8 @@
     "all": "yarn install && yarn lint && yarn build && yarn test"
   },
   "dependencies": {
-    "@emotion/cache": "^11.4.0",
-    "@emotion/react": "^11.4.1",
+    "@emotion/cache": "^11.5.0",
+    "@emotion/react": "^11.5.0",
     "@emotion/server": "^11.4.0",
     "@emotion/styled": "^11.3.0",
     "@mui/icons-material": "^5.0.5",
@@ -20,7 +20,7 @@
     "@mui/styled-engine-sc": "^5.0.3",
     "@mui/styles": "^5.0.2",
     "@types/react": "^17.0.33",
-    "next": "^11.1.2",
+    "next": "^12.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "styled-components": "^5.3.3"
@@ -34,11 +34,11 @@
     "@types/styled-components": "^5.1.15",
     "@typescript-eslint/eslint-plugin": "^5.2.0",
     "@typescript-eslint/parser": "^5.2.0",
-    "eslint": "^8.1.0",
+    "eslint": "<8.0.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-airbnb-typescript": "^14.0.1",
     "eslint-config-import": "^0.13.0",
-    "eslint-config-next": "^11.1.2",
+    "eslint-config-next": "^12.0.0",
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-flowtype": "^8.0.2",
     "eslint-plugin-import": "^2.25.2",
