@@ -755,10 +755,10 @@
     "@mui/utils" "^5.0.1"
     prop-types "^15.7.2"
 
-"@mui/styled-engine-sc@^5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@mui/styled-engine-sc/-/styled-engine-sc-5.0.3.tgz#cb6bb674bfbc447db1a4aa095df5f676dd899438"
-  integrity sha512-Fe3VxYbZMQg/9G9NiF092FpeDAgu90jUgiTzeIUqRNPBgW85Q/EP1uECUAtTG85HPRtkl6iXPUE8oAWxxmxl9A==
+"@mui/styled-engine-sc@^5.0.4":
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/@mui/styled-engine-sc/-/styled-engine-sc-5.0.4.tgz#3fb46f0202edb7fdc7ba3b0dcc66366f07d9726b"
+  integrity sha512-xyn/hWdGLmEdW4xZu8pn0WYuMx4SZ5+OSaU3VMwHY9ToCHFubScyy0QW71ERsAHwmE/TomMEh+8wBDC59VjAHA==
   dependencies:
     prop-types "^15.7.2"
 
