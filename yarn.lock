@@ -2327,9 +2327,9 @@ duplexer2@^0.1.2:
     readable-stream "^2.0.2"
 
 electron-to-chromium@^1.3.723, electron-to-chromium@^1.3.878:
-  version "1.3.887"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.887.tgz#b36aeed12a28aaa19460a467823f5bbe1f3c6f06"
-  integrity sha512-QQUumrEjFDKSVYVdaeBmFdyQGoaV+fCSMyWHvfx/u22bRHSTeBQYt6P4jMY+gFd4kgKB9nqk7RMtWkDB49OYPA==
+  version "1.3.888"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.888.tgz#243204af9b4c928ac45e47dbbe7bc44c30e65bf0"
+  integrity sha512-5iD1zgyPpFER4kJ716VsA4MxQ6x405dxdFNCEK2mITL075VHO5ResjY0xzQUZguCww/KlBxCA6JmBA9sDt1PRw==
 
 elliptic@^6.5.3:
   version "6.5.4"
