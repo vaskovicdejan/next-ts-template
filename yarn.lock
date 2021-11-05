@@ -1862,9 +1862,9 @@ camelize@^1.0.0:
   integrity sha1-FkpUg+Yw+kMh5a8HAg5TGDGyYJs=
 
 caniuse-lite@^1.0.30001202, caniuse-lite@^1.0.30001219, caniuse-lite@^1.0.30001228, caniuse-lite@^1.0.30001271:
-  version "1.0.30001276"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001276.tgz#7049685eb972eb09c0ecbb57227b489d76244fb1"
-  integrity sha512-psUNoaG1ilknZPxi8HuhQWobuhLqtYSRUxplfVkEJdgZNB9TETVYGSBtv4YyfAdGvE6gn2eb0ztiXqHoWJcGnw==
+  version "1.0.30001278"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001278.tgz#51cafc858df77d966b17f59b5839250b24417fff"
+  integrity sha512-mpF9KeH8u5cMoEmIic/cr7PNS+F5LWBk0t2ekGT60lFf0Wq+n9LspAj0g3P+o7DQhD3sUdlMln4YFAWhFYn9jg==
 
 chalk@2.4.2, chalk@^2.0.0:
   version "2.4.2"
