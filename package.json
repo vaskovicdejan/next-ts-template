@@ -18,7 +18,7 @@
     "@mui/icons-material": "^5.1.1",
     "@mui/material": "^5.1.1",
     "@mui/styled-engine-sc": "^5.1.0",
-    "@mui/styles": "^5.1.0",
+    "@mui/styles": "^5.1.1",
     "@types/react": "^17.0.35",
     "next": "^12.0.4",
     "react": "^17.0.2",
