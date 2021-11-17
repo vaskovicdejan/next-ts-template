@@ -16,7 +16,7 @@
     "@emotion/server": "^11.4.0",
     "@emotion/styled": "^11.6.0",
     "@mui/icons-material": "^5.1.0",
-    "@mui/material": "^5.1.0",
+    "@mui/material": "^5.1.1",
     "@mui/styled-engine-sc": "^5.1.0",
     "@mui/styles": "^5.1.0",
     "@types/react": "^17.0.35",
