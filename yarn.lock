@@ -743,15 +743,6 @@
     react-is "^17.0.2"
     react-transition-group "^4.4.2"
 
-"@mui/private-theming@^5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@mui/private-theming/-/private-theming-5.2.0.tgz#ec19f600e8be7a86935cd623d994c801a7a245e6"
-  integrity sha512-ABdL+X/AR5CJdjPIwMcYaXrC+kLeHC7q83PiSfBHwOv6SPhGWWHL5MphibQMNuEcuG4rdUZrJLTT/L22oxdldg==
-  dependencies:
-    "@babel/runtime" "^7.16.3"
-    "@mui/utils" "^5.2.0"
-    prop-types "^15.7.2"
-
 "@mui/private-theming@^5.2.1":
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/@mui/private-theming/-/private-theming-5.2.1.tgz#07537a065d752a0d6309ce0db42378f104d1885d"
@@ -770,16 +761,16 @@
     "@emotion/cache" "^11.6.0"
     prop-types "^15.7.2"
 
-"@mui/styles@^5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@mui/styles/-/styles-5.2.0.tgz#b884fa6b459b0e5b5291508d0597d8edb13a42f5"
-  integrity sha512-ZM1/M3dtdhA6XID4ZrCj6M1FJOrLafO7W5DtNJZepPN4HfDdAZpyEBxWRv0yltceiW1YxhL4WNIOIWFx9Re19Q==
+"@mui/styles@^5.2.1":
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@mui/styles/-/styles-5.2.1.tgz#26e05585ecbec17cf39d8eff129ddcbc6c130dde"
+  integrity sha512-0u9YF9HsirqAya1SsGtaP6jt3z32UA1sKKiFVXNI8ZGPIFsmcuUCsTWuyjYhglfRre3exedrxauh4RDZqcEGOA==
   dependencies:
     "@babel/runtime" "^7.16.3"
     "@emotion/hash" "^0.8.0"
-    "@mui/private-theming" "^5.2.0"
+    "@mui/private-theming" "^5.2.1"
     "@mui/types" "^7.1.0"
-    "@mui/utils" "^5.2.0"
+    "@mui/utils" "^5.2.1"
     clsx "^1.1.1"
     csstype "^3.0.10"
     hoist-non-react-statics "^3.3.2"
@@ -812,7 +803,7 @@
   resolved "https://registry.yarnpkg.com/@mui/types/-/types-7.1.0.tgz#5ed928c5a41cfbf9a4be82ea3bbdc47bcc9610d5"
   integrity sha512-Hh7ALdq/GjfIwLvqH3XftuY3bcKhupktTm+S6qRIDGOtPtRuq2L21VWzOK4p7kblirK0XgGVH5BLwa6u8z/6QQ==
 
-"@mui/utils@^5.2.0", "@mui/utils@^5.2.1":
+"@mui/utils@^5.2.1":
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/@mui/utils/-/utils-5.2.1.tgz#fdd70067f8fb2d73225d56f2e705afacdeb3255b"
   integrity sha512-JQH5ucBxBrubntrN2mvDcwkXlWaHuZGz5goxg9ixnZXRhlZ9Ed5knfsafrX4OFyXNT48DiZXaTRAEkqjyfCExQ==
