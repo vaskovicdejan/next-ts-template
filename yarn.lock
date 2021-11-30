@@ -3553,7 +3553,12 @@ jest-get-type@^27.3.1:
   resolved "https://registry.yarnpkg.com/jest-get-type/-/jest-get-type-27.3.1.tgz#a8a2b0a12b50169773099eee60a0e6dd11423eff"
   integrity sha512-+Ilqi8hgHSAdhlQ3s12CAVNd8H96ZkQBfYoXmArzZnOfAtVAJEiPDBirjByEblvG/4LPJmkL+nBqPO3A1YJAEg==
 
-jest-haste-map@^27.3.1:
+jest-get-type@^27.4.0:
+  version "27.4.0"
+  resolved "https://registry.yarnpkg.com/jest-get-type/-/jest-get-type-27.4.0.tgz#7503d2663fffa431638337b3998d39c5e928e9b5"
+  integrity sha512-tk9o+ld5TWq41DkK14L4wox4s2D9MtTpKaAVzXfr5CUKm5ZK2ExcaFE0qls2W71zE/6R2TxxrK9w2r6svAFDBQ==
+
+jest-haste-map@^27.3.1, jest-haste-map@^27.4.2:
   version "27.4.2"
   resolved "https://registry.yarnpkg.com/jest-haste-map/-/jest-haste-map-27.4.2.tgz#7fc7d5e568cca704284f4850885b74a0b8b87587"
   integrity sha512-foiyAEePORUN2eeJnOtcM1y8qW0ShEd9kTjWVL4sVaMcuCJM6gtHegvYPBRT0mpI/bs4ueThM90+Eoj2ncoNsA==
@@ -3658,17 +3663,17 @@ jest-resolve-dependencies@^27.3.1:
     jest-snapshot "^27.3.1"
 
 jest-resolve@^27.3.1:
-  version "27.3.1"
-  resolved "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-27.3.1.tgz#0e5542172a1aa0270be6f66a65888647bdd74a3e"
-  integrity sha512-Dfzt25CFSPo3Y3GCbxynRBZzxq9AdyNN+x/v2IqYx6KVT5Z6me2Z/PsSGFSv3cOSUZqJ9pHxilao/I/m9FouLw==
+  version "27.4.2"
+  resolved "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-27.4.2.tgz#d3e4cbee7acb4a4f8c8bfc270767bec34d2aefaf"
+  integrity sha512-d/zqPjxCzMqHlOdRTg8cTpO9jY+1/T74KazT8Ws/LwmwxV5sRMWOkiLjmzUCDj/5IqA5XHNK4Hkmlq9Kdpb9Sg==
   dependencies:
-    "@jest/types" "^27.2.5"
+    "@jest/types" "^27.4.2"
     chalk "^4.0.0"
     graceful-fs "^4.2.4"
-    jest-haste-map "^27.3.1"
+    jest-haste-map "^27.4.2"
     jest-pnp-resolver "^1.2.2"
-    jest-util "^27.3.1"
-    jest-validate "^27.3.1"
+    jest-util "^27.4.2"
+    jest-validate "^27.4.2"
     resolve "^1.20.0"
     resolve.exports "^1.1.0"
     slash "^3.0.0"
@@ -3783,17 +3788,17 @@ jest-util@^27.3.1, jest-util@^27.4.2:
     graceful-fs "^4.2.4"
     picomatch "^2.2.3"
 
-jest-validate@^27.3.1:
-  version "27.3.1"
-  resolved "https://registry.yarnpkg.com/jest-validate/-/jest-validate-27.3.1.tgz#3a395d61a19cd13ae9054af8cdaf299116ef8a24"
-  integrity sha512-3H0XCHDFLA9uDII67Bwi1Vy7AqwA5HqEEjyy934lgVhtJ3eisw6ShOF1MDmRPspyikef5MyExvIm0/TuLzZ86Q==
+jest-validate@^27.3.1, jest-validate@^27.4.2:
+  version "27.4.2"
+  resolved "https://registry.yarnpkg.com/jest-validate/-/jest-validate-27.4.2.tgz#eecfcc1b1c9429aa007da08a2bae4e32a81bbbc3"
+  integrity sha512-hWYsSUej+Fs8ZhOm5vhWzwSLmVaPAxRy+Mr+z5MzeaHm9AxUpXdoVMEW4R86y5gOobVfBsMFLk4Rb+QkiEpx1A==
   dependencies:
-    "@jest/types" "^27.2.5"
+    "@jest/types" "^27.4.2"
     camelcase "^6.2.0"
     chalk "^4.0.0"
-    jest-get-type "^27.3.1"
+    jest-get-type "^27.4.0"
     leven "^3.1.0"
-    pretty-format "^27.3.1"
+    pretty-format "^27.4.2"
 
 jest-watcher@^27.3.1:
   version "27.3.1"
