@@ -43,7 +43,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "jest": "^27.3.1",
+    "jest": "^27.4.2",
     "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^9.0.0",
     "swc-loader": "^0.1.15",
