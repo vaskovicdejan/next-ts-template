@@ -62,7 +62,7 @@ const Layout: React.FC<LayoutProps> = (props) => {
           <Typography variant="h6" noWrap></Typography>
         </Toolbar>
       </AppBar>
-      <Box component='nav' sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } } } aria-label="folders">
+      <Box component='nav' sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } } } display='contents' aria-label="folders">
         <Drawer
           container={container}
           variant="temporary"
@@ -77,10 +77,10 @@ const Layout: React.FC<LayoutProps> = (props) => {
           {drawer}
         </Drawer>
       </Box>
-      <main style={{ flexGrow: 1 }}>
+      <Box sx={{ flexGrow: 1 }}>
         <Box sx={theme.mixins.toolbar} />
         {props.children}
-      </main>
+      </Box>
     </Box>
   );
 };

@@ -39,7 +39,7 @@ const CardStyleLink = styled(Link)(() => ({
 const Home = (): JSX.Element => {
   return (
     <Layout>
-      <Box sx={{ width: '100%', color: '#333' }}>
+      <Box component='main' sx={{ width: '100%', color: '#333' }}>
         <Box sx={{
           margin: '0',
           width: '100%',
