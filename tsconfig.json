@@ -41,8 +41,8 @@
       ]
     },
     "types": [
-      "@types/node",
-      "@types/react"
+      "node",
+      "react"
     ],
     "incremental": true
   },
