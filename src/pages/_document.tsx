@@ -2,10 +2,7 @@ import * as React from 'react';
 import createEmotionServer from '@emotion/server/create-instance';
 import theme from '../styles/theme';
 import createCache from '@emotion/cache';
-import { Html, Head, Main, NextScript, DocumentContext } from 'next/document';
-
-// https://github.com/vercel/next.js/pull/31939
-import Document, { DocumentInitialProps } from 'next/dist/pages/_document';
+import Document, { Html, Head, Main, NextScript, DocumentContext, DocumentInitialProps } from 'next/document';
 
 export default class NextDocument extends Document {
   static getInitialProps: (ctx: DocumentContext) => Promise<DocumentInitialProps>;
