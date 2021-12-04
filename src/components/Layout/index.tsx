@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PropsWithChildren } from 'react';
 import {
   AppBar, Box, CssBaseline, Divider, Drawer, IconButton, List, ListItem, ListItemIcon, ListItemText, Toolbar, Typography,
 } from '@mui/material';
@@ -14,7 +14,7 @@ interface LayoutProps {
   container?: Element
 }
 
-const Layout: React.FC<LayoutProps> = (props) => {
+const Layout = (props: PropsWithChildren<LayoutProps>) => {
   const { container } = props;
   const theme = useTheme();
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -37,7 +37,7 @@ const Layout: React.FC<LayoutProps> = (props) => {
             },
           }}>
             <ListItemIcon>
-              <DashboardIcon sx={{ color: theme.palette.primary.contrastText }}/>
+              <DashboardIcon sx={{ color: theme.palette.primary.contrastText }} />
             </ListItemIcon>
             <ListItemText primary={text} />
           </ListItem>
@@ -46,41 +46,52 @@ const Layout: React.FC<LayoutProps> = (props) => {
     </Box>
   );
 
-  return (
-    <Box sx={{ display: 'flex', color: theme.palette.primary.contrastText }}>
-      <CssBaseline />
-      <AppBar position="fixed" sx={{ width: '100%' }}>
-        <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" noWrap></Typography>
-        </Toolbar>
-      </AppBar>
-      <Box component='nav' sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } } } display='contents' aria-label="folders">
-        <Drawer
-          container={container}
-          variant="temporary"
-          anchor='left'
-          open={mobileOpen}
-          onClose={handleDrawerToggle}
-          sx={{
-            '& .MuiDrawer-paper': {  backgroundColor: theme.palette.primary.main, boxSizing: 'border-box', width: drawerWidth },
-          }}
-          ModalProps={{ keepMounted: true }}
+  const appBar = (
+    <AppBar position="fixed" sx={{ width: '100%' }}>
+      <Toolbar>
+        <IconButton
+          color="inherit"
+          aria-label="open drawer"
+          edge="start"
+          onClick={handleDrawerToggle}
         >
-          {drawer}
-        </Drawer>
-      </Box>
-      <Box sx={{ flexGrow: 1 }}>
-        <Box sx={theme.mixins.toolbar} />
-        {props.children}
-      </Box>
+          <MenuIcon />
+        </IconButton>
+        <Typography variant="h6" noWrap></Typography>
+      </Toolbar>
+    </AppBar>
+  );
+
+  const drawerBox = (
+    <Box
+      component='nav'
+      textAlign='center'
+      sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
+      aria-label="folders"
+      display='contents'
+    >
+      <Drawer
+        container={container}
+        variant="temporary"
+        anchor='left'
+        open={mobileOpen}
+        onClose={handleDrawerToggle}
+        sx={{
+          '& .MuiDrawer-paper': { backgroundColor: theme.palette.primary.main, boxSizing: 'border-box', width: drawerWidth },
+        }}
+        ModalProps={{ keepMounted: true }}
+      >
+        {drawer}
+      </Drawer>
+    </Box>
+  );
+
+  return (
+    <Box sx={{ color: theme.palette.primary.contrastText, display: 'flex', maxHeight: '100vh' }}>
+      <CssBaseline />
+      {appBar}
+      {drawerBox}
+      {props.children}
     </Box>
   );
 };
