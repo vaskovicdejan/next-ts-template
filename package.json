@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest --passWithNoTests",
     "dev": "next",
-    "build": "next build && next export && rm -rf build && mv out build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "eslint --ext .ts,.js,.tsx,.jsx src",
     "all": "yarn install && yarn lint && yarn build && yarn test"
