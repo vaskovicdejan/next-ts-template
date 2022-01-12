@@ -20,7 +20,7 @@
     "@mui/material": "^5.2.8",
     "@mui/styles": "^5.2.3",
     "@types/react": "^17.0.38",
-    "next": "^12.0.7",
+    "next": "^12.0.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -34,7 +34,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^16.1.0",
     "eslint-config-import": "^0.13.0",
-    "eslint-config-next": "^12.0.7",
+    "eslint-config-next": "^12.0.8",
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.25.4",
