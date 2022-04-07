@@ -713,15 +713,6 @@
     "@mui/utils" "^5.6.0"
     prop-types "^15.7.2"
 
-"@mui/private-theming@^5.6.0":
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/@mui/private-theming/-/private-theming-5.6.0.tgz#b907e055a0a19caf554d5b43209a143edaa9b398"
-  integrity sha512-62jUFaMGfW3nvq/worcOAEiY++rWd44tpWShq4o97DybWmmWvEFYlBIuHEcXrtBIK/cloaQw8jqelQIFZeiVdw==
-  dependencies:
-    "@babel/runtime" "^7.17.2"
-    "@mui/utils" "^5.6.0"
-    prop-types "^15.7.2"
-
 "@mui/styled-engine@^5.6.0":
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/@mui/styled-engine/-/styled-engine-5.6.0.tgz#c7c34d2e319158559cef49b796457a4e6a4c58f7"
@@ -1783,9 +1774,9 @@ duplexer2@^0.1.2:
     readable-stream "^2.0.2"
 
 electron-to-chromium@^1.4.84:
-  version "1.4.104"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.104.tgz#60973b0a7d398efa877196e8ccb0c93d48b918d8"
-  integrity sha512-2kjoAyiG7uMyGRM9mx25s3HAzmQG2ayuYXxsFmYugHSDcwxREgLtscZvbL1JcW9S/OemeQ3f/SG6JhDwpnCclQ==
+  version "1.4.106"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.106.tgz#e7a3bfa9d745dd9b9e597616cb17283cc349781a"
+  integrity sha512-ZYfpVLULm67K7CaaGP7DmjyeMY4naxsbTy+syVVxT6QHI1Ww8XbJjmr9fDckrhq44WzCrcC5kH3zGpdusxwwqg==
 
 emittery@^0.8.1:
   version "0.8.1"
