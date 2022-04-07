@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import theme from '../styles/theme';
 
-const App = ({ Component, pageProps }: AppProps): JSX.Element => (
+const App = ({ Component }: AppProps): JSX.Element => (
   <ThemeProvider theme={theme}>
     {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
     <Head>
@@ -15,7 +15,7 @@ const App = ({ Component, pageProps }: AppProps): JSX.Element => (
           tree thanks to React context. */}
 
     <CssBaseline />
-    <Component {...pageProps} />
+    <Component />
   </ThemeProvider>
 );
 
