@@ -1763,9 +1763,9 @@ duplexer2@^0.1.2:
     readable-stream "^2.0.2"
 
 electron-to-chromium@^1.4.84:
-  version "1.4.107"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.107.tgz#564257014ab14033b4403a309c813123c58a3fb9"
-  integrity sha512-Huen6taaVrUrSy8o7mGStByba8PfOWWluHNxSHGBrCgEdFVLtvdQDBr9LBCF9Uci8SYxh28QNNMO0oC17wbGAg==
+  version "1.4.109"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.109.tgz#74df3109e37f1feed6124f255f52c96aa62feb7f"
+  integrity sha512-LCF+Oqs2Oqwf8M3oc8T59Wi9C0xpL1qVyqIR6bPTCl8uPvln7G184L39tO4SE4Dyg/Kp1RjAz//BKMvi0uvw4w==
 
 emittery@^0.8.1:
   version "0.8.1"
