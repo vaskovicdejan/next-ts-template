@@ -628,22 +628,22 @@
     jest-haste-map "^28.0.0"
     slash "^3.0.0"
 
-"@jest/transform@^28.0.0":
-  version "28.0.0"
-  resolved "https://registry.yarnpkg.com/@jest/transform/-/transform-28.0.0.tgz#d41c76a9d8c50cfa3945e2f68fd00c0b44b8c0d1"
-  integrity sha512-Xrc02CJFju0TLb1QZmqHCvbVEvSvR0SlSawMFEiXu/vVthWKfZgsia2UumOEJFc7YFknufShHwf+0OWBpSxNXw==
+"@jest/transform@^28.0.0", "@jest/transform@^28.0.1":
+  version "28.0.1"
+  resolved "https://registry.yarnpkg.com/@jest/transform/-/transform-28.0.1.tgz#44fced5a366af7cc5f69745c92014bf45c408d90"
+  integrity sha512-45fxjycts6CTPMeusSICYhMkMgFAs1opvgEBYcMmukucJw/AgVEMsGFqheWyDzlU6GJ+h9cpft/zkTGPJtzRGQ==
   dependencies:
     "@babel/core" "^7.11.6"
-    "@jest/types" "^28.0.0"
+    "@jest/types" "^28.0.1"
     "@jridgewell/trace-mapping" "^0.3.7"
     babel-plugin-istanbul "^6.1.1"
     chalk "^4.0.0"
     convert-source-map "^1.4.0"
     fast-json-stable-stringify "^2.0.0"
     graceful-fs "^4.2.9"
-    jest-haste-map "^28.0.0"
+    jest-haste-map "^28.0.1"
     jest-regex-util "^28.0.0"
-    jest-util "^28.0.0"
+    jest-util "^28.0.1"
     micromatch "^4.0.4"
     pirates "^4.0.4"
     slash "^3.0.0"
@@ -1350,11 +1350,11 @@ axobject-query@^2.2.0:
   integrity sha512-Td525n+iPOOyUQIeBfcASuG6uJsDOITl7Mds5gFyerkWiX7qhUTdYUBlSgNMyVqtSJqwpt1kXGLdUt6SykLMRA==
 
 babel-jest@^28.0.0:
-  version "28.0.0"
-  resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-28.0.0.tgz#3bba438504138f7532e49ea0b3ffa1258f8bbbc5"
-  integrity sha512-UBCCUmm8YnHyaBCF68rIknYvL1TjS4RKasviDG+j8lMHHxrV9aNdWVi4bIggb1rPEm5f/Z2Y44ByyvaHZprvAg==
+  version "28.0.1"
+  resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-28.0.1.tgz#effa686f25551d930bf3b645d7513091094f8968"
+  integrity sha512-UbL+4xVftxnIcPKzCqmwZHwaPG8DyKOCXoWPeuKrvUFtyeUpePy6VtRiMN1Dv001NbEMNP4FVjfKwv1xe2PWZQ==
   dependencies:
-    "@jest/transform" "^28.0.0"
+    "@jest/transform" "^28.0.1"
     "@types/babel__core" "^7.1.14"
     babel-plugin-istanbul "^6.1.1"
     babel-preset-jest "^28.0.0"
@@ -1735,9 +1735,9 @@ duplexer2@^0.1.2:
     readable-stream "^2.0.2"
 
 electron-to-chromium@^1.4.118:
-  version "1.4.118"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.118.tgz#2d917c71712dac9652cc01af46c7d0bd51552974"
-  integrity sha512-maZIKjnYDvF7Fs35nvVcyr44UcKNwybr93Oba2n3HkKDFAtk0svERkLN/HyczJDS3Fo4wU9th9fUQd09ZLtj1w==
+  version "1.4.121"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.121.tgz#e2fa3b7bd592643c6b12ae6de2882550a29b7799"
+  integrity sha512-N7OXhMr1p2oa9EkOhmHpmOm43DHzs55dep2FF6M7y6px5QJBheqEE3nwwZ+xJowlff+AEmMOdg3ARYGB+0kzbA==
 
 emittery@^0.10.2:
   version "0.10.2"
