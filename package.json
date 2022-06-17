@@ -34,7 +34,7 @@
     "@swc/jest": "^0.2.21",
     "@types/jest": "^28.1.1",
     "@types/node": "^18.0.0",
-    "@types/react": "^18.0.13",
+    "@types/react": "^18.0.14",
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "@typescript-eslint/parser": "^5.27.1",
     "eslint": "^8.17.0",
