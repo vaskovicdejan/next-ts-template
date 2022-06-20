@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
     content: ['./src/**/*.{js,jsx,ts,tsx}'],
     important: '#root',
     theme: {
@@ -6,3 +6,5 @@ module.exports = {
     },
     plugins: [],
 };
+
+export default config;
