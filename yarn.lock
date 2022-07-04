@@ -927,7 +927,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@pkgr/utils@^2.1.0":
+"@pkgr/utils@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@pkgr/utils/-/utils-2.2.0.tgz#ccbf06cd010684b477dde40ec833a28f0c2136c4"
   integrity sha512-/+EeY/T/NLCfF4rvgUetl7ERNwoPz5q/p+8CYeAIFblsKSQbVJjmMccs/Y7CsOPv47hXcBrhk5IqOf9AqRNfhg==
@@ -4292,11 +4292,11 @@ swc-loader@*:
   integrity sha512-D1p6XXURfSPleZZA/Lipb3A8pZ17fP4NObZvFCDjK/OKljroqDpPmsBdTraWhVBqUNpcWBQY1imWdoPScRlQ7A==
 
 synckit@^0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/synckit/-/synckit-0.7.1.tgz#9aa3a6c81f534ef940ad22fa9a3bae116850ead8"
-  integrity sha512-Cvv0Nzgs4Z0V6761qp4CU2+C15HRmnHaDd+sAtisbOnzIZ5wgl3ne076k28cHo+oY6eN/w0RNzRrf7CJz8dWJg==
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/synckit/-/synckit-0.7.2.tgz#43c07b5a8101ee45355aebf0216895309fd32a6f"
+  integrity sha512-CSZRtSRZ8RhJGMtWyLRqlarmWPPlsgZJHtV6cz0VTHNOg+R7UBoE2eNPQmB5Qrhtk3RX2AAcJmVwMXFULVQSwg==
   dependencies:
-    "@pkgr/utils" "^2.1.0"
+    "@pkgr/utils" "^2.2.0"
     tslib "^2.4.0"
 
 tailwindcss@*:
