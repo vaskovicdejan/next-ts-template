@@ -3,4 +3,4 @@ const config = {
   // https://stylelint.io/user-guide/configuration
 };
 
-export default config;
+module.exports = config;

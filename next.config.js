@@ -1,13 +1,9 @@
 /** @type {import('next').NextConfig} */
-import withPlugins from 'next-compose-plugins';
-import withBundleAnalyzer from '@next/bundle-analyzer';
-const analyzer = withBundleAnalyzer({
-  enabled: process.env.ANALYZE === 'true',
-});
+const withBundleAnalyzer = require('@next/bundle-analyzer');
 
-export const config = withPlugins([
-  [analyzer],
-],
+const config = withBundleAnalyzer({
+  enabled: process.env.ANALYZE === 'true',
+})(
   {
     webpack5: true,
     reactStrictMode: true,
@@ -20,4 +16,4 @@ export const config = withPlugins([
   }
 );
 
-export default config;
+module.exports = config;
