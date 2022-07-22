@@ -5,13 +5,10 @@ const config = withBundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
 })(
   {
-    webpack5: true,
     reactStrictMode: true,
-    esmExternals: true,
-    swcLoader: true,
     swcMinify: true,
     experimental: {
-      modern: true,
+      esmExternals: true,
     }
   }
 );
