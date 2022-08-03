@@ -20,7 +20,6 @@
     "@emotion/styled": "*",
     "@mui/icons-material": "*",
     "@mui/material": "*",
-    "@mui/styles": "*",
     "autoprefixer": "*",
     "next": "^12",
     "postcss": "*",
