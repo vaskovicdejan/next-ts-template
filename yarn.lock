@@ -582,18 +582,6 @@
     expect "^29.1.2"
     jest-snapshot "^29.1.2"
 
-"@jest/fake-timers@^29.1.1":
-  version "29.1.1"
-  resolved "https://registry.yarnpkg.com/@jest/fake-timers/-/fake-timers-29.1.1.tgz#ae345e5ca51e9f72e0d861e17c65d9cb558f407b"
-  integrity sha512-5wTGObRfL/OjzEz0v2ShXlzeJFJw8mO6ByMBwmPLd6+vkdPcmIpCvASG/PR/g8DpchSIEeDXCxQADojHxuhX8g==
-  dependencies:
-    "@jest/types" "^29.1.0"
-    "@sinonjs/fake-timers" "^9.1.2"
-    "@types/node" "*"
-    jest-message-util "^29.1.0"
-    jest-mock "^29.1.1"
-    jest-util "^29.1.0"
-
 "@jest/fake-timers@^29.1.2":
   version "29.1.2"
   resolved "https://registry.yarnpkg.com/@jest/fake-timers/-/fake-timers-29.1.2.tgz#f157cdf23b4da48ce46cb00fea28ed1b57fc271a"
@@ -3007,16 +2995,16 @@ jest-each@^29.1.2:
     pretty-format "^29.1.2"
 
 jest-environment-node@^29.1.1:
-  version "29.1.1"
-  resolved "https://registry.yarnpkg.com/jest-environment-node/-/jest-environment-node-29.1.1.tgz#10f1782b74e17fcf782ff51df79f2b0cee135851"
-  integrity sha512-0nwTca4L2N8iM33A+JMfBdygR6B3N/bcPoLe1hEd9o87KLxDZwKGvpTGSfXpjtyqNQXiaL/3G+YOcSoeq/syPw==
+  version "29.1.2"
+  resolved "https://registry.yarnpkg.com/jest-environment-node/-/jest-environment-node-29.1.2.tgz#005e05cc6ea4b9b5ba55906ab1ce53c82f6907a7"
+  integrity sha512-C59yVbdpY8682u6k/lh8SUMDJPbOyCHOTgLVVi1USWFxtNV+J8fyIwzkg+RJIVI30EKhKiAGNxYaFr3z6eyNhQ==
   dependencies:
-    "@jest/environment" "^29.1.1"
-    "@jest/fake-timers" "^29.1.1"
-    "@jest/types" "^29.1.0"
+    "@jest/environment" "^29.1.2"
+    "@jest/fake-timers" "^29.1.2"
+    "@jest/types" "^29.1.2"
     "@types/node" "*"
-    jest-mock "^29.1.1"
-    jest-util "^29.1.0"
+    jest-mock "^29.1.2"
+    jest-util "^29.1.2"
 
 jest-get-type@^29.0.0:
   version "29.0.0"
@@ -3074,15 +3062,6 @@ jest-message-util@^29.1.0, jest-message-util@^29.1.2:
     pretty-format "^29.1.2"
     slash "^3.0.0"
     stack-utils "^2.0.3"
-
-jest-mock@^29.1.1:
-  version "29.1.1"
-  resolved "https://registry.yarnpkg.com/jest-mock/-/jest-mock-29.1.1.tgz#b5475d07a8db6d39fe73e960ca94a3ac761afe0d"
-  integrity sha512-vDe56JmImqt3j8pHcEIkahQbSCnBS49wda0spIl0bkrIM7VDZXjKaes6W28vKZye0atNAcFaj3dxXh0XWjBW4Q==
-  dependencies:
-    "@jest/types" "^29.1.0"
-    "@types/node" "*"
-    jest-util "^29.1.0"
 
 jest-mock@^29.1.2:
   version "29.1.2"
