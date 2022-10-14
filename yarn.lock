@@ -3001,12 +3001,12 @@ jest-haste-map@^29.1.2, jest-haste-map@^29.2.0:
     fsevents "^2.3.2"
 
 jest-leak-detector@^29.1.2:
-  version "29.1.2"
-  resolved "https://registry.yarnpkg.com/jest-leak-detector/-/jest-leak-detector-29.1.2.tgz#4c846db14c58219430ccbc4f01a1ec52ebee4fc2"
-  integrity sha512-TG5gAZJpgmZtjb6oWxBLf2N6CfQ73iwCe6cofu/Uqv9iiAm6g502CAnGtxQaTfpHECBdVEMRBhomSXeLnoKjiQ==
+  version "29.2.0"
+  resolved "https://registry.yarnpkg.com/jest-leak-detector/-/jest-leak-detector-29.2.0.tgz#7c0eace293cf05a130a09beb1b9318ecc2f77692"
+  integrity sha512-FXT9sCFdct42+oOqGIr/9kmUw3RbhvpkwidCBT5ySHHoWNGd3c9n7HXpFKjEz9UnUITRCGdn0q2s6Sxrq36kwg==
   dependencies:
-    jest-get-type "^29.0.0"
-    pretty-format "^29.1.2"
+    jest-get-type "^29.2.0"
+    pretty-format "^29.2.0"
 
 jest-matcher-utils@^29.1.2, jest-matcher-utils@^29.2.0:
   version "29.2.0"
@@ -3820,16 +3820,7 @@ prettier@*:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.1.tgz#e235806850d057f97bb08368a4f7d899f7760c64"
   integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
 
-pretty-format@^29.0.0, pretty-format@^29.1.2:
-  version "29.1.2"
-  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-29.1.2.tgz#b1f6b75be7d699be1a051f5da36e8ae9e76a8e6a"
-  integrity sha512-CGJ6VVGXVRP2o2Dorl4mAwwvDWT25luIsYhkyVQW32E4nL+TgW939J7LlKT/npq5Cpq6j3s+sy+13yk7xYpBmg==
-  dependencies:
-    "@jest/schemas" "^29.0.0"
-    ansi-styles "^5.0.0"
-    react-is "^18.0.0"
-
-pretty-format@^29.2.0:
+pretty-format@^29.0.0, pretty-format@^29.1.2, pretty-format@^29.2.0:
   version "29.2.0"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-29.2.0.tgz#1d4ea56fb46079b44efd9ed59c14f70f2950a61b"
   integrity sha512-QCSUFdwOi924g24czhOH5eTkXxUCqlLGZBRCySlwDYHIXRJkdGyjJc9nZaqhlFBZws8dq5Dvk0lCilsmlfsPxw==
