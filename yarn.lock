@@ -1443,10 +1443,10 @@ babel-plugin-istanbul@^6.1.1:
     istanbul-lib-instrument "^5.0.4"
     test-exclude "^6.0.0"
 
-babel-plugin-jest-hoist@^29.0.2:
-  version "29.0.2"
-  resolved "https://registry.yarnpkg.com/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-29.0.2.tgz#ae61483a829a021b146c016c6ad39b8bcc37c2c8"
-  integrity sha512-eBr2ynAEFjcebVvu8Ktx580BD1QKCrBG1XwEUTXJe285p9HA/4hOhfWCFRQhTKSyBV0VzjhG7H91Eifz9s29hg==
+babel-plugin-jest-hoist@^29.2.0:
+  version "29.2.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-29.2.0.tgz#23ee99c37390a98cfddf3ef4a78674180d823094"
+  integrity sha512-TnspP2WNiR3GLfCsUNHqeXw0RoQ2f9U5hQ5L3XFpwuO8htQmSrhh8qsB6vi5Yi8+kuynN1yjDjQsPfkebmB6ZA==
   dependencies:
     "@babel/template" "^7.3.3"
     "@babel/types" "^7.3.3"
@@ -1481,11 +1481,11 @@ babel-preset-current-node-syntax@^1.0.0:
     "@babel/plugin-syntax-top-level-await" "^7.8.3"
 
 babel-preset-jest@^29.0.2:
-  version "29.0.2"
-  resolved "https://registry.yarnpkg.com/babel-preset-jest/-/babel-preset-jest-29.0.2.tgz#e14a7124e22b161551818d89e5bdcfb3b2b0eac7"
-  integrity sha512-BeVXp7rH5TK96ofyEnHjznjLMQ2nAeDJ+QzxKnHAAMs0RgrQsCywjAN8m4mOm5Di0pxU//3AoEeJJrerMH5UeA==
+  version "29.2.0"
+  resolved "https://registry.yarnpkg.com/babel-preset-jest/-/babel-preset-jest-29.2.0.tgz#3048bea3a1af222e3505e4a767a974c95a7620dc"
+  integrity sha512-z9JmMJppMxNv8N7fNRHvhMg9cvIkMxQBXgFkane3yKVEvEOP+kB50lk8DFRvF9PGqbyXxlmebKWhuDORO8RgdA==
   dependencies:
-    babel-plugin-jest-hoist "^29.0.2"
+    babel-plugin-jest-hoist "^29.2.0"
     babel-preset-current-node-syntax "^1.0.0"
 
 balanced-match@^1.0.0:
