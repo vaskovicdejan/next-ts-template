@@ -39,37 +39,44 @@ const CardStyleLink = styled(Link)(() => ({
 const Home = (): JSX.Element => {
   return (
     <Layout>
-      <Box component='main' sx={{ width: '100%', color: '#333' }}>
-        <Box sx={{
-          margin: '0',
-          width: '100%',
-          paddingTop: '80px',
-          lineHeight: '1.15',
-        }}>
-          <Typography
-            component='h1'
-            align='center'
-            fontSize='48px'
-          >
-          Welcome to Next.js!
+      <Box component="main" sx={{ width: '100%', color: '#333' }}>
+        <Box
+          sx={{
+            margin: '0',
+            width: '100%',
+            paddingTop: '80px',
+            lineHeight: '1.15',
+          }}
+        >
+          <Typography component="h1" align="center" fontSize="48px">
+            Welcome to Next.js!
           </Typography>
         </Box>
-        <Typography align='center'>
+        <Typography align="center">
           To get started, edit <code>pages/index.js</code> and save to reload.
         </Typography>
 
         <StyledBox>
           <CardStyleLink href="https://nextjs.org/docs">
-            <Typography component='h3'>Documentation &rarr;</Typography>
-            <Typography component='p'>Learn more about Next.js in the documentation.</Typography>
+            <Typography component="h3">Documentation &rarr;</Typography>
+            <Typography component="p">
+              Learn more about Next.js in the documentation.
+            </Typography>
           </CardStyleLink>
           <CardStyleLink href="https://nextjs.org/learn" className="card">
-            <Typography  component='h3'>Next.js Learn &rarr;</Typography>
-            <Typography  component='p'>Learn about Next.js by following an interactive tutorial!</Typography>
+            <Typography component="h3">Next.js Learn &rarr;</Typography>
+            <Typography component="p">
+              Learn about Next.js by following an interactive tutorial!
+            </Typography>
           </CardStyleLink>
-          <CardStyleLink href="https://github.com/zeit/next.js/tree/master/examples" className="card">
-            <Typography  component='h3'>Examples &rarr;</Typography>
-            <Typography  component='p'>Find other example boilerplates on the Next.js GitHub.</Typography>
+          <CardStyleLink
+            href="https://github.com/zeit/next.js/tree/master/examples"
+            className="card"
+          >
+            <Typography component="h3">Examples &rarr;</Typography>
+            <Typography component="p">
+              Find other example boilerplates on the Next.js GitHub.
+            </Typography>
           </CardStyleLink>
         </StyledBox>
       </Box>
