@@ -16,16 +16,16 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Use Node.js 14.x
+    - name: Use Node.js 16.x
       uses: actions/setup-node@v3.5.1
       with:
-        node-version: 14.x
+        node-version: 16.x
         check-latest: true
         cache: yarn
 
     - name: Get yarn cache directory path
       id: yarn-cache-dir-path
-      run: echo "::set-output name=dir::$(yarn cache dir)"
+      run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
 
     - uses: actions/cache@v3
       id: yarn-cache
