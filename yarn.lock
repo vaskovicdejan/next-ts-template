@@ -3044,16 +3044,16 @@ jest-resolve-dependencies@^29.2.1:
     jest-snapshot "^29.2.1"
 
 jest-resolve@^29.2.1:
-  version "29.2.1"
-  resolved "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-29.2.1.tgz#a4d2f76db88aeb6ec5f5453c9a40b52483d17799"
-  integrity sha512-1dJTW76Z9622Viq4yRcwBuEXuzGtE9B2kdl05RC8Om/lAzac9uEgC+M8Q5osVidbuBPmxm8wSrcItYhca2ZAtQ==
+  version "29.2.2"
+  resolved "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-29.2.2.tgz#ad6436053b0638b41e12bbddde2b66e1397b35b5"
+  integrity sha512-3gaLpiC3kr14rJR3w7vWh0CBX2QAhfpfiQTwrFPvVrcHe5VUBtIXaR004aWE/X9B2CFrITOQAp5gxLONGrk6GA==
   dependencies:
     chalk "^4.0.0"
     graceful-fs "^4.2.9"
     jest-haste-map "^29.2.1"
     jest-pnp-resolver "^1.2.2"
     jest-util "^29.2.1"
-    jest-validate "^29.2.1"
+    jest-validate "^29.2.2"
     resolve "^1.20.0"
     resolve.exports "^1.1.0"
     slash "^3.0.0"
@@ -3155,7 +3155,7 @@ jest-util@^29.2.1:
     graceful-fs "^4.2.9"
     picomatch "^2.2.3"
 
-jest-validate@^29.2.1:
+jest-validate@^29.2.1, jest-validate@^29.2.2:
   version "29.2.2"
   resolved "https://registry.yarnpkg.com/jest-validate/-/jest-validate-29.2.2.tgz#e43ce1931292dfc052562a11bc681af3805eadce"
   integrity sha512-eJXATaKaSnOuxNfs8CLHgdABFgUrd0TtWS8QckiJ4L/QVDF4KVbZFBBOwCBZHOS0Rc5fOxqngXeGXE3nGQkpQA==
