@@ -3,14 +3,14 @@
   "env": {
     "browser": true,
     "node": true,
-    "es2021": true,
-    "jest": true
+    "es2021": true
   },
   "parserOptions": {
+    "project": ["./tsconfig.json"],
+    "ecmaVersion": "latest",
     "ecmaFeatures": {
       "jsx": true
     },
-    "project": "./tsconfig.json",
     "useJSXTextNode": true
   },
   "extends": [
@@ -21,8 +21,7 @@
     "prettier"
   ],
   "plugins": [
-    "react",
-    "jest"
+    "react"
   ],
   "settings": {
     "react": {

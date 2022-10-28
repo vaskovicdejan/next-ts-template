@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "test": "jest --passWithNoTests",
-    "dev": "next",
+    "test": "echo ''",
+    "dev": "next dev",
     "build": "next build",
     "export": "next export",
     "start": "next start",
@@ -22,22 +22,18 @@
     "@emotion/styled": "*",
     "@mui/icons-material": "*",
     "@mui/material": "*",
-    "autoprefixer": "*",
     "next": "^13",
-    "postcss": "*",
     "react": "*",
     "react-dom": "*",
-    "tailwindcss": "*",
     "web-vitals": "*"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^13",
-    "@swc/jest": "*",
-    "@types/jest": "*",
     "@types/node": "*",
     "@types/react": "*",
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*",
+    "autoprefixer": "*",
     "eslint": "*",
     "eslint-config-airbnb-base": "*",
     "eslint-config-airbnb-typescript": "*",
@@ -47,24 +43,18 @@
     "eslint-import-resolver-typescript": "*",
     "eslint-plugin-flowtype": "*",
     "eslint-plugin-import": "*",
-    "eslint-plugin-jest": "*",
     "eslint-plugin-jsx-a11y": "*",
     "eslint-plugin-prettier": "*",
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
-    "jest": "*",
     "next-compose-plugins": "*",
     "next-transpile-modules": "*",
+    "postcss": "*",
     "prettier": "*",
+    "prettier-plugin-tailwindcss": "*",
     "rimraf": "*",
     "swc-loader": "*",
+    "tailwindcss": "*",
     "typescript": "*"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.(t|j)sx?$": [
-        "@swc/jest"
-      ]
-    }
   }
 }
