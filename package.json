@@ -22,6 +22,7 @@
     "@emotion/styled": "*",
     "@mui/icons-material": "*",
     "@mui/material": "*",
+    "@next/font": "^13",
     "next": "^13",
     "react": "*",
     "react-dom": "*",
@@ -29,6 +30,7 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^13",
+    "@next/codemod": "^13",
     "@types/node": "*",
     "@types/react": "*",
     "@typescript-eslint/eslint-plugin": "*",

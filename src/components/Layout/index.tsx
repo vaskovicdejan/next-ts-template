@@ -1,4 +1,5 @@
 import React, { PropsWithChildren } from 'react';
+import { Sawarabi_Gothic } from '@next/font/google';
 import {
   AppBar,
   Box,
@@ -23,6 +24,12 @@ interface LayoutProps {
   container?: Element;
 }
 
+const sawarabi = Sawarabi_Gothic({
+  weight: '400',
+  subsets: ['japanese'],
+  display: 'swap',
+});
+
 const Layout = (props: PropsWithChildren<LayoutProps>) => {
   const { container } = props;
   const theme = useTheme();
@@ -39,6 +46,7 @@ const Layout = (props: PropsWithChildren<LayoutProps>) => {
         backgroundColor: theme.palette.primary.main,
         color: theme.palette.primary.contrastText,
       }}
+      className={sawarabi.className}
     >
       <Box sx={theme.mixins.toolbar} />
       <Divider />
