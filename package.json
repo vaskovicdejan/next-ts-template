@@ -9,12 +9,15 @@
     "export": "next export",
     "start": "next start",
     "analyze": "ANALYZE=true next build",
-    "lint": "eslint --ext .ts,.js,.tsx,.jsx src",
-    "style-check": "prettier --check src",
-    "format": "prettier --write src",
+    "elint-check": "eslint --ext .ts,.js,.tsx,.jsx src",
+    "elint-fix": "eslint --fix --ext .ts,.js,.tsx,.jsx src",
+    "prettier-check": "prettier --check src",
+    "prettier-format": "prettier --write src",
+    "lint": "yarn prettier-check && yarn elint-check",
+    "lint-fix": "yarn prettier-format && yarn elint-fix",
     "clean": "rimraf build",
     "pretest": "yarn build",
-    "all": "yarn install && yarn style-check && yarn lint && yarn test"
+    "all": "yarn lint && yarn build && yarn test && yarn export"
   },
   "dependencies": {
     "@emotion/react": "*",
@@ -58,5 +61,6 @@
     "swc-loader": "*",
     "tailwindcss": "*",
     "typescript": "*"
-  }
+  },
+  "packageManager": "yarn@3.2.4"
 }
