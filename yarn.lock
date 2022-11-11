@@ -55,13 +55,13 @@ __metadata:
   linkType: hard
 
 "@babel/generator@npm:^7.20.1, @babel/generator@npm:^7.20.2":
-  version: 7.20.3
-  resolution: "@babel/generator@npm:7.20.3"
+  version: 7.20.4
+  resolution: "@babel/generator@npm:7.20.4"
   dependencies:
     "@babel/types": ^7.20.2
     "@jridgewell/gen-mapping": ^0.3.2
     jsesc: ^2.5.1
-  checksum: 4b72ccb6c278f90ec1fda7607f0a5cd16af6ba3110747be12fc7f8f97646e467a5c452030973e3915af83a350846f6236b206261cd0d084c9c584288bcaa2bed
+  checksum: 967b59f18e5ce999e5a741825bcecb2be4bbfc1824a92c21b47d0b5694e0eb09314a70f8b9142e9591c149c7fb83d51f73ae8fbd96d30a42666425889e51ceb1
   languageName: node
   linkType: hard
 
@@ -949,17 +949,17 @@ __metadata:
   linkType: hard
 
 "@next/bundle-analyzer@npm:^13":
-  version: 13.0.2
-  resolution: "@next/bundle-analyzer@npm:13.0.2"
+  version: 13.0.3
+  resolution: "@next/bundle-analyzer@npm:13.0.3"
   dependencies:
     webpack-bundle-analyzer: 4.3.0
-  checksum: 7aed60d4f2dc349eb2e026c054c32a881607b6c6b328913fc492b9bc5eac8deae3a9cf121bd04f9e3c8edacb794d08e73dc10a4530ecbda81215a9cbb717cad8
+  checksum: b0d5021f54bb45d5a4bb1f69bf16aed8cb3124f9b260224c396dd59a86c8ea2f66e239eeb9c4853d4b2edb4788d44c12f28b9de52108cbadf55149aeb8a999b0
   languageName: node
   linkType: hard
 
 "@next/codemod@npm:^13":
-  version: 13.0.2
-  resolution: "@next/codemod@npm:13.0.2"
+  version: 13.0.3
+  resolution: "@next/codemod@npm:13.0.3"
   dependencies:
     chalk: 4.1.0
     cheerio: 1.0.0-rc.9
@@ -971,7 +971,7 @@ __metadata:
     meow: 7.0.1
   bin:
     codemod: bin/next-codemod.js
-  checksum: 88511ccd2166c12b33c9c578668c6898f38096e108e3bbed616237fee43a79913d659792c774548e21d8874c2e55452c79905e12c033a2575dec4019d4b504b1
+  checksum: a56299643e42c603c76a7f7d8516e6dab06ae0843fdad14303944848730c728124cd5b08c28d9d099d0d93f7094731c577df3380d8fee203cfc08dd11cf8c7ba
   languageName: node
   linkType: hard
 
@@ -982,19 +982,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:13.0.2":
-  version: 13.0.2
-  resolution: "@next/eslint-plugin-next@npm:13.0.2"
+"@next/eslint-plugin-next@npm:13.0.3":
+  version: 13.0.3
+  resolution: "@next/eslint-plugin-next@npm:13.0.3"
   dependencies:
     glob: 7.1.7
-  checksum: 36570701f4ad8763bfac6a7531dc06124ddbd2b819339a77b47d777ba0037a5302d9f42e17128222b3695c44f130caa106e453bc29872be802ad68da5788ec17
+  checksum: 77c0a4c76a0c0f44ef915724bbe158c6272b17283833e75aefcf25f15023856f81678590ece6a417b6d95156fc948b41db7b204677dd14983094f395056ecc5e
   languageName: node
   linkType: hard
 
 "@next/font@npm:^13":
-  version: 13.0.2
-  resolution: "@next/font@npm:13.0.2"
-  checksum: 3ca6b8668f77673fe6c9c1887651e149ffcc5f50212df64c0dddfd43a9485919aae6ca4d9f203e149b36fcacba6bba5e558091a53e389d037399860b097b7ddd
+  version: 13.0.3
+  resolution: "@next/font@npm:13.0.3"
+  checksum: 1e703a93b14129e147121589cdb3b6b19c2e473077b9fe611676d1913f5302333346cd5e7dcb1b9068aa899cb8386aa31259f58e52ee48ed5c6566ef04de0fec
   languageName: node
   linkType: hard
 
@@ -1302,7 +1302,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:*, @typescript-eslint/parser@npm:^5.21.0":
+"@typescript-eslint/parser@npm:*, @typescript-eslint/parser@npm:^5.42.0":
   version: 5.42.1
   resolution: "@typescript-eslint/parser@npm:5.42.1"
   dependencies:
@@ -2773,12 +2773,12 @@ __metadata:
   linkType: hard
 
 "eslint-config-next@npm:^13":
-  version: 13.0.2
-  resolution: "eslint-config-next@npm:13.0.2"
+  version: 13.0.3
+  resolution: "eslint-config-next@npm:13.0.3"
   dependencies:
-    "@next/eslint-plugin-next": 13.0.2
+    "@next/eslint-plugin-next": 13.0.3
     "@rushstack/eslint-patch": ^1.1.3
-    "@typescript-eslint/parser": ^5.21.0
+    "@typescript-eslint/parser": ^5.42.0
     eslint-import-resolver-node: ^0.3.6
     eslint-import-resolver-typescript: ^2.7.1
     eslint-plugin-import: ^2.26.0
@@ -2791,7 +2791,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 7ad2e102de629f72f478c1405fb335816842401f8855e8da251b61714bcec92d9e21b132de67d630ba26b22bf16cd3771ffd689f839ba293043b8c7fa4f6660a
+  checksum: 5d4914befc5a53a273ea02e2e8b96419ddcdaa24488b510cbfefe146a786887483c4b0c1d3a1ef4dad5bb839cd4a41edac38af8a88fddb9ed66076a703c3312c
   languageName: node
   linkType: hard
 
@@ -5699,13 +5699,13 @@ __metadata:
   linkType: hard
 
 "postcss@npm:*, postcss@npm:^8.4.18":
-  version: 8.4.18
-  resolution: "postcss@npm:8.4.18"
+  version: 8.4.19
+  resolution: "postcss@npm:8.4.19"
   dependencies:
     nanoid: ^3.3.4
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: 9349fd99849b2e3d2e134ff949b7770ecb12375f352723ce2bcc06167eba3850ea7844c1b191a85cd915d6a396b4e8ee9a5267e6cc5d8d003d0cbc7a97555d39
+  checksum: 62782723a385f92b7525f66d29614624de7c5643855423db3a5efd9287e677650300192749adddbbb6734cea9b1d5f5fd4f6ea00ca3f9a95dbbb88f835f5ca64
   languageName: node
   linkType: hard
 
