@@ -525,7 +525,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/cache@npm:^11.10.3, @emotion/cache@npm:^11.10.5":
+"@emotion/cache@npm:^11.10.5":
   version: 11.10.5
   resolution: "@emotion/cache@npm:11.10.5"
   dependencies:
@@ -873,11 +873,11 @@ __metadata:
   linkType: hard
 
 "@mui/styled-engine@npm:^5.10.8":
-  version: 5.10.8
-  resolution: "@mui/styled-engine@npm:5.10.8"
+  version: 5.10.14
+  resolution: "@mui/styled-engine@npm:5.10.14"
   dependencies:
-    "@babel/runtime": ^7.19.0
-    "@emotion/cache": ^11.10.3
+    "@babel/runtime": ^7.20.1
+    "@emotion/cache": ^11.10.5
     csstype: ^3.1.1
     prop-types: ^15.8.1
   peerDependencies:
@@ -889,7 +889,7 @@ __metadata:
       optional: true
     "@emotion/styled":
       optional: true
-  checksum: 62a8cb51dcf6e9f03ad265eeafb260bcc4454654c1fccc05ff910a83e9dabf4e9fa8e23a46b5da4659e768899447a3e7a97bc57a1eb60157aaac9ee77385c569
+  checksum: 3ad21fd9d283e38d9e7b1d52dd3f9340776b7e058e9b1d6097bdfb8acb41e364561b3c57016125fd12a87b324282b982769968973b4bffb845abd0750335da1f
   languageName: node
   linkType: hard
 
