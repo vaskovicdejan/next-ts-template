@@ -700,13 +700,13 @@ __metadata:
   linkType: hard
 
 "@humanwhocodes/config-array@npm:^0.11.6":
-  version: 0.11.7
-  resolution: "@humanwhocodes/config-array@npm:0.11.7"
+  version: 0.11.8
+  resolution: "@humanwhocodes/config-array@npm:0.11.8"
   dependencies:
     "@humanwhocodes/object-schema": ^1.2.1
     debug: ^4.1.1
     minimatch: ^3.0.5
-  checksum: cf506dc45d9488af7fbf108ea6ac2151ba1a25e6d2b94b9b4fc36d2c1e4099b89ff560296dbfa13947e44604d4ca4a90d97a4fb167370bf8dd01a6ca2b6d83ac
+  checksum: 0fd6b3c54f1674ce0a224df09b9c2f9846d20b9e54fabae1281ecfc04f2e6ad69bf19e1d6af6a28f88e8aa3990168b6cb9e1ef755868c3256a630605ec2cb1d3
   languageName: node
   linkType: hard
 
@@ -949,17 +949,17 @@ __metadata:
   linkType: hard
 
 "@next/bundle-analyzer@npm:^13":
-  version: 13.0.6
-  resolution: "@next/bundle-analyzer@npm:13.0.6"
+  version: 13.0.7
+  resolution: "@next/bundle-analyzer@npm:13.0.7"
   dependencies:
     webpack-bundle-analyzer: 4.7.0
-  checksum: 3c0886277378ac1d342536171642a17b8c8e8c00e0e7aa0c0b9442b565f55b9432adce7ef1980260f8255db47b9840584a467f0bec0e8fc4b85bb4c64d259903
+  checksum: 2f964fd7ee0da6d30a783cb5b1be76d1fbbd01eb7d63e93148e8853b8346b9ba74f619c0a3a78f228a7bf2b3fa30c8fd14182d6541a502ee000faf33ce71c40e
   languageName: node
   linkType: hard
 
 "@next/codemod@npm:^13":
-  version: 13.0.6
-  resolution: "@next/codemod@npm:13.0.6"
+  version: 13.0.7
+  resolution: "@next/codemod@npm:13.0.7"
   dependencies:
     chalk: 4.1.0
     cheerio: 1.0.0-rc.9
@@ -971,7 +971,7 @@ __metadata:
     meow: 7.0.1
   bin:
     codemod: bin/next-codemod.js
-  checksum: df00a3520174d49ee082d52e06b74683e28e015731f6ffaa833138a1b7434eba979d5a08cd57e63450cb9e5c94fb61160a60596b6db780bc3a861aa0e9245db6
+  checksum: f98039706d5d4e0d19c4ccb6c60043fcae739c021b32d4e412c283e25a82b8252bd9c0d594f219ae6b35312a972d1085858dc53b5b390aba3a98fce54804c988
   languageName: node
   linkType: hard
 
@@ -982,19 +982,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:13.0.6":
-  version: 13.0.6
-  resolution: "@next/eslint-plugin-next@npm:13.0.6"
+"@next/eslint-plugin-next@npm:13.0.7":
+  version: 13.0.7
+  resolution: "@next/eslint-plugin-next@npm:13.0.7"
   dependencies:
     glob: 7.1.7
-  checksum: 0f6964513af4fd6051974e6c1542d2660ac9cc0e89c4774e793ede0e3e3f8e158826bf9ae06aa29741c4c4a22bed7ddf3db265ee21a8593ba7d53f39014764f0
+  checksum: 16b911e322d8a1f65cb7d4e734d77bab94eb1d746325f3605aec8916de6c30678b83cc3f496a6fbe1ded74347a91fbca83aab458ca60e7e0b5fb56b3a5cdfb08
   languageName: node
   linkType: hard
 
 "@next/font@npm:^13":
-  version: 13.0.6
-  resolution: "@next/font@npm:13.0.6"
-  checksum: 8c6ee82763d8b4de30ba45f902f66c5e74159e26dc0262349961bc48d2360ba11df1a080cfc99f07001b1f66e7d01342dbde93bda2f16f05e19044fcf7c2db45
+  version: 13.0.7
+  resolution: "@next/font@npm:13.0.7"
+  checksum: 88324e483561ed1372b97d434b98cff3c3adfeafc4217b45ff96f429c42ea4c6eebb089b34d8ef353aaf6413aa5f6d918a2ea83701ad129d2cc6f6751184d82a
   languageName: node
   linkType: hard
 
@@ -1758,9 +1758,9 @@ __metadata:
   linkType: hard
 
 "axe-core@npm:^4.4.3":
-  version: 4.6.0
-  resolution: "axe-core@npm:4.6.0"
-  checksum: ed112f76bbb2e2ab52dda623fc4baf882b2d00045a55b2cc15358e891f7f164d674be1a2fbcfd49e11d064b146c387c5c9c3c29d7d59c9de6c22c65b86eb68ac
+  version: 4.6.1
+  resolution: "axe-core@npm:4.6.1"
+  checksum: a376c9e29499711d67219b9f9b5e97bcf9d8e4cd11316e4d68807054a1eae5054d93ccb37785851c0db64e54d132586ded807d18fb206c668138b53c6ae24d4d
   languageName: node
   linkType: hard
 
@@ -2787,10 +2787,10 @@ __metadata:
   linkType: hard
 
 "eslint-config-next@npm:^13":
-  version: 13.0.6
-  resolution: "eslint-config-next@npm:13.0.6"
+  version: 13.0.7
+  resolution: "eslint-config-next@npm:13.0.7"
   dependencies:
-    "@next/eslint-plugin-next": 13.0.6
+    "@next/eslint-plugin-next": 13.0.7
     "@rushstack/eslint-patch": ^1.1.3
     "@typescript-eslint/parser": ^5.42.0
     eslint-import-resolver-node: ^0.3.6
@@ -2805,7 +2805,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 3d12c5f0cc3a8aeb9d56ca151de3a8a4157cee9a7223ee4ca96f331f8b72974f1c7a9eed441d6df22f5b2c8488a7d5f00435127960a747b5509aa95bbbe5e4fa
+  checksum: 127143c08d4ad4c842f31c380a7f8f6ee6f5cda0bff71b64884127b497dfc0cd1f5b8690391347f9722432f4754f7e213ce7bbb4c7d48fe2beb2f9a9398dc526
   languageName: node
   linkType: hard
 
@@ -3369,9 +3369,9 @@ __metadata:
   linkType: hard
 
 "flow-parser@npm:0.*":
-  version: 0.195.2
-  resolution: "flow-parser@npm:0.195.2"
-  checksum: a74bef457c8449ba1254ecc113b8864f719c607f9f0d87ea8f9e67b2a780ee28cf16d40960cae39df68e8ecf7fdfa6de755396f85d6c49f865da6eef4fa37172
+  version: 0.196.0
+  resolution: "flow-parser@npm:0.196.0"
+  checksum: f6b3c6918a5b48d0943be2026242b5bd75458e0f1bed076e800e6340998e0a8d2a7cc3a9a48810bae6b299c1b24ef1c94fd7cab6405f26801317abecbd8b9a7a
   languageName: node
   linkType: hard
 
@@ -4517,11 +4517,11 @@ __metadata:
   linkType: hard
 
 "language-tags@npm:^1.0.5":
-  version: 1.0.6
-  resolution: "language-tags@npm:1.0.6"
+  version: 1.0.7
+  resolution: "language-tags@npm:1.0.7"
   dependencies:
     language-subtag-registry: ^0.3.20
-  checksum: dc2927f7ce8f108ffd1d02ae0284b78ff6b4e03e631642794fa79d554d77b653f3f64cd1fb83acc9f3746ef7c18d43241b97feb712c05cc26e25aacd68f7a006
+  checksum: 2f1ca8ffe4e549893817456ca1974dbff0f3cc8aea4e123e666dc6df85f3cf2d828b8143084388a7e2bec15fac77b7194151e43b5b32e63526dafe17a08a9fd0
   languageName: node
   linkType: hard
 
