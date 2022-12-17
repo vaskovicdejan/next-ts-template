@@ -10,6 +10,9 @@ const config = withBundleAnalyzer({
     compiler: {
       emotion: true,
     },
+    eslint: {
+      ignoreDuringBuilds: true,
+    }
   }
 );
 
