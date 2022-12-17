@@ -7,12 +7,14 @@ const config = withBundleAnalyzer({
   {
     reactStrictMode: true, // Recommended for the `pages` directory, default in `app`.
     swcMinify: true,
+    cleanDistDir: true,
     compiler: {
       emotion: true,
     },
     eslint: {
       ignoreDuringBuilds: true,
-    }
+    },
+    productionBrowserSourceMaps: true,
   }
 );
 
