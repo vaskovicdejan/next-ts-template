@@ -9,12 +9,12 @@
     "export": "next export",
     "start": "next start",
     "analyze": "ANALYZE=true next build",
-    "elint-check": "next lint --ext .ts,.js,.tsx,.jsx src",
-    "elint-fix": "next lint --fix --ext .ts,.js,.tsx,.jsx src",
+    "eslint-check": "next lint --ext .ts,.js,.tsx,.jsx src",
+    "eslint-fix": "next lint --fix --ext .ts,.js,.tsx,.jsx src",
     "prettier-check": "prettier --check src",
     "prettier-format": "prettier --write src",
-    "lint": "yarn prettier-check && yarn elint-check",
-    "lint-fix": "yarn prettier-format && yarn elint-fix",
+    "lint": "yarn prettier-check && yarn eslint-check",
+    "lint-fix": "yarn prettier-format && yarn eslint-fix",
     "clean": "rimraf build",
     "pretest": "yarn build",
     "all": "yarn lint && yarn build && yarn test && yarn export"
@@ -65,5 +65,5 @@
   "resolutions": {
     "json5": ">=2.2.2"
   },
-  "packageManager": "yarn@3.3.0"
+  "packageManager": "yarn@3.3.1"
 }
