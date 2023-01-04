@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "test": "echo ''",
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "export": "next export",
     "start": "next start",
@@ -32,7 +32,6 @@
     "web-vitals": "*"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^13",
     "@next/codemod": "^13",
     "@types/node": "*",
     "@types/react": "*",
