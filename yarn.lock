@@ -4021,12 +4021,13 @@ __metadata:
   linkType: hard
 
 "is-array-buffer@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "is-array-buffer@npm:3.0.0"
+  version: 3.0.1
+  resolution: "is-array-buffer@npm:3.0.1"
   dependencies:
     call-bind: ^1.0.2
     get-intrinsic: ^1.1.3
-  checksum: 46ed004b0e3d8a60a7989a4ddbea8f8dfa2f5c7679a9d678c1439e710709b1f51b7abf56025106c87452b8605922c088f487c7a0847be27d2f6e533221ea44e3
+    is-typed-array: ^1.1.10
+  checksum: f26ab87448e698285daf707e52a533920449f7abf63714140ffab9d5571aa5a71ac2fa2677e8b793ad0d5d3e40078d4d2c8a0ab39c957e3cfc6513bb6c9dfdc9
   languageName: node
   linkType: hard
 
