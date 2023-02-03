@@ -64,5 +64,5 @@
   "resolutions": {
     "json5": ">=2.2.2"
   },
-  "packageManager": "yarn@3.3.1"
+  "packageManager": "yarn@3.4.1"
 }
