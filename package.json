@@ -17,6 +17,7 @@
     "lint-fix": "yarn prettier-format && yarn eslint-fix",
     "clean": "rimraf build",
     "pretest": "yarn build",
+    "postinstall": "typewind generate",
     "all": "yarn lint && yarn build && yarn test && yarn export"
   },
   "dependencies": {
@@ -59,7 +60,8 @@
     "rimraf": "*",
     "swc-loader": "*",
     "tailwindcss": "*",
-    "typescript": "*"
+    "typescript": "*",
+    "typewind": "*"
   },
   "resolutions": {
     "json5": ">=2.2.2"
