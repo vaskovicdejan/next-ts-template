@@ -7741,8 +7741,8 @@ __metadata:
   linkType: hard
 
 "typewind@npm:*":
-  version: 0.0.20
-  resolution: "typewind@npm:0.0.20"
+  version: 0.1.0
+  resolution: "typewind@npm:0.1.0"
   dependencies:
     "@babel/core": ^7.20.12
     "@babel/generator": ^7.20.14
@@ -7753,7 +7753,7 @@ __metadata:
     tsup: ^6.5.0
   bin:
     typewind: dist/cli.js
-  checksum: 67b8cd1c22dfe375204fbed91dabd1d23d0ff1273d362bd0eaac2adcecb828aef3513aacbbbf0422a5ba9cba30a97593d6294abc90eff3a940c730892101399a
+  checksum: 582158647cb966f3a55968cffbffa23297d66c0743098511ea383db77e3b5c4177c3a85fdf15e3e671de0c1f34af3706c7c377c5d018e85d365eed2d6cdd1b09
   languageName: node
   linkType: hard
 
