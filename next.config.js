@@ -6,6 +6,9 @@ const config = {
   images: {
     unoptimized: true,
   },
+  experimental: {
+    swcPlugins: [['typewind/swc', {}]],
+  },
 };
 
 module.exports = config;
