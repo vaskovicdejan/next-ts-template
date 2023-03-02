@@ -2785,9 +2785,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.284":
-  version: 1.4.315
-  resolution: "electron-to-chromium@npm:1.4.315"
-  checksum: 9b1e9a43afe086aaed9af2a60076a409c0d6a0d9a9f4d0a293131763329c48c86198bda4020155c7ce53d2569840d49d51e8ce2405b6cd90000a77c1bd650ea5
+  version: 1.4.316
+  resolution: "electron-to-chromium@npm:1.4.316"
+  checksum: e62f1ae9a17774e654844523fcf5e8cb988a35277505086ea6ad5732b8a60f4c6f57788d8d3b7c63fada97d5ceb1d6786f5d3c1a62ac3ebd1f3cae1f3128c4f2
   languageName: node
   linkType: hard
 
@@ -3705,9 +3705,9 @@ __metadata:
   linkType: hard
 
 "flow-parser@npm:0.*":
-  version: 0.200.1
-  resolution: "flow-parser@npm:0.200.1"
-  checksum: f5ad5c8b9bc7b2f77f51436cfc82416c4b54be21f713d853c525b1341d6578bd54b3566f825fbc5c119e6c6f2935d47c467571112d8df7840f16b748928a6a44
+  version: 0.201.0
+  resolution: "flow-parser@npm:0.201.0"
+  checksum: 85af27d2e39565f3c0e9a5b1429265f7cee3f49bb56c0c80c7c0db1914a32b64460d2b2bdd99d4349a82d6afeb613ec5671d5044f1a25af85900f1edd4fc5b64
   languageName: node
   linkType: hard
 
@@ -5081,9 +5081,9 @@ __metadata:
   linkType: hard
 
 "lilconfig@npm:^2.0.5, lilconfig@npm:^2.0.6":
-  version: 2.0.6
-  resolution: "lilconfig@npm:2.0.6"
-  checksum: 40a3cd72f103b1be5975f2ac1850810b61d4053e20ab09be8d3aeddfe042187e1ba70b4651a7e70f95efa1642e7dc8b2ae395b317b7d7753b241b43cef7c0f7d
+  version: 2.1.0
+  resolution: "lilconfig@npm:2.1.0"
+  checksum: 8549bb352b8192375fed4a74694cd61ad293904eee33f9d4866c2192865c44c4eb35d10782966242634e0cbc1e91fe62b1247f148dc5514918e3a966da7ea117
   languageName: node
   linkType: hard
 
@@ -6328,8 +6328,8 @@ __metadata:
   linkType: hard
 
 "prettier-plugin-tailwindcss@npm:*":
-  version: 0.2.3
-  resolution: "prettier-plugin-tailwindcss@npm:0.2.3"
+  version: 0.2.4
+  resolution: "prettier-plugin-tailwindcss@npm:0.2.4"
   peerDependencies:
     "@ianvs/prettier-plugin-sort-imports": "*"
     "@prettier/plugin-php": "*"
@@ -6378,7 +6378,7 @@ __metadata:
       optional: true
     prettier-plugin-twig-melody:
       optional: true
-  checksum: f43599b2b03b80899c32e436a518a5c139aa8b6cc59c4d73f7c95222d99f3c3b418adb2d61145602c86b0827804fa2469a927ed696c5270d0a91dfeb18246509
+  checksum: 9f74d1c80e9151636c748baac13e736a81ae47fa2b2aaf66f9e4691a619a565439780c39491dccb1d0df4846a011b1d69c882e733ed20525d93a84c345b8321d
   languageName: node
   linkType: hard
 
