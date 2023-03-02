@@ -9,8 +9,8 @@
     "export": "next export",
     "start": "next start",
     "analyze": "ANALYZE=true next build",
-    "eslint-check": "eslint --ext .ts,.js,.tsx,.jsx src",
-    "eslint-fix": "eslint --fix --ext .ts,.js,.tsx,.jsx src",
+    "eslint-check": "eslint --ext .ts,.js,.tsx,.jsx src -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
+    "eslint-fix": "eslint --fix --ext .ts,.js,.tsx,.jsx src -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
     "prettier-check": "prettier --check src",
     "prettier-format": "prettier --write src",
     "lint": "yarn prettier-check && yarn eslint-check",
@@ -33,6 +33,7 @@
     "web-vitals": "*"
   },
   "devDependencies": {
+    "@microsoft/eslint-formatter-sarif": "*",
     "@next/codemod": "^13",
     "@types/node": "*",
     "@types/react": "*",

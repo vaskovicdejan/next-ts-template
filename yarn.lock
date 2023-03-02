@@ -922,6 +922,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@microsoft/eslint-formatter-sarif@npm:*":
+  version: 3.0.0
+  resolution: "@microsoft/eslint-formatter-sarif@npm:3.0.0"
+  dependencies:
+    eslint: ^8.9.0
+    jschardet: latest
+    lodash: ^4.17.14
+    utf8: ^3.0.0
+  checksum: 47c5d2e356285b085aa5f1937ec9c4692b9518a80835561e402057017a15b35be0bab83cbccb69853d200c016c03bbd0a6860da33950ce05b1089a03ac7aae3e
+  languageName: node
+  linkType: hard
+
 "@mui/base@npm:5.0.0-alpha.119":
   version: 5.0.0-alpha.119
   resolution: "@mui/base@npm:5.0.0-alpha.119"
@@ -3310,7 +3322,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:*":
+"eslint@npm:*, eslint@npm:^8.9.0":
   version: 8.35.0
   resolution: "eslint@npm:8.35.0"
   dependencies:
@@ -4833,6 +4845,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jschardet@npm:latest":
+  version: 3.0.0
+  resolution: "jschardet@npm:3.0.0"
+  checksum: f391df4512bbd7edf97f82be09ba841a80cb4408c3ab96cf7e9c307737bd08cd8b3d10986f3db844d04151530395dcd174b3288f17144206d42675ecf482c286
+  languageName: node
+  linkType: hard
+
 "jscodeshift@npm:0.13.1":
   version: 0.13.1
   resolution: "jscodeshift@npm:0.13.1"
@@ -5124,7 +5143,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.19, lodash@npm:^4.17.21":
+"lodash@npm:^4.17.14, lodash@npm:^4.17.19, lodash@npm:^4.17.21":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
@@ -5593,6 +5612,7 @@ __metadata:
     "@emotion/react": "*"
     "@emotion/server": "*"
     "@emotion/styled": "*"
+    "@microsoft/eslint-formatter-sarif": "*"
     "@mui/icons-material": "*"
     "@mui/material": "*"
     "@next/codemod": ^13
@@ -7851,6 +7871,13 @@ __metadata:
   version: 3.1.1
   resolution: "use@npm:3.1.1"
   checksum: 08a130289f5238fcbf8f59a18951286a6e660d17acccc9d58d9b69dfa0ee19aa038e8f95721b00b432c36d1629a9e32a464bf2e7e0ae6a244c42ddb30bdd8b33
+  languageName: node
+  linkType: hard
+
+"utf8@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "utf8@npm:3.0.0"
+  checksum: cb89a69ad9ab393e3eae9b25305b3ff08bebca9adc839191a34f90777eb2942f86a96369d2839925fea58f8f722f7e27031d697f10f5f39690f8c5047303e62d
   languageName: node
   linkType: hard
 
