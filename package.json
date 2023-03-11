@@ -30,6 +30,7 @@
     "next": "^13",
     "react": "*",
     "react-dom": "*",
+    "typescript": "*",
     "web-vitals": "*"
   },
   "devDependencies": {
@@ -61,11 +62,7 @@
     "rimraf": "*",
     "swc-loader": "*",
     "tailwindcss": "*",
-    "typescript": "*",
     "typewind": "*"
-  },
-  "resolutions": {
-    "json5": ">=2.2.2"
   },
   "packageManager": "yarn@3.4.1"
 }
