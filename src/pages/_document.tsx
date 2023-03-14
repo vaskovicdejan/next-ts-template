@@ -55,12 +55,14 @@ NextDocument.getInitialProps = async (ctx: DocumentContext) => {
   // See https://github.com/mui-org/material-ui/issues/26561#issuecomment-855286153
   const emotionStyles = extractCriticalToChunks(initialProps.html);
   const emotionStyleTags = emotionStyles.styles.map(
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    (style: { key: React.Key | null | undefined; ids: any[]; css: any }) => (
+    (style: {
+      key: React.Key | null | undefined;
+      ids: unknown[];
+      css: string;
+    }) => (
       <style
         data-emotion={`${style.key} ${style.ids.join(' ')}`}
         key={style.key}
-        // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: style.css }}
       />
     ),
