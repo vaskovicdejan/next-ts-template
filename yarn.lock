@@ -2814,9 +2814,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.284":
-  version: 1.4.333
-  resolution: "electron-to-chromium@npm:1.4.333"
-  checksum: 028f6618f18addf619a5a5eeca01c07fa3052ef4912b98e03e19c419eb92b6ed69bdb9c2bb499761186fdc60f9e955fa34a4b96e50b03d98a4a0bcb01aef8afd
+  version: 1.4.334
+  resolution: "electron-to-chromium@npm:1.4.334"
+  checksum: 8092fd18e30c68f68b197f7c151c149806fe307210d86a74c0544e05540c49b3de17e48def6c04af7886cefb927c45910cc18fddc475c0ed17ff0a1ddbc94268
   languageName: node
   linkType: hard
 
