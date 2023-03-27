@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&display=swap');
+
 .main {
   display: flex;
   flex-direction: column;
@@ -5,6 +7,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  font-family: 'BIZ UDPGothic', sans-serif;
 }
 
 .description {

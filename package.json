@@ -26,7 +26,6 @@
     "@emotion/styled": "*",
     "@mui/icons-material": "*",
     "@mui/material": "*",
-    "@next/font": "^13",
     "next": "^13",
     "react": "*",
     "react-dom": "*",
