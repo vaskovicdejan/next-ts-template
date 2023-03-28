@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 import Layout from '../components/Layout';
 import styles from '../styles/Home.module.css';
-import { Inter } from "next/font/google";
+import { Inter } from 'next/font/google';
 
 const inter = Inter({
   weight: '400',

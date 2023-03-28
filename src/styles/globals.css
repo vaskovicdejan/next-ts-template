@@ -99,7 +99,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-    font-family: 'BIZ UDPGothic', sans-serif;
+  font-family: 'BIZ UDPGothic', sans-serif;
 }
 
 a {

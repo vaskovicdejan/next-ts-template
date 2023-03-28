@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from 'react';
-import { Inter } from "next/font/google";
+import { Inter } from 'next/font/google';
 import {
   AppBar,
   Box,
