@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
-    "export": "next export",
+    "export": "next build",
     "start": "next start",
     "eslint-check": "eslint --ext .ts,.js,.tsx,.jsx src -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
     "eslint-fix": "eslint --fix --ext .ts,.js,.tsx,.jsx src -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
@@ -15,8 +15,7 @@
     "lint-fix": "yarn prettier-format && yarn eslint-fix",
     "clean": "rimraf build",
     "prebuild": "yarn lint",
-    "postinstall": "typewind generate",
-    "postbuild": "next export"
+    "postinstall": "typewind generate"
   },
   "dependencies": {
     "@emotion/react": "*",

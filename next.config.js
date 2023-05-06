@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const config = {
+  output: 'export',
   reactStrictMode: true,
   swcMinify: true,
   cleanDistDir: true,
@@ -7,7 +8,6 @@ const config = {
     unoptimized: true,
   },
   experimental: {
-    appDir: true,
     //   swcPlugins: [['typewind/swc', {}]],
   },
 };
