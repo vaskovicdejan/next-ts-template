@@ -3,12 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "test": "echo ''",
     "dev": "next dev --turbo",
     "build": "next build",
     "export": "next export",
     "start": "next start",
-    "analyze": "ANALYZE=true next build",
     "eslint-check": "eslint --ext .ts,.js,.tsx,.jsx src -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
     "eslint-fix": "eslint --fix --ext .ts,.js,.tsx,.jsx src -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
     "prettier-check": "prettier --check src",
@@ -16,9 +14,9 @@
     "lint": "yarn prettier-check && yarn eslint-check",
     "lint-fix": "yarn prettier-format && yarn eslint-fix",
     "clean": "rimraf build",
-    "pretest": "yarn build",
+    "prebuild": "yarn lint",
     "postinstall": "typewind generate",
-    "all": "yarn lint && yarn build && yarn test && yarn export"
+    "postbuild": "next export"
   },
   "dependencies": {
     "@emotion/react": "*",

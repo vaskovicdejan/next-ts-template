@@ -1,20 +1,57 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "lib": [ "dom", "dom.iterable", "esnext.asynciterable", "esnext" ],
+    "module": "esnext",
+    "jsx": "preserve",
     "allowJs": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
     "skipLibCheck": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext.asynciterable",
+      "esnext"
+    ],
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
-    "sourceMap": true
+    "sourceRoot": "src",
+    "baseUrl": "src",
+    "typeRoots": [
+      "./node_modules/@types",
+      ".next"
+    ],
+    "paths": {
+      "~/*": [
+        "../*"
+      ],
+      "@/*": [
+        "../*"
+      ],
+      "../*": [
+        "../*"
+      ]
+    },
+    "types": [
+      "node",
+      "react"
+    ],
+    "jsxImportSource": "@emotion/react",
+    "incremental": true
   },
   "exclude": [
     "node_modules",
@@ -26,6 +63,7 @@
   "include": [
     "next-env.d.ts",
     "src/**/*.ts",
-    "src/**/*.tsx"
+    "src/**/*.tsx",
+    ".next/types/**/*.ts"
   ]
 }
