@@ -30,7 +30,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "sourceRoot": "src",
-    "baseUrl": "src",
+    "baseUrl": ".",
     "typeRoots": [
       "./node_modules/@types",
       ".next"
