@@ -16,7 +16,7 @@
     "clean": "rimraf build",
     "prelint": "yarn install",
     "prebuild": "yarn lint",
-    "postinstall": "typewind generate"
+    "postlint": "typewind generate"
   },
   "dependencies": {
     "@emotion/react": "*",
