@@ -1363,9 +1363,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 20.1.7
-  resolution: "@types/node@npm:20.1.7"
-  checksum: b722794290d22db1741e739c256876ca774b76ea2d647d9ec9d52c49b1b01049cc6f6332499a01ac81d641e8d078b33e4c5c59e409db80390ac6b8d7ef0c08a7
+  version: 20.2.1
+  resolution: "@types/node@npm:20.2.1"
+  checksum: ed774afa6e9b4ad7868ed0182a8ca40ad0dd54815a70d3051b23fa850f3bca6bea4d0cb55e1fc769666786ac2cc4c1b37aeade313cb4c4634133f18ebcded496
   languageName: node
   linkType: hard
 
@@ -2838,9 +2838,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.284":
-  version: 1.4.397
-  resolution: "electron-to-chromium@npm:1.4.397"
-  checksum: d3551c0624d4eb29a514ef5e2161beb62c06c359c5340e765d349ea114e0eaf6a13eb4adc655d7eec880b0edcb493118888ce07b37e92476baf05ec5a96e99a3
+  version: 1.4.399
+  resolution: "electron-to-chromium@npm:1.4.399"
+  checksum: 51995e6e4dd6d2f630d56b21bd0ae47d8078dc7414b9648e644ba11fad99631da742ffd7a0f8af0abcb0bdb1749a678f95c87ead9b604fbc4625395b4236c94a
   languageName: node
   linkType: hard
 
@@ -3989,18 +3989,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^10.0.0":
-  version: 10.2.4
-  resolution: "glob@npm:10.2.4"
+"glob@npm:^10.2.5":
+  version: 10.2.5
+  resolution: "glob@npm:10.2.5"
   dependencies:
     foreground-child: ^3.1.0
     jackspeak: ^2.0.3
     minimatch: ^9.0.0
-    minipass: ^5.0.0 || ^6.0.0
+    minipass: ^5.0.0 || ^6.0.2
     path-scurry: ^1.7.0
   bin:
     glob: dist/cjs/src/bin.js
-  checksum: 29845faaa1a8bd2d1f2f26e0c4e5040898c7b4ccfb42e0a558319f6229d124dbc7ccf0ff214402505c5b62c1a39d9d2a1de9c582a74ad415591b96fa53cef466
+  checksum: 54d2b629c467953317c175903a049819577bcce679d437ff1ad43bf654091d3564e796351d705463b26a0194234acdea7f4de64993b0544ea86275c000498026
   languageName: node
   linkType: hard
 
@@ -5599,10 +5599,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minipass@npm:^5.0.0 || ^6.0.0":
-  version: 6.0.1
-  resolution: "minipass@npm:6.0.1"
-  checksum: 1df70bb5653251ad7bb0c979e07c18bbc64af1a92472a1d598f4311646da0c192d6ad92850cdfb9f0cd3ada8a9da369dd361c9f2e38a9f64b6a368ae2ac27fac
+"minipass@npm:^5.0.0 || ^6.0.2":
+  version: 6.0.2
+  resolution: "minipass@npm:6.0.2"
+  checksum: d140b91f4ab2e5ce5a9b6c468c0e82223504acc89114c1a120d4495188b81fedf8cade72a9f4793642b4e66672f990f1e0d902dd858485216a07cd3c8a62fac9
   languageName: node
   linkType: hard
 
@@ -6340,12 +6340,12 @@ __metadata:
   linkType: hard
 
 "path-scurry@npm:^1.7.0":
-  version: 1.9.1
-  resolution: "path-scurry@npm:1.9.1"
+  version: 1.9.2
+  resolution: "path-scurry@npm:1.9.2"
   dependencies:
     lru-cache: ^9.1.1
-    minipass: ^5.0.0 || ^6.0.0
-  checksum: 28caa788f17cc48e1a16b552bc08ba4ec57345bd18df7b9d58589bd83271e5bf932929467353f53ff66eb3bf056eb28d8f9b379525ee37e3f603169257542694
+    minipass: ^5.0.0 || ^6.0.2
+  checksum: 92888dfb68e285043c6d3291c8e971d5d2bc2f5082f4d7b5392896f34be47024c9d0a8b688dd7ae6d125acc424699195474927cb4f00049a9b1ec7c4256fa8e0
   languageName: node
   linkType: hard
 
@@ -6975,13 +6975,13 @@ __metadata:
   linkType: hard
 
 "rimraf@npm:*":
-  version: 5.0.0
-  resolution: "rimraf@npm:5.0.0"
+  version: 5.0.1
+  resolution: "rimraf@npm:5.0.1"
   dependencies:
-    glob: ^10.0.0
+    glob: ^10.2.5
   bin:
     rimraf: dist/cjs/src/bin.js
-  checksum: 60c5a7f152014d4f6bbf23f48e6badd145960a9be1115b719a07ba688c760b1bb8270abd6650bbd184ae2011843d8e9c775409652c89ff97550418aa5d581b27
+  checksum: bafce85391349a2d960847980bf9b5caa2a8887f481af630f1ea27e08288217293cec72d75e9a2ba35495c212789f66a7f3d23366ba6197026ab71c535126857
   languageName: node
   linkType: hard
 
@@ -7891,9 +7891,9 @@ __metadata:
   linkType: hard
 
 "tslib@npm:^2.0.1, tslib@npm:^2.2.0, tslib@npm:^2.4.0, tslib@npm:^2.5.0":
-  version: 2.5.0
-  resolution: "tslib@npm:2.5.0"
-  checksum: ae3ed5f9ce29932d049908ebfdf21b3a003a85653a9a140d614da6b767a93ef94f460e52c3d787f0e4f383546981713f165037dc2274df212ea9f8a4541004e1
+  version: 2.5.1
+  resolution: "tslib@npm:2.5.1"
+  checksum: 535e41e956b32d21aeff007a2c74989d1a6bf3fecb2b0141d80e5b9920bf90e23b4f0cd3772704bc03637c762dbdc1a314d75a407dd7189afbe3e83d80df9392
   languageName: node
   linkType: hard
 
