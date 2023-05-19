@@ -1,9 +1,18 @@
 'use client';
-import { Box, Typography } from '@mui/material';
+import React, { useState, useMemo } from 'react';
+import { Box, Typography, TextField } from '@mui/material';
 import Image from 'next/image';
+
+import MaterialReactTable from 'material-react-table';
+import type { MRT_ColumnDef } from 'material-react-table';
 
 import styles from './styles/Home.module.css';
 import { Inter } from 'next/font/google';
+
+interface Code {
+  hashCode?: number;
+  colorCode?: string;
+}
 
 const inter = Inter({
   weight: '400',
@@ -11,7 +20,62 @@ const inter = Inter({
   display: 'swap',
 });
 
-const Home = (): JSX.Element => {
+function range(
+  start: number,
+  end: number,
+  step = 1,
+): ReadonlyArray<number> {
+  return Array.apply(0, Array(end)).map(
+    (_element, index) => index * step + start,
+  );
+}
+
+/**
+ * Java の String#hashCode() 相当のハッシュ値を返します。
+ * @param s 文字列
+ * @returns ハッシュ値
+ */
+function hashCode(s: string) {
+  return s.split('').reduce(function (a, b) {
+    a = (a << 5) - a + b.charCodeAt(0);
+    return a & a;
+  }, 0);
+}
+/**
+ * 文字列のハッシュ値からカラーコードを生成して返します。
+ * @param string 文字列
+ * @returns カラーコード
+ */
+function stringToColor(string: string) {
+  const hash = hashCode(string);
+
+  const color = range(0, 3)
+    .map((i) => `00${((hash >> (i * 8)) & 0xff).toString(16)}`.slice(-2))
+    .reduce((acc, cur) => `${acc}${cur}`);
+  return `#${color}`;
+}
+
+export default function Home(): JSX.Element {
+  const columns = useMemo<MRT_ColumnDef<Code>[]>(
+    () => [
+      {
+        header: 'Hash Code',
+        accessorKey: 'hashCode',
+      },
+      {
+        header: 'Color Code',
+        accessorKey: 'colorCode',
+        Cell: ({
+          row: {
+            original: { colorCode },
+          },
+        }) => colorCode ?? <Box sx={{ color: colorCode }}>{colorCode}</Box>,
+      },
+    ],
+    [],
+  );
+
+  const [data, setData] = useState<Code>({});
   return (
     <Box
       component="main"
@@ -111,8 +175,27 @@ const Home = (): JSX.Element => {
           </p>
         </a>
       </Box>
+      <TextField
+        placeholder="input text"
+        onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
+          setData({
+            hashCode: hashCode(event.target.value),
+            colorCode: stringToColor(event.target.value),
+          });
+        }}
+      />
+
+      <MaterialReactTable
+        columns={columns}
+        data={[data]}
+        enableColumnActions={false}
+        enableColumnFilters={false}
+        enablePagination={false}
+        enableSorting={false}
+        enableBottomToolbar={false}
+        enableTopToolbar={false}
+        muiTableBodyRowProps={{ hover: false }}
+      />
     </Box>
   );
-};
-
-export default Home;
+}

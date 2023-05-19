@@ -24,6 +24,7 @@
     "@emotion/styled": "*",
     "@mui/icons-material": "*",
     "@mui/material": "*",
+    "material-react-table": "*",
     "next": "^13",
     "react": "*",
     "react-dom": "*",
