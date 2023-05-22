@@ -20,11 +20,7 @@ const inter = Inter({
   display: 'swap',
 });
 
-function range(
-  start: number,
-  end: number,
-  step = 1,
-): ReadonlyArray<number> {
+function range(start: number, end: number, step = 1): ReadonlyArray<number> {
   return Array.apply(0, Array(end)).map(
     (_element, index) => index * step + start,
   );
