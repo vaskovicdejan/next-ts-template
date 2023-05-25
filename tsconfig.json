@@ -50,7 +50,6 @@
       "node",
       "react"
     ],
-    "jsxImportSource": "@emotion/react",
     "incremental": true
   },
   "exclude": [
