@@ -6134,9 +6134,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001406, caniuse-lite@npm:^1.0.30001464, caniuse-lite@npm:^1.0.30001489":
-  version: 1.0.30001489
-  resolution: "caniuse-lite@npm:1.0.30001489"
-  checksum: 94585a351fd7661b855c83eace474db0ee5a617159b46f2eff1f6fe4b85d7a205418471fdec8cf5cd647a7f79958706d5e664c0bbf3c7c09118b35db9bb95a1b
+  version: 1.0.30001491
+  resolution: "caniuse-lite@npm:1.0.30001491"
+  checksum: ce8e1343dd2ba058902b58dffa7f3695fd251a7ef51a7f0903ab8e62b32becd9f7f590cbebb3f1966cdfff0c2fc8e7154ac116e0b39730bd2f2e17103f5e6c3b
   languageName: node
   linkType: hard
 
@@ -7299,9 +7299,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.411":
-  version: 1.4.412
-  resolution: "electron-to-chromium@npm:1.4.412"
-  checksum: a8eb128266fbbd1f32ce2a7ce2843cbd13dc442c43c541655ce83d9dff39c9f87cbbafaaf889ca56fdec77a2c92b6ab7e25675fefc600d65bfc92c10e292943d
+  version: 1.4.413
+  resolution: "electron-to-chromium@npm:1.4.413"
+  checksum: 6d702b84e2c5fb8d97cbaec759556c4f801572e62eab2098919061e2f3e7cbca71b9f170a4efb023001d4fd59e8603b4d7004dafc64d89c9f19db4642fdbd012
   languageName: node
   linkType: hard
 
@@ -11006,8 +11006,8 @@ __metadata:
   linkType: hard
 
 "material-react-table@npm:^1.11.4":
-  version: 1.11.5
-  resolution: "material-react-table@npm:1.11.5"
+  version: 1.12.0
+  resolution: "material-react-table@npm:1.12.0"
   dependencies:
     "@tanstack/match-sorter-utils": 8.8.4
     "@tanstack/react-table": 8.9.1
@@ -11020,7 +11020,7 @@ __metadata:
     "@mui/material": ">=5"
     react: ">=17.0"
     react-dom: ">=17.0"
-  checksum: 18af7b9e40d408c3a9e910ee75c9f196d8738e3eca0a6b65269160030c95751d7309be3de6b5aafd59dca19b9aef7a85e5e0947d5947b0cc7f11b88e66c70ebd
+  checksum: b927d2176bf639f02c15def6a5a68f6cfbda58a6a99c2a74ea8f01d625502b71e93230ca8c40d4ac7509fcd93218f06cda189a2cd25380f88471288acf2e35df
   languageName: node
   linkType: hard
 
