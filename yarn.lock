@@ -5461,11 +5461,11 @@ __metadata:
   linkType: hard
 
 "axobject-query@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "axobject-query@npm:3.1.1"
+  version: 3.2.1
+  resolution: "axobject-query@npm:3.2.1"
   dependencies:
-    deep-equal: ^2.0.5
-  checksum: c12a5da10dc7bab75e1cda9b6a3b5fcf10eba426ddf1a17b71ef65a434ed707ede7d1c4f013ba1609e970bc8c0cddac01365080d376204314e9b294719acd8a5
+    dequal: ^2.0.3
+  checksum: a94047e702b57c91680e6a952ec4a1aaa2cfd0d80ead76bc8c954202980d8c51968a6ea18b4d8010e8e2cf95676533d8022a8ebba9abc1dfe25686721df26fd2
   languageName: node
   linkType: hard
 
@@ -7052,7 +7052,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dequal@npm:^2.0.2":
+"dequal@npm:^2.0.2, dequal@npm:^2.0.3":
   version: 2.0.3
   resolution: "dequal@npm:2.0.3"
   checksum: 8679b850e1a3d0ebbc46ee780d5df7b478c23f335887464023a631d1b9af051ad4a6595a44220f9ff8ff95a8ddccf019b5ad778a976fd7bbf77383d36f412f90
