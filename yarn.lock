@@ -10917,9 +10917,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"material-react-table@npm:^1.11.4":
-  version: 1.13.0
-  resolution: "material-react-table@npm:1.13.0"
+"material-react-table@npm:^1.13.1":
+  version: 1.13.1
+  resolution: "material-react-table@npm:1.13.1"
   dependencies:
     "@tanstack/match-sorter-utils": 8.8.4
     "@tanstack/react-table": 8.9.2
@@ -10932,7 +10932,7 @@ __metadata:
     "@mui/material": ">=5"
     react: ">=17.0"
     react-dom: ">=17.0"
-  checksum: 3b1debbe2a70fa1e4a7ffb55a13d9fdab97e02f85da3e65173982c54031be27a2ffc2a4b1ad3b79be5fa035a2edd619cb5f51e8e9675c2291956634e1de630c9
+  checksum: 4ccbcc91d42c642d6e7a80a2bb86464682d5749bcc92290cb6804a59ecc8f38e7bbec0e75f50a85a835a718fc4846e7819728b3acc883f9038a66cf57c1e156d
   languageName: node
   linkType: hard
 
@@ -11485,7 +11485,7 @@ __metadata:
     eslint-plugin-react: ^7.32.2
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-storybook: ^0.6.12
-    material-react-table: ^1.11.4
+    material-react-table: ^1.13.1
     next: ^13.4.3
     postcss: ^8.4.23
     prettier: ^2.8.8
