@@ -14,7 +14,7 @@ if [ $result -ne 0 ]; then
 fi
 echo ""
 pwd
-yarn set version berry && git add .yarn/releases && rm -rf node_modules yarn.lock .yarn/cache && touch yarn.lock && yarn install && yarn up -R && yarn lint-fix && yarn build
+pnpm install && pnpm up -r && pnpm lint-fix && pnpm build
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}"
