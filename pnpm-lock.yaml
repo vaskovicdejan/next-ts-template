@@ -6097,7 +6097,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001508
-      electron-to-chromium: 1.4.441
+      electron-to-chromium: 1.4.442
       node-releases: 2.0.12
       update-browserslist-db: 1.0.11(browserslist@4.21.9)
 
@@ -7099,8 +7099,8 @@ packages:
       jake: 10.8.7
     dev: true
 
-  /electron-to-chromium@1.4.441:
-    resolution: {integrity: sha512-LlCgQ8zgYZPymf5H4aE9itwiIWH4YlCiv1HFLmmcBeFYi5E+3eaIFnjHzYtcFQbaKfAW+CqZ9pgxo33DZuoqPg==}
+  /electron-to-chromium@1.4.442:
+    resolution: {integrity: sha512-RkrZF//Ya+0aJq2NM3OdisNh5ZodZq1rdXOS96G8DdDgpDKqKE81yTbbQ3F/4CKm1JBPsGu1Lp/akkna2xO06Q==}
 
   /elliptic@6.5.4:
     resolution: {integrity: sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==}
@@ -8126,8 +8126,8 @@ packages:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
     dev: true
 
-  /flow-parser@0.210.0:
-    resolution: {integrity: sha512-ISI3YUsL/Z4cUl5ijYUO1LezjoljfnRS6QoFlqIqiazETt8EhkZKqQoksA47743OT3QxYFOPd2yIcRaH4DYX7g==}
+  /flow-parser@0.210.1:
+    resolution: {integrity: sha512-M0SdOwD0wZHhk6K/AOaPReBnw2vB7p9KUFUFZHJRsU3ZMl/+WVrMpmb8AfEM6GXZ5mEssCx9vHugxxJg1ieoew==}
     engines: {node: '>=0.4.0'}
     dev: true
 
@@ -9448,7 +9448,7 @@ packages:
       '@babel/register': 7.22.5(@babel/core@7.22.5)
       babel-core: 7.0.0-bridge.0(@babel/core@7.22.5)
       chalk: 4.1.2
-      flow-parser: 0.210.0
+      flow-parser: 0.210.1
       graceful-fs: 4.2.11
       micromatch: 3.1.10
       neo-async: 2.6.2
@@ -9478,7 +9478,7 @@ packages:
       '@babel/register': 7.22.5(@babel/core@7.22.5)
       babel-core: 7.0.0-bridge.0(@babel/core@7.22.5)
       chalk: 4.1.2
-      flow-parser: 0.210.0
+      flow-parser: 0.210.1
       graceful-fs: 4.2.11
       micromatch: 4.0.5
       neo-async: 2.6.2
@@ -9508,7 +9508,7 @@ packages:
       '@babel/register': 7.22.5(@babel/core@7.22.5)
       babel-core: 7.0.0-bridge.0(@babel/core@7.22.5)
       chalk: 4.1.2
-      flow-parser: 0.210.0
+      flow-parser: 0.210.1
       graceful-fs: 4.2.11
       micromatch: 4.0.5
       neo-async: 2.6.2
