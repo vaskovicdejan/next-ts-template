@@ -65,8 +65,8 @@ devDependencies:
     specifier: ^7.0.22
     version: 7.0.22(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.3)
   '@storybook/testing-library':
-    specifier: ^0.1.0
-    version: 0.1.0
+    specifier: ^0.2.0
+    version: 0.2.0
   '@types/node':
     specifier: ^20.3.1
     version: 20.3.1
@@ -4106,7 +4106,7 @@ packages:
       chalk: 4.1.2
       esbuild: 0.17.19
       esbuild-register: 3.4.2(esbuild@0.17.19)
-      file-system-cache: 2.3.0
+      file-system-cache: 2.4.0
       find-up: 5.0.0
       fs-extra: 11.1.1
       glob: 8.1.0
@@ -4574,13 +4574,11 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/testing-library@0.1.0:
-    resolution: {integrity: sha512-g947f4LJZw3IluBhysMKLJXByAFiSxnGuooENqU+ZPt/GTrz1I9GDBlhmoTJahuFkVbwHvziAl/8riY2Re921g==}
+  /@storybook/testing-library@0.2.0:
+    resolution: {integrity: sha512-Ff6jNnrsosmDshgCf0Eb5Cz7IA34p/1Ps5N3Kp3598kfXpBSccSkQQvVFUXC3kIHw/isIXWPqntZuKqnWUz7Gw==}
     dependencies:
-      '@storybook/client-logger': 7.0.22
-      '@storybook/instrumenter': 7.0.22
-      '@testing-library/dom': 8.20.1
-      '@testing-library/user-event': 13.5.0(@testing-library/dom@8.20.1)
+      '@testing-library/dom': 9.3.1
+      '@testing-library/user-event': 14.4.3(@testing-library/dom@9.3.1)
       ts-dedent: 2.2.0
     dev: true
 
@@ -4604,7 +4602,7 @@ packages:
       '@storybook/channels': 7.0.22
       '@types/babel__core': 7.20.1
       '@types/express': 4.17.17
-      file-system-cache: 2.3.0
+      file-system-cache: 2.4.0
     dev: true
 
   /@swc/core-darwin-arm64@1.3.66:
@@ -4761,9 +4759,9 @@ packages:
     resolution: {integrity: sha512-jtkwqdP2rY2iCCDVAFuaNBH3fiEi29aTn2RhtIoky8DTTiCdc48plpHHreLwmv1PICJ4AJUUESaq3xa8fZH8+g==}
     dev: false
 
-  /@testing-library/dom@8.20.1:
-    resolution: {integrity: sha512-/DiOQ5xBxgdYRC8LNk7U+RWat0S3qRLeIw3ZIkMQ9kkVlRmwD/Eg8k8CqIpD6GW7u20JIUOfMKbxtiLutpjQ4g==}
-    engines: {node: '>=12'}
+  /@testing-library/dom@9.3.1:
+    resolution: {integrity: sha512-0DGPd9AR3+iDTjGoMpxIkAsUihHZ3Ai6CneU6bRRrffXMgzCdlNk43jTrD2/5LT6CBb3MWTP8v510JzYtahD2w==}
+    engines: {node: '>=14'}
     dependencies:
       '@babel/code-frame': 7.22.5
       '@babel/runtime': 7.22.5
@@ -4775,14 +4773,13 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/user-event@13.5.0(@testing-library/dom@8.20.1):
-    resolution: {integrity: sha512-5Kwtbo3Y/NowpkbRuSepbyMFkZmHgD+vPzYB/RJ4oxt5Gj/avFFBYjhw27cqSVPVw/3a67NK1PbiIr9k4Gwmdg==}
-    engines: {node: '>=10', npm: '>=6'}
+  /@testing-library/user-event@14.4.3(@testing-library/dom@9.3.1):
+    resolution: {integrity: sha512-kCUc5MEwaEMakkO5x7aoD+DLi02ehmEM2QCGWvNqAS1dV/fAvORWEjnjsEIvml59M7Y5kCkWN6fCCyPOe8OL6Q==}
+    engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
     dependencies:
-      '@babel/runtime': 7.22.5
-      '@testing-library/dom': 8.20.1
+      '@testing-library/dom': 9.3.1
     dev: true
 
   /@types/aria-query@5.0.1:
@@ -8017,8 +8014,8 @@ packages:
       flat-cache: 3.0.4
     dev: true
 
-  /file-system-cache@2.3.0:
-    resolution: {integrity: sha512-l4DMNdsIPsVnKrgEXbJwDJsA5mB8rGwHYERMgqQx/xAUtChPJMre1bXBzDEqqVbWv9AIbFezXMxeEkZDSrXUOQ==}
+  /file-system-cache@2.4.0:
+    resolution: {integrity: sha512-aqfrsrc43lOJdK6e4xZT/61y0s+oJgeMxbhIxjVIJ/H/lbBNIuQ+51DjQJKt36eQAj2j7wu0i0QQcYP/eGyudQ==}
     dependencies:
       fs-extra: 11.1.1
       ramda: 0.29.0
@@ -8853,7 +8850,7 @@ packages:
     engines: {node: '>=8.0.0'}
     dependencies:
       ansi-escapes: 4.3.2
-      chalk: 4.1.0
+      chalk: 4.1.2
       cli-cursor: 3.1.0
       cli-width: 3.0.0
       external-editor: 3.1.0
