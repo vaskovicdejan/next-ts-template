@@ -1,5 +1,6 @@
 'use client';
 import { ReactNode, useState } from 'react';
+import StyledJsxRegistry from './registry';
 import { Inter } from 'next/font/google';
 import {
   AppBar,
@@ -124,21 +125,23 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <html lang="en">
       <body>
-        <ThemeProvider theme={defaultTheme}>
-          <Box>{children}</Box>
-          <Box
-            sx={{
-              color: theme.palette.primary.contrastText,
-              display: 'flex',
-              maxHeight: '100vh',
-            }}
-          >
-            <CssBaseline />
-            {appBar}
-            {drawerBox}
-            {children}
-          </Box>
-        </ThemeProvider>
+        <StyledJsxRegistry>
+          <ThemeProvider theme={defaultTheme}>
+            <Box>{children}</Box>
+            <Box
+              sx={{
+                color: theme.palette.primary.contrastText,
+                display: 'flex',
+                maxHeight: '100vh',
+              }}
+            >
+              <CssBaseline />
+              {appBar}
+              {drawerBox}
+              {children}
+            </Box>
+          </ThemeProvider>
+        </StyledJsxRegistry>
       </body>
     </html>
   );
