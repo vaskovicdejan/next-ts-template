@@ -44,8 +44,8 @@ devDependencies:
     specifier: ^3.0.0
     version: 3.0.0
   '@next/codemod':
-    specifier: ^13.4.10
-    version: 13.4.10(@babel/preset-env@7.22.9)
+    specifier: ^13.4.12
+    version: 13.4.12(@babel/preset-env@7.22.9)
   '@storybook/addon-essentials':
     specifier: ^7.1.0
     version: 7.1.0(react-dom@18.2.0)(react@18.2.0)
@@ -2498,8 +2498,8 @@ packages:
       tar-fs: 2.1.1
     dev: true
 
-  /@next/codemod@13.4.10(@babel/preset-env@7.22.9):
-    resolution: {integrity: sha512-6FLyNrnwZ6GeTu0Y8fbi6m5aeGrxUIh/paF/FDWJypAXPCqDpnTUkkiLeVu+nLxyf0rL+GnC2MyXJOBifDeYfw==}
+  /@next/codemod@13.4.12(@babel/preset-env@7.22.9):
+    resolution: {integrity: sha512-ETHvElMpSGI3UIGBbkXeIzGpoTVk5G152zOVCQSPcmjNJez2iy+6WUeIoM9p/hzwv3r4b0LPvbl0ipbeGSb8iw==}
     hasBin: true
     dependencies:
       chalk: 4.1.0
@@ -7994,7 +7994,7 @@ packages:
     engines: {node: '>=8.0.0'}
     dependencies:
       ansi-escapes: 4.3.2
-      chalk: 4.1.0
+      chalk: 4.1.2
       cli-cursor: 3.1.0
       cli-width: 3.0.0
       external-editor: 3.1.0
