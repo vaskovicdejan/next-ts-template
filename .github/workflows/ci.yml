@@ -20,7 +20,6 @@ jobs:
       name: Install pnpm
       id: pnpm-install
       with:
-        version: 8.6.5
         run_install: |
           - recursive: false
             args: [--no-frozen-lockfile]
@@ -34,7 +33,7 @@ jobs:
     - name: lint
       run: |
         pnpm lint
-  
+
     - name: build
       run: |
         pnpm build
