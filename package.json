@@ -39,7 +39,7 @@
     "@next/bundle-analyzer": "^13.4.15",
     "@next/codemod": "^13.4.15",
     "@storybook/addon-essentials": "^7.2.3",
-    "@storybook/addon-interactions": "^7.2.3",
+    "@storybook/addon-interactions": "^7.3.0",
     "@storybook/addon-links": "^7.2.3",
     "@storybook/blocks": "^7.2.3",
     "@storybook/nextjs": "^7.2.3",
