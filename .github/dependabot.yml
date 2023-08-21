@@ -20,3 +20,55 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    groups:
+      nextjs:
+        patterns:
+          - 'next'
+          - '@next/*'
+          - 'eslint-config-next'
+      eslint-prettier:
+        patterns:
+          - '@typescript-eslint/*'
+          - 'eslint'
+          - 'eslint-*'
+          - 'prettier'
+        exclude-patterns:
+          - 'eslint-config-next'
+          - 'eslint-plugin-storybook'
+      storybook:
+        patterns:
+          - '@storybook/*'
+          - 'storybook'
+          - 'eslint-plugin-storybook'
+      react:
+        patterns:
+          - '@types/react*'
+          - 'react*'
+      mui-emotion:
+        patterns:
+          - '@emotion/*'
+          - '@mui/*'
+      tailwindcss:
+        patterns:
+          - 'autoprefixer'
+          - 'postcss'
+          - 'tailwindcss'
+      misc:
+        patterns:
+          - '*'
+        exclude-patterns:
+          - 'next'
+          - '@next/*'
+          - '@typescript-eslint/*'
+          - 'eslint'
+          - 'eslint-*'
+          - 'prettier'
+          - '@storybook/*'
+          - 'storybook'
+          - '@types/react*'
+          - 'react*'
+          - '@emotion/*'
+          - '@mui/*'
+          - 'autoprefixer'
+          - 'postcss'
+          - 'tailwindcss'
