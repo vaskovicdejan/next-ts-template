@@ -19,9 +19,9 @@ import {
 } from '@mui/material';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import MenuIcon from '@mui/icons-material/Menu';
-import './styles/globals.css';
 import { useTheme } from '@mui/material/styles';
 import defaultTheme from './styles/theme';
+import './globals.css';
 
 const drawerWidth = 240;
 

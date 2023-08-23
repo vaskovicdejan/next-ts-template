@@ -35,11 +35,13 @@ updates:
         exclude-patterns:
           - 'eslint-config-next'
           - 'eslint-plugin-storybook'
-      storybook:
+      storybook-msw:
         patterns:
           - '@storybook/*'
           - 'storybook'
           - 'eslint-plugin-storybook'
+          - 'msw'
+          - 'msw-storybook-addon'
       react:
         patterns:
           - '@types/react*'
@@ -65,6 +67,8 @@ updates:
           - 'prettier'
           - '@storybook/*'
           - 'storybook'
+          - 'msw'
+          - 'msw-storybook-addon'
           - '@types/react*'
           - 'react*'
           - '@emotion/*'
