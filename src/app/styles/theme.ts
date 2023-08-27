@@ -1,27 +1,31 @@
-import { createTheme } from '@mui/material';
-import { green } from '@mui/material/colors';
+'use client';
 
-// A theme with custom primary and secondary color.
-// It's optional.
+import { Roboto } from 'next/font/google';
+import { createTheme } from '@mui/material/styles';
+import { red } from '@mui/material/colors';
 
-const options = {
+const roboto = Roboto({
+  weight: ['300', '400', '500', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+});
+
+// Create a theme instance.
+const theme = createTheme({
   palette: {
     primary: {
-      main: '#2d2d2d',
-      text: '#fff',
+      main: '#556cd6',
     },
     secondary: {
-      light: green[300],
-      main: green[500],
-      dark: green[700],
+      main: '#19857b',
     },
-    typography: {
-      useNextVariants: true,
+    error: {
+      main: red.A400,
     },
   },
-  drawerWidth: 240,
-};
+  typography: {
+    fontFamily: roboto.style.fontFamily,
+  },
+});
 
-const theme = createTheme(options);
-export type Theme = typeof theme;
 export default theme;
