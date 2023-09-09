@@ -46,7 +46,7 @@ const Layout = ({ children }: LayoutProps) => {
     },
     {
       text: 'Test',
-      link: '/test/info'
+      link: '/test/info',
     },
   ];
 
@@ -81,9 +81,7 @@ const Layout = ({ children }: LayoutProps) => {
                 open={open}
                 onClose={handleDrawerToggle}
               />
-              <Box sx={{ marginTop: '4rem', height: '100vh' }}>
-                {children}
-              </Box>
+              <Box sx={{ marginTop: '4rem', height: '100vh' }}>{children}</Box>
             </Box>
             <CssBaseline />
           </ThemeProvider>

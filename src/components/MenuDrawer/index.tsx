@@ -123,7 +123,13 @@ export function MenuDrawer({
           <Divider />
           <List>
             {items.map(({ text, icon, link }: MenuItemProps) => (
-              <MenuItem key={text} width={width} text={text} icon={icon} link={link} />
+              <MenuItem
+                key={text}
+                width={width}
+                text={text}
+                icon={icon}
+                link={link}
+              />
             ))}
           </List>
         </Box>

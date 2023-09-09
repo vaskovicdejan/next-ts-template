@@ -6,12 +6,14 @@
     "es2021": true
   },
   "parserOptions": {
-    "project": ["./tsconfig.json"],
     "ecmaVersion": "latest",
     "ecmaFeatures": {
       "jsx": true
     },
-    "useJSXTextNode": true
+    "useJSXTextNode": true,
+    "project": true,
+    "projectRoot": "__dirname",
+    "tsconfigRootDir": "__dirname"
   },
   "extends": [
     "airbnb-typescript/base",
@@ -30,10 +32,11 @@
     }
   },
   "rules": {
-    "@typescript-eslint/indent": [
-      "error",
-      2
-    ],
+    "@typescript-eslint/indent": ["off"],
+    "@typescript-eslint/semi": ["off"],
+    "@typescript-eslint/comma-dangle": ["off"],
+    "@typescript-eslint/member-delimiter-style": ["off"],
+    "@typescript-eslint/space-before-function-paren": ["off"],
     "spaced-comment": [
       "error",
       "always",
@@ -43,7 +46,6 @@
       "devDependencies": true,
       "optionalDependencies": false
     }],
-    "max-len": ["error", {"code": 200}],
     "@next/next/no-img-element": ["off"],
     "prefer-promise-reject-errors": ["off"],
     "react/jsx-filename-extension": ["off"],
