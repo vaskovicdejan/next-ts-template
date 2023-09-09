@@ -13,6 +13,7 @@ const roboto = Roboto({
 // Create a theme instance.
 const theme = createTheme({
   palette: {
+    mode: 'light',
     primary: {
       main: '#556cd6',
     },

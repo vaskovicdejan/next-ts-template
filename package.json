@@ -3,10 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev --turbo --show-all",
     "build": "next build",
-    "export": "next build",
-    "start": "next start",
+    "start": "pnpm dlx serve@latest out",
     "eslint-check": "eslint --ext .ts,.js,.tsx,.jsx src -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
     "eslint-fix": "eslint --fix --ext .ts,.js,.tsx,.jsx src -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
     "prettier-check": "prettier --check src",
