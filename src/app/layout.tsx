@@ -1,4 +1,5 @@
 'use client';
+
 import { ReactNode, useState } from 'react';
 import {
   AppBar,
@@ -14,7 +15,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import HomeIcon from '@mui/icons-material/Home';
 import { useTheme } from '@mui/material/styles';
 import defaultTheme from './styles/theme';
-import { MenuDrawer } from 'src/components/MenuDrawer';
+import MenuDrawer from 'src/components/MenuDrawer';
 import StyledJsxRegistry from './registry';
 import './globals.css';
 
@@ -24,7 +25,7 @@ interface LayoutProps {
   children: ReactNode;
 }
 
-const Layout = ({ children }: LayoutProps) => {
+export default function Layout({ children }: LayoutProps): JSX.Element {
   const theme = useTheme();
   const [open, setOpen] = useState(false);
 
@@ -46,6 +47,7 @@ const Layout = ({ children }: LayoutProps) => {
     },
     {
       text: 'Test',
+      // not working. https://github.com/vercel/next.js/issues/54393
       link: '/test/info',
     },
   ];
@@ -89,6 +91,4 @@ const Layout = ({ children }: LayoutProps) => {
       </body>
     </html>
   );
-};
-
-export default Layout;
+}

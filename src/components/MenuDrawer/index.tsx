@@ -76,7 +76,7 @@ function MenuItem({
   );
 }
 
-export function MenuDrawer({
+export default function MenuDrawer({
   items,
   width,
   open,
