@@ -45,11 +45,11 @@ export default function Layout({ children }: LayoutProps): JSX.Element {
         <DashboardIcon sx={{ color: theme.palette.primary.contrastText }} />
       ),
     },
-    {
-      text: 'Test',
-      // not working. https://github.com/vercel/next.js/issues/54393
-      link: '/test/info',
-    },
+    // {
+    //   text: 'Test',
+    //   // not working. https://github.com/vercel/next.js/issues/54393
+    //   link: '/test/info',
+    // },
   ];
 
   return (
