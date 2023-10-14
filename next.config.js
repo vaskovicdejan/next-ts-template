@@ -11,6 +11,9 @@ const config = {
   images: {
     unoptimized: true,
   },
+  compiler: {
+    emotion: true,
+  },
   experimental: {
     //   swcPlugins: [['typewind/swc', {}]],
   },
