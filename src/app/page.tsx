@@ -3,7 +3,7 @@ import React, { useState, useMemo } from 'react';
 import { Box, Typography, TextField } from '@mui/material';
 import Image from 'next/image';
 
-import MaterialReactTable from 'material-react-table';
+import { MaterialReactTable } from 'material-react-table';
 import type { MRT_ColumnDef } from 'material-react-table';
 
 import styles from './styles/Home.module.css';
