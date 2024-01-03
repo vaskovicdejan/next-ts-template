@@ -24,8 +24,8 @@ dependencies:
     specifier: ^6.18.6
     version: 6.18.6(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/material@5.15.2)(@mui/system@5.15.2)(@types/react@18.2.46)(react-dom@18.2.0)(react@18.2.0)
   material-react-table:
-    specifier: ^2.3.0
-    version: 2.3.0(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.2)(@mui/material@5.15.2)(@mui/x-date-pickers@6.18.6)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.3.1
+    version: 2.3.1(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.2)(@mui/material@5.15.2)(@mui/x-date-pickers@6.18.6)(react-dom@18.2.0)(react@18.2.0)
   next:
     specifier: ^14.0.4
     version: 14.0.4(@babel/core@7.23.7)(react-dom@18.2.0)(react@18.2.0)
@@ -3817,7 +3817,7 @@ packages:
       css-loader: 6.8.1(webpack@5.89.0)
       find-up: 5.0.0
       fs-extra: 11.2.0
-      image-size: 1.1.0
+      image-size: 1.1.1
       loader-utils: 3.2.1
       next: 14.0.4(@babel/core@7.23.7)(react-dom@18.2.0)(react@18.2.0)
       node-polyfill-webpack-plugin: 2.0.1(webpack@5.89.0)
@@ -4337,12 +4337,12 @@ packages:
   /@types/eslint-scope@3.7.7:
     resolution: {integrity: sha512-MzMFlSLBqNF2gcHWO0G1vP/YQyfvrxZ0bF+u7mzUdZ1/xK4A4sru+nraZz5i3iEIk1l1uyicaDVTB4QbbEkAYg==}
     dependencies:
-      '@types/eslint': 8.56.0
+      '@types/eslint': 8.56.1
       '@types/estree': 1.0.5
     dev: true
 
-  /@types/eslint@8.56.0:
-    resolution: {integrity: sha512-FlsN0p4FhuYRjIxpbdXovvHQhtlG05O1GG/RNWvdAxTboR438IOTwmrY/vLA+Xfgg06BTkP045M3vpFwTMv1dg==}
+  /@types/eslint@8.56.1:
+    resolution: {integrity: sha512-18PLWRzhy9glDQp3+wOgfLYRWlhgX0azxgJ63rdpoUHyrC9z0f5CkFburjQx4uD7ZCruw85ZtMt6K+L+R8fLJQ==}
     dependencies:
       '@types/estree': 1.0.5
       '@types/json-schema': 7.0.15
@@ -5540,7 +5540,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001572
-      electron-to-chromium: 1.4.616
+      electron-to-chromium: 1.4.617
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.2)
 
@@ -6420,8 +6420,8 @@ packages:
       jake: 10.8.7
     dev: true
 
-  /electron-to-chromium@1.4.616:
-    resolution: {integrity: sha512-1n7zWYh8eS0L9Uy+GskE0lkBUNK83cXTVJI0pU3mGprFsbfSdAc15VTFbo+A+Bq4pwstmL30AVcEU3Fo463lNg==}
+  /electron-to-chromium@1.4.617:
+    resolution: {integrity: sha512-sYNE3QxcDS4ANW1k4S/wWYMXjCVcFSOX3Bg8jpuMFaXt/x8JCmp0R1Xe1ZXDX4WXnSRBf+GJ/3eGWicUuQq5cg==}
 
   /elliptic@6.5.4:
     resolution: {integrity: sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==}
@@ -7985,9 +7985,9 @@ packages:
     dev: true
     optional: true
 
-  /image-size@1.1.0:
-    resolution: {integrity: sha512-asnTHw2K8OlqT5kVnQwX+AGKQqpvLo95LbNzQ/C0ln3yzentZmAdd0ygoD004VC4Kkd4PV7J2iaPQkqwp9yuTw==}
-    engines: {node: '>=18.0.0'}
+  /image-size@1.1.1:
+    resolution: {integrity: sha512-541xKlUw6jr/6gGuk92F+mYM5zaFAc5ahphvkqvNe2bQ6gVBkd6bfrmVJ2t4KDAfikAYZyIqTnktX3i6/aQDrQ==}
+    engines: {node: '>=16.x'}
     hasBin: true
     dependencies:
       queue: 6.0.2
@@ -8825,8 +8825,8 @@ packages:
       react: 18.2.0
     dev: true
 
-  /material-react-table@2.3.0(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.2)(@mui/material@5.15.2)(@mui/x-date-pickers@6.18.6)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-1OHVGZ2/YcL8HyW5nLiSBRjmbiavTW1zbObUG/ozyzTI7xKk2Rmk5YgNOFKE+XYMZi/zTN1u1cZ/hMT8wCWwpw==}
+  /material-react-table@2.3.1(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.2)(@mui/material@5.15.2)(@mui/x-date-pickers@6.18.6)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-8laPibz3FmutiIqqbi9ZLd1yXEIaIP5dVVtWxLjkOYyzjnmimiCoIAP1CpXostNPk212gDDusNZ7Xor2B/WC3Q==}
     engines: {node: '>=16'}
     peerDependencies:
       '@emotion/react': '>=11.11'
