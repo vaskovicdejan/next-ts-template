@@ -21,11 +21,11 @@ dependencies:
     specifier: ^5.15.4
     version: 5.15.4(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)
   '@mui/x-date-pickers':
-    specifier: ^6.18.7
-    version: 6.18.7(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/material@5.15.4)(@mui/system@5.15.4)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^6.19.0
+    version: 6.19.0(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/material@5.15.4)(@mui/system@5.15.4)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)
   material-react-table:
     specifier: ^2.5.2
-    version: 2.5.2(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.4)(@mui/material@5.15.4)(@mui/x-date-pickers@6.18.7)(react-dom@18.2.0)(react@18.2.0)
+    version: 2.5.2(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.4)(@mui/material@5.15.4)(@mui/x-date-pickers@6.19.0)(react-dom@18.2.0)(react@18.2.0)
   next:
     specifier: ^14.0.4
     version: 14.0.4(@babel/core@7.23.7)(react-dom@18.2.0)(react@18.2.0)
@@ -2296,15 +2296,15 @@ packages:
       react-is: 18.2.0
     dev: false
 
-  /@mui/x-date-pickers@6.18.7(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/material@5.15.4)(@mui/system@5.15.4)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-4NoapaCT3jvEk2cuAUjG0ReZvTEk1i4dGDz94Gt1Oc08GuC1AuzYRwCR1/1tdmbDynwkR8ilkKL6AyS3NL1H4A==}
+  /@mui/x-date-pickers@6.19.0(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/material@5.15.4)(@mui/system@5.15.4)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-/GccT+iFJTKjI6b9b0MWojyRKnizL/VYYAfPnR1q0wSVVXjYv7a1NK0uQlan4JbnovqoQCNVeTOCy/0bUJyD2Q==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@emotion/react': ^11.9.0
       '@emotion/styled': ^11.8.1
       '@mui/material': ^5.8.6
       '@mui/system': ^5.8.0
-      date-fns: ^2.25.0
+      date-fns: ^2.25.0 || ^3.2.0
       date-fns-jalali: ^2.13.0-0
       dayjs: ^1.10.7
       luxon: ^3.0.2
@@ -4935,8 +4935,8 @@ packages:
     engines: {node: '>=0.4.0'}
     dev: true
 
-  /acorn-walk@8.3.1:
-    resolution: {integrity: sha512-TgUZgYvqZprrl7YldZNoa9OciCAyZR+Ejm9eXzKCmjsF5IKp/wgQ7Z/ZpjpGTIUPwrHQIcYeI8qDh4PsEwxMbw==}
+  /acorn-walk@8.3.2:
+    resolution: {integrity: sha512-cjkyv4OtNCIeqhHrfS81QWXoCBPExR/J62oyEqepVw8WaQeSqpW2uhuLPh1m9eWhDuOo/jUXVTlifvesOWp/4A==}
     engines: {node: '>=0.4.0'}
     dev: true
 
@@ -6537,7 +6537,7 @@ packages:
       object.assign: 4.1.5
       regexp.prototype.flags: 1.5.1
       safe-array-concat: 1.0.1
-      safe-regex-test: 1.0.1
+      safe-regex-test: 1.0.2
       string.prototype.trim: 1.2.8
       string.prototype.trimend: 1.0.7
       string.prototype.trimstart: 1.0.7
@@ -8824,7 +8824,7 @@ packages:
       react: 18.2.0
     dev: true
 
-  /material-react-table@2.5.2(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.4)(@mui/material@5.15.4)(@mui/x-date-pickers@6.18.7)(react-dom@18.2.0)(react@18.2.0):
+  /material-react-table@2.5.2(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.4)(@mui/material@5.15.4)(@mui/x-date-pickers@6.19.0)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-xMwr+EHq3rEjiWVOV80xUDbw8v1v5SCG1yP/cLq6qWrqeP+wE6i9lcUvtSwKy5vFwK2xokJlss6dQ4zNC76pxA==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -8840,7 +8840,7 @@ packages:
       '@emotion/styled': 11.11.0(@emotion/react@11.11.3)(@types/react@18.2.47)(react@18.2.0)
       '@mui/icons-material': 5.15.4(@mui/material@5.15.4)(@types/react@18.2.47)(react@18.2.0)
       '@mui/material': 5.15.4(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)
-      '@mui/x-date-pickers': 6.18.7(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/material@5.15.4)(@mui/system@5.15.4)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)
+      '@mui/x-date-pickers': 6.19.0(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/material@5.15.4)(@mui/system@5.15.4)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/match-sorter-utils': 8.11.3
       '@tanstack/react-table': 8.11.3(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/react-virtual': 3.0.1(react-dom@18.2.0)(react@18.2.0)
@@ -10686,8 +10686,8 @@ packages:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
     dev: true
 
-  /safe-regex-test@1.0.1:
-    resolution: {integrity: sha512-Y5NejJTTliTyY4H7sipGqY+RX5P87i3F7c4Rcepy72nq+mNLhIsD0W4c7kEmduMDQCSqtPsXPlSTsFhh2LQv+g==}
+  /safe-regex-test@1.0.2:
+    resolution: {integrity: sha512-83S9w6eFq12BBIJYvjMux6/dkirb8+4zJRA9cxNBVb7Wq5fJBW+Xze48WqR8pxua7bDuAaaAxtVVd4Idjp1dBQ==}
     engines: {node: '>= 0.4'}
     dependencies:
       call-bind: 1.0.5
@@ -11963,7 +11963,7 @@ packages:
     hasBin: true
     dependencies:
       acorn: 8.11.3
-      acorn-walk: 8.3.1
+      acorn-walk: 8.3.2
       chalk: 4.1.2
       commander: 7.2.0
       gzip-size: 6.0.0
