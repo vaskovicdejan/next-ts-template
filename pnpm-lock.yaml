@@ -24,8 +24,8 @@ dependencies:
     specifier: ^6.19.2
     version: 6.19.2(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/material@5.15.6)(@mui/system@5.15.6)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
   material-react-table:
-    specifier: ^2.9.2
-    version: 2.9.2(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.6)(@mui/material@5.15.6)(@mui/x-date-pickers@6.19.2)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.10.0
+    version: 2.10.0(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.6)(@mui/material@5.15.6)(@mui/x-date-pickers@6.19.2)(react-dom@18.2.0)(react@18.2.0)
   next:
     specifier: ^14.1.0
     version: 14.1.0(@babel/core@7.23.9)(react-dom@18.2.0)(react@18.2.0)
@@ -8818,8 +8818,8 @@ packages:
       react: 18.2.0
     dev: true
 
-  /material-react-table@2.9.2(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.6)(@mui/material@5.15.6)(@mui/x-date-pickers@6.19.2)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-w7y6tUU64rDSs8PZE2NF8//eaaUz8ZcGrGoY5YyeOtyNxB0S7fB+1/gu2tsx8IKMlC8aOubJsiKYoQK0vi3bvw==}
+  /material-react-table@2.10.0(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.6)(@mui/material@5.15.6)(@mui/x-date-pickers@6.19.2)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-khKm/AMuLp6zV/Lj7ttdTy59cNXuEc0LyD6jh6GydslEWMHqasn4PKElGQKDnO+u5AInB+CzoK1U4zTOqRiIlQ==}
     engines: {node: '>=16'}
     peerDependencies:
       '@emotion/react': '>=11.11'
