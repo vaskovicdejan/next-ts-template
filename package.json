@@ -20,7 +20,7 @@
     "analyze": "cross-env ANALYZE=true pnpm build"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.3",
+    "@emotion/react": "^11.11.4",
     "@emotion/server": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.11",
@@ -45,8 +45,8 @@
     "@storybook/nextjs": "^7.6.17",
     "@storybook/react": "^7.6.17",
     "@storybook/testing-library": "^0.2.2",
-    "@types/node": "^20.11.20",
-    "@types/react": "^18.2.59",
+    "@types/node": "^20.11.21",
+    "@types/react": "^18.2.60",
     "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^7.1.0",
     "@typescript-eslint/parser": "^7.1.0",
