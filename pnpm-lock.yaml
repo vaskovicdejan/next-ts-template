@@ -47,8 +47,8 @@ devDependencies:
     specifier: ^3.0.0
     version: 3.0.0
   '@next/bundle-analyzer':
-    specifier: ^14.1.0
-    version: 14.1.0
+    specifier: ^14.1.1
+    version: 14.1.1
   '@storybook/addon-essentials':
     specifier: ^7.6.17
     version: 7.6.17(@types/react-dom@18.2.19)(@types/react@18.2.61)(react-dom@18.2.0)(react@18.2.0)
@@ -92,8 +92,8 @@ devDependencies:
     specifier: ^7.1.0
     version: 7.1.0(eslint@8.57.0)(typescript@5.3.3)
   autoprefixer:
-    specifier: ^10.4.17
-    version: 10.4.17(postcss@8.4.35)
+    specifier: ^10.4.18
+    version: 10.4.18(postcss@8.4.35)
   cross-env:
     specifier: ^7.0.3
     version: 7.0.3
@@ -110,8 +110,8 @@ devDependencies:
     specifier: ^0.13.0
     version: 0.13.0(eslint-plugin-import@2.29.1)
   eslint-config-next:
-    specifier: ^14.1.0
-    version: 14.1.0(eslint@8.57.0)(typescript@5.3.3)
+    specifier: ^14.1.1
+    version: 14.1.1(eslint@8.57.0)(typescript@5.3.3)
   eslint-config-prettier:
     specifier: ^9.1.0
     version: 9.1.0(eslint@8.57.0)
@@ -179,12 +179,12 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /@ampproject/remapping@2.2.1:
-    resolution: {integrity: sha512-lFMjJTrFL3j7L9yBxwYfCq2k6qqwHyzuUl/XBnif78PWTJYyL/dfowQHWE3sp6U6ZzqWiiIZnpTMO96zhkjwtg==}
+  /@ampproject/remapping@2.3.0:
+    resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
     dependencies:
-      '@jridgewell/gen-mapping': 0.3.4
-      '@jridgewell/trace-mapping': 0.3.23
+      '@jridgewell/gen-mapping': 0.3.5
+      '@jridgewell/trace-mapping': 0.3.24
 
   /@aw-web-design/x-default-browser@1.4.126:
     resolution: {integrity: sha512-Xk1sIhyNC/esHGGVjL/niHLowM0csl/kFO5uawBy4IrWwy0o1G8LGt3jP6nmWGz+USxeeqbihAmp/oVZju6wug==}
@@ -208,7 +208,7 @@ packages:
     resolution: {integrity: sha512-fQfkg0Gjkza3nf0c7/w6Xf34BW4YvzNfACRLmmb7XRLa6XHdR+K9AlJlxneFfWYf6uhOzuzZVTjF/8KfndZANw==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@ampproject/remapping': 2.2.1
+      '@ampproject/remapping': 2.3.0
       '@babel/code-frame': 7.23.5
       '@babel/generator': 7.23.6
       '@babel/helper-compilation-targets': 7.23.6
@@ -231,8 +231,8 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/types': 7.24.0
-      '@jridgewell/gen-mapping': 0.3.4
-      '@jridgewell/trace-mapping': 0.3.23
+      '@jridgewell/gen-mapping': 0.3.5
+      '@jridgewell/trace-mapping': 0.3.24
       jsesc: 2.5.2
 
   /@babel/helper-annotate-as-pure@7.22.5:
@@ -2030,7 +2030,7 @@ packages:
     dependencies:
       '@babel/core': 7.24.0
       '@jest/types': 29.6.3
-      '@jridgewell/trace-mapping': 0.3.23
+      '@jridgewell/trace-mapping': 0.3.24
       babel-plugin-istanbul: 6.1.1
       chalk: 4.1.2
       convert-source-map: 2.0.0
@@ -2070,13 +2070,13 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@jridgewell/gen-mapping@0.3.4:
-    resolution: {integrity: sha512-Oud2QPM5dHviZNn4y/WhhYKSXksv+1xLEIsNrAbGcFzUN3ubqWRFT5gwPchNc5NuzILOU4tPBDTZ4VwhL8Y7cw==}
+  /@jridgewell/gen-mapping@0.3.5:
+    resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
     engines: {node: '>=6.0.0'}
     dependencies:
       '@jridgewell/set-array': 1.2.1
       '@jridgewell/sourcemap-codec': 1.4.15
-      '@jridgewell/trace-mapping': 0.3.23
+      '@jridgewell/trace-mapping': 0.3.24
 
   /@jridgewell/resolve-uri@3.1.2:
     resolution: {integrity: sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==}
@@ -2089,15 +2089,15 @@ packages:
   /@jridgewell/source-map@0.3.5:
     resolution: {integrity: sha512-UTYAUj/wviwdsMfzoSJspJxbkH5o1snzwX0//0ENX1u/55kkZZkcTZP6u9bwKGkv+dkk9at4m1Cpt0uY80kcpQ==}
     dependencies:
-      '@jridgewell/gen-mapping': 0.3.4
-      '@jridgewell/trace-mapping': 0.3.23
+      '@jridgewell/gen-mapping': 0.3.5
+      '@jridgewell/trace-mapping': 0.3.24
     dev: true
 
   /@jridgewell/sourcemap-codec@1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
 
-  /@jridgewell/trace-mapping@0.3.23:
-    resolution: {integrity: sha512-9/4foRoUKp8s96tSkh8DlAAc5A0Ty8vLXld+l9gjKKY6ckwI8G15f0hskGmuLZu78ZlGa1vtsfOa+lnB4vG6Jg==}
+  /@jridgewell/trace-mapping@0.3.24:
+    resolution: {integrity: sha512-+VaWXDa6+l6MhflBvVXjIEAzb59nQ2JUK3bwRp2zRpPtU+8TFRy9Gg/5oIcNlkEL5PGlBFGfemUVvIgLnTzq7Q==}
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
@@ -2385,8 +2385,8 @@ packages:
       tar-fs: 2.1.1
     dev: true
 
-  /@next/bundle-analyzer@14.1.0:
-    resolution: {integrity: sha512-RJWjnlMp/1WSW0ahAdawV22WgJiC6BVaFS5Xfhw6gP7NJEX3cAJjh4JqSHKGr8GnLNRaFCVTQdDPoX84E421BA==}
+  /@next/bundle-analyzer@14.1.1:
+    resolution: {integrity: sha512-vM8PLggRNodmJo8FJy6+Bnv4jWsVtOuH87naJA7/sdmBUZrBk2fj3xkI1zwarWzDAYzNYTxiMRGVioyNPxBvXg==}
     dependencies:
       webpack-bundle-analyzer: 4.10.1
     transitivePeerDependencies:
@@ -2397,8 +2397,8 @@ packages:
   /@next/env@14.1.1:
     resolution: {integrity: sha512-7CnQyD5G8shHxQIIg3c7/pSeYFeMhsNbpU/bmvH7ZnDql7mNRgg8O2JZrhrc/soFnfBnKP4/xXNiiSIPn2w8gA==}
 
-  /@next/eslint-plugin-next@14.1.0:
-    resolution: {integrity: sha512-x4FavbNEeXx/baD/zC/SdrvkjSby8nBn8KcCREqk6UuwvwoAPZmaV8TFCAuo/cpovBRTIY67mHhe86MQQm/68Q==}
+  /@next/eslint-plugin-next@14.1.1:
+    resolution: {integrity: sha512-NP1WoGFnFLpqqCWgGFjnn/sTwUExdPyjeFKRdQP1X/bL/tjAQ/TXDmYqw6vzGaP5NaZ2u6xzg+N/0nd7fOPOGQ==}
     dependencies:
       glob: 10.3.10
     dev: true
@@ -3574,7 +3574,7 @@ packages:
       jscodeshift: 0.15.2(@babel/preset-env@7.24.0)
       lodash: 4.17.21
       prettier: 2.8.8
-      recast: 0.23.4
+      recast: 0.23.5
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3729,7 +3729,7 @@ packages:
       '@storybook/csf': 0.1.2
       '@storybook/types': 7.6.17
       fs-extra: 11.2.0
-      recast: 0.23.4
+      recast: 0.23.5
       ts-dedent: 2.2.0
     transitivePeerDependencies:
       - supports-color
@@ -5359,8 +5359,8 @@ packages:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
     dev: true
 
-  /autoprefixer@10.4.17(postcss@8.4.35):
-    resolution: {integrity: sha512-/cpVNRLSfhOtcGflT13P2794gVSgmPgTR+erw5ifnMLZb0UnSlkK4tquLmkd3BhA+nLo5tX8Cu0upUsGKvKbmg==}
+  /autoprefixer@10.4.18(postcss@8.4.35):
+    resolution: {integrity: sha512-1DKbDfsr6KUElM6wg+0zRNkB/Q7WcKYAaK+pzXn+Xqmszm/5Xa9coeNdtP88Vi+dPzZnMjhge8GIV49ZQkDa+g==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -5683,7 +5683,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001591
-      electron-to-chromium: 1.4.689
+      electron-to-chromium: 1.4.690
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
 
@@ -6576,8 +6576,8 @@ packages:
       jake: 10.8.7
     dev: true
 
-  /electron-to-chromium@1.4.689:
-    resolution: {integrity: sha512-GatzRKnGPS1go29ep25reM94xxd1Wj8ritU0yRhCJ/tr1Bg8gKnm6R9O/yPOhGQBoLMZ9ezfrpghNaTw97C/PQ==}
+  /electron-to-chromium@1.4.690:
+    resolution: {integrity: sha512-+2OAGjUx68xElQhydpcbqH50hE8Vs2K6TkAeLhICYfndb67CVH0UsZaijmRUE3rHlIxU1u0jxwhgVe6fK3YANA==}
 
   /elliptic@6.5.4:
     resolution: {integrity: sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==}
@@ -6898,8 +6898,8 @@ packages:
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.1.0)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
     dev: true
 
-  /eslint-config-next@14.1.0(eslint@8.57.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-SBX2ed7DoRFXC6CQSLc/SbLY9Ut6HxNB2wPTcoIWjUMd7aF7O/SIE7111L8FdZ9TXsNV4pulUDnfthpyPtbFUg==}
+  /eslint-config-next@14.1.1(eslint@8.57.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-OLyw2oHzwE0M0EODGYMbjksDQKSshQWBzYY+Nkoxoe3+Q5G0lpb9EkekyDk7Foz9BMfotbYShJrgYoBEAVqU4Q==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -6907,7 +6907,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 14.1.0
+      '@next/eslint-plugin-next': 14.1.1
       '@rushstack/eslint-patch': 1.7.2
       '@typescript-eslint/parser': 6.21.0(eslint@8.57.0)(typescript@5.3.3)
       eslint: 8.57.0
@@ -8776,7 +8776,7 @@ packages:
       micromatch: 4.0.5
       neo-async: 2.6.2
       node-dir: 0.1.17
-      recast: 0.23.4
+      recast: 0.23.5
       temp: 0.8.4
       write-file-atomic: 2.4.3
     transitivePeerDependencies:
@@ -10690,14 +10690,14 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /recast@0.23.4:
-    resolution: {integrity: sha512-qtEDqIZGVcSZCHniWwZWbRy79Dc6Wp3kT/UmDA2RJKBPg7+7k51aQBZirHmUGn5uvHf2rg8DkjizrN26k61ATw==}
+  /recast@0.23.5:
+    resolution: {integrity: sha512-M67zIddJiwXdfPQRYKJ0qZO1SLdH1I0hYeb0wzxA+pNOvAZiQHulWzuk+fYsEWRQ8VfZrgjyucqsCOtCyM01/A==}
     engines: {node: '>= 4'}
     dependencies:
-      assert: 2.1.0
       ast-types: 0.16.1
       esprima: 4.0.1
       source-map: 0.6.1
+      tiny-invariant: 1.3.3
       tslib: 2.6.2
     dev: true
 
@@ -11492,7 +11492,7 @@ packages:
     engines: {node: '>=16 || 14 >=14.17'}
     hasBin: true
     dependencies:
-      '@jridgewell/gen-mapping': 0.3.4
+      '@jridgewell/gen-mapping': 0.3.5
       commander: 4.1.1
       glob: 10.3.10
       lines-and-columns: 1.2.4
@@ -11679,7 +11679,7 @@ packages:
       uglify-js:
         optional: true
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.23
+      '@jridgewell/trace-mapping': 0.3.24
       '@swc/core': 1.4.2
       esbuild: 0.18.20
       jest-worker: 27.5.1
