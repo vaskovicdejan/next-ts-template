@@ -21,11 +21,11 @@ dependencies:
     specifier: ^5.15.11
     version: 5.15.11(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@types/react@18.2.61)(react-dom@18.2.0)(react@18.2.0)
   '@mui/x-date-pickers':
-    specifier: ^6.19.5
-    version: 6.19.5(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@mui/material@5.15.11)(@mui/system@5.15.11)(@types/react@18.2.61)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^6.19.6
+    version: 6.19.6(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@mui/material@5.15.11)(@mui/system@5.15.11)(@types/react@18.2.61)(react-dom@18.2.0)(react@18.2.0)
   material-react-table:
     specifier: ^2.12.1
-    version: 2.12.1(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.11)(@mui/material@5.15.11)(@mui/x-date-pickers@6.19.5)(react-dom@18.2.0)(react@18.2.0)
+    version: 2.12.1(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.11)(@mui/material@5.15.11)(@mui/x-date-pickers@6.19.6)(react-dom@18.2.0)(react@18.2.0)
   next:
     specifier: ^14.1.1
     version: 14.1.1(@babel/core@7.24.0)(react-dom@18.2.0)(react@18.2.0)
@@ -184,7 +184,7 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       '@jridgewell/gen-mapping': 0.3.5
-      '@jridgewell/trace-mapping': 0.3.24
+      '@jridgewell/trace-mapping': 0.3.25
 
   /@aw-web-design/x-default-browser@1.4.126:
     resolution: {integrity: sha512-Xk1sIhyNC/esHGGVjL/niHLowM0csl/kFO5uawBy4IrWwy0o1G8LGt3jP6nmWGz+USxeeqbihAmp/oVZju6wug==}
@@ -232,7 +232,7 @@ packages:
     dependencies:
       '@babel/types': 7.24.0
       '@jridgewell/gen-mapping': 0.3.5
-      '@jridgewell/trace-mapping': 0.3.24
+      '@jridgewell/trace-mapping': 0.3.25
       jsesc: 2.5.2
 
   /@babel/helper-annotate-as-pure@7.22.5:
@@ -2030,7 +2030,7 @@ packages:
     dependencies:
       '@babel/core': 7.24.0
       '@jest/types': 29.6.3
-      '@jridgewell/trace-mapping': 0.3.24
+      '@jridgewell/trace-mapping': 0.3.25
       babel-plugin-istanbul: 6.1.1
       chalk: 4.1.2
       convert-source-map: 2.0.0
@@ -2076,7 +2076,7 @@ packages:
     dependencies:
       '@jridgewell/set-array': 1.2.1
       '@jridgewell/sourcemap-codec': 1.4.15
-      '@jridgewell/trace-mapping': 0.3.24
+      '@jridgewell/trace-mapping': 0.3.25
 
   /@jridgewell/resolve-uri@3.1.2:
     resolution: {integrity: sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==}
@@ -2090,14 +2090,14 @@ packages:
     resolution: {integrity: sha512-UTYAUj/wviwdsMfzoSJspJxbkH5o1snzwX0//0ENX1u/55kkZZkcTZP6u9bwKGkv+dkk9at4m1Cpt0uY80kcpQ==}
     dependencies:
       '@jridgewell/gen-mapping': 0.3.5
-      '@jridgewell/trace-mapping': 0.3.24
+      '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
   /@jridgewell/sourcemap-codec@1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
 
-  /@jridgewell/trace-mapping@0.3.24:
-    resolution: {integrity: sha512-+VaWXDa6+l6MhflBvVXjIEAzb59nQ2JUK3bwRp2zRpPtU+8TFRy9Gg/5oIcNlkEL5PGlBFGfemUVvIgLnTzq7Q==}
+  /@jridgewell/trace-mapping@0.3.25:
+    resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
@@ -2323,8 +2323,8 @@ packages:
       react-is: 18.2.0
     dev: false
 
-  /@mui/x-date-pickers@6.19.5(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@mui/material@5.15.11)(@mui/system@5.15.11)(@types/react@18.2.61)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-WPi59ImgvGTEuAlJiCLnqNkEkbqPjgwUTrg8iqACFIb4qzg5tz4y8vNgmOKMnTXCwWDHjd+SoDdxiMlZJWT1hg==}
+  /@mui/x-date-pickers@6.19.6(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@mui/material@5.15.11)(@mui/system@5.15.11)(@types/react@18.2.61)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-QW9AFcPi0vLpkUhmquhhyhLaBvB0AZJuu3NTrE173qNKx3Z3n51aCLY9bc7c6i4ltZMMsVRHlvzQjsve04TC8A==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@emotion/react': ^11.9.0
@@ -3464,7 +3464,7 @@ packages:
       fork-ts-checker-webpack-plugin: 8.0.0(typescript@5.3.3)(webpack@5.90.3)
       fs-extra: 11.2.0
       html-webpack-plugin: 5.6.0(webpack@5.90.3)
-      magic-string: 0.30.7
+      magic-string: 0.30.8
       path-browserify: 1.0.1
       process: 0.11.10
       semver: 7.6.0
@@ -3714,7 +3714,7 @@ packages:
     resolution: {integrity: sha512-xTHv9BUh3bkDVCvcbmdfVF0/e96BdrEgqPJ3G3RmKbSzWLOkQ2U9yiPfHzT0KJWPhVwj12fjfZp0zunu+pcS6Q==}
     dependencies:
       '@storybook/csf-tools': 7.6.17
-      unplugin: 1.7.1
+      unplugin: 1.8.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3921,7 +3921,7 @@ packages:
       '@types/semver': 7.5.8
       babel-plugin-add-react-displayname: 0.0.5
       fs-extra: 11.2.0
-      magic-string: 0.30.7
+      magic-string: 0.30.8
       react: 18.2.0
       react-docgen: 7.0.3
       react-dom: 18.2.0(react@18.2.0)
@@ -5367,7 +5367,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001591
+      caniuse-lite: 1.0.30001593
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -5682,7 +5682,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001591
+      caniuse-lite: 1.0.30001593
       electron-to-chromium: 1.4.690
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
@@ -5775,8 +5775,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite@1.0.30001591:
-    resolution: {integrity: sha512-PCzRMei/vXjJyL5mJtzNiUCKP59dm8Apqc3PH8gJkMnMXZGox93RbE76jHsmLwmIo6/3nsYIpJtx0O7u5PqFuQ==}
+  /caniuse-lite@1.0.30001593:
+    resolution: {integrity: sha512-UWM1zlo3cZfkpBysd7AS+z+v007q9G1+fLTUU42rQnY6t2axoogPW/xol6T7juU5EUoOhML4WgBIdG+9yYqAjQ==}
 
   /case-sensitive-paths-webpack-plugin@2.4.0:
     resolution: {integrity: sha512-roIFONhcxog0JSSWbvVAh3OocukmSgpqOH6YpMkCvav/ySIV3JKg4Dc8vYtQjYi/UxpNE36r/9v+VqTQqgkYmw==}
@@ -7897,7 +7897,7 @@ packages:
       consola: 3.2.3
       defu: 6.1.4
       node-fetch-native: 1.6.2
-      nypm: 0.3.6
+      nypm: 0.3.8
       ohash: 1.1.3
       pathe: 1.1.2
       tar: 6.2.0
@@ -9040,8 +9040,8 @@ packages:
     hasBin: true
     dev: true
 
-  /magic-string@0.30.7:
-    resolution: {integrity: sha512-8vBuFF/I/+OSLRmdf2wwFCJCz+nSn0m6DPvGH1fS/KiQoSaR+sETbov0eIk9KhEKy8CYqIkIAnbohxT/4H0kuA==}
+  /magic-string@0.30.8:
+    resolution: {integrity: sha512-ISQTe55T2ao7XtlAStud6qwYPZjE4GK1S/BeVPus4jrq6JuOnQ00YKQC581RWhR122W7msZV263KzVeLoqidyQ==}
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
@@ -9081,7 +9081,7 @@ packages:
       react: 18.2.0
     dev: true
 
-  /material-react-table@2.12.1(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.11)(@mui/material@5.15.11)(@mui/x-date-pickers@6.19.5)(react-dom@18.2.0)(react@18.2.0):
+  /material-react-table@2.12.1(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.11)(@mui/material@5.15.11)(@mui/x-date-pickers@6.19.6)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-nqILE26I/6/UfiILEc7mnVhIoVdG78qvkav85dcbn5BbNXkAJeA57Slut50eYytd7aQHCbaq9MoLvsVeO1yaIw==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -9097,7 +9097,7 @@ packages:
       '@emotion/styled': 11.11.0(@emotion/react@11.11.4)(@types/react@18.2.61)(react@18.2.0)
       '@mui/icons-material': 5.15.11(@mui/material@5.15.11)(@types/react@18.2.61)(react@18.2.0)
       '@mui/material': 5.15.11(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@types/react@18.2.61)(react-dom@18.2.0)(react@18.2.0)
-      '@mui/x-date-pickers': 6.19.5(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@mui/material@5.15.11)(@mui/system@5.15.11)(@types/react@18.2.61)(react-dom@18.2.0)(react@18.2.0)
+      '@mui/x-date-pickers': 6.19.6(@emotion/react@11.11.4)(@emotion/styled@11.11.0)(@mui/material@5.15.11)(@mui/system@5.15.11)(@types/react@18.2.61)(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/match-sorter-utils': 8.11.8
       '@tanstack/react-table': 8.13.2(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/react-virtual': 3.1.3(react-dom@18.2.0)(react@18.2.0)
@@ -9420,7 +9420,7 @@ packages:
       '@next/env': 14.1.1
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001591
+      caniuse-lite: 1.0.30001593
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.2.0
@@ -9565,12 +9565,13 @@ packages:
       boolbase: 1.0.0
     dev: true
 
-  /nypm@0.3.6:
-    resolution: {integrity: sha512-2CATJh3pd6CyNfU5VZM7qSwFu0ieyabkEdnogE30Obn1czrmOYiZ8DOZLe1yBdLKWoyD3Mcy2maUs+0MR3yVjQ==}
+  /nypm@0.3.8:
+    resolution: {integrity: sha512-IGWlC6So2xv6V4cIDmoV0SwwWx7zLG086gyqkyumteH2fIgCAM4nDVFB2iDRszDvmdSVW9xb1N+2KjQ6C7d4og==}
     engines: {node: ^14.16.0 || >=16.10.0}
     hasBin: true
     dependencies:
       citty: 0.1.6
+      consola: 3.2.3
       execa: 8.0.1
       pathe: 1.1.2
       ufo: 1.4.0
@@ -11679,7 +11680,7 @@ packages:
       uglify-js:
         optional: true
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.24
+      '@jridgewell/trace-mapping': 0.3.25
       '@swc/core': 1.4.2
       esbuild: 0.18.20
       jest-worker: 27.5.1
@@ -12063,8 +12064,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /unplugin@1.7.1:
-    resolution: {integrity: sha512-JqzORDAPxxs8ErLV4x+LL7bk5pk3YlcWqpSNsIkAZj972KzFZLClc/ekppahKkOczGkwIG6ElFgdOgOlK4tXZw==}
+  /unplugin@1.8.0:
+    resolution: {integrity: sha512-yGEQsodWICmgt7asHF7QzqDZYeEP9h14vyd9Lul98UnYf29pLZZLwI09z2QdTjwU/FCkum1SRvsK7cx232X8NA==}
     dependencies:
       acorn: 8.11.3
       chokidar: 3.6.0
