@@ -143,11 +143,11 @@ devDependencies:
     specifier: ^0.8.0
     version: 0.8.0(eslint@8.57.0)(typescript@5.4.2)
   msw:
-    specifier: ^2.2.4
-    version: 2.2.4(typescript@5.4.2)
+    specifier: ^2.2.5
+    version: 2.2.5(typescript@5.4.2)
   msw-storybook-addon:
     specifier: ^1.10.0
-    version: 1.10.0(msw@2.2.4)
+    version: 1.10.0(msw@2.2.5)
   postcss:
     specifier: ^8.4.35
     version: 8.4.35
@@ -5396,7 +5396,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001597
+      caniuse-lite: 1.0.30001598
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -5712,7 +5712,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001597
+      caniuse-lite: 1.0.30001598
       electron-to-chromium: 1.4.708
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
@@ -5805,8 +5805,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite@1.0.30001597:
-    resolution: {integrity: sha512-7LjJvmQU6Sj7bL0j5b5WY/3n7utXUJvAe1lxhsHDbLmwX9mdL86Yjtr+5SRCyf8qME4M7pU2hswj0FpyBVCv9w==}
+  /caniuse-lite@1.0.30001598:
+    resolution: {integrity: sha512-j8mQRDziG94uoBfeFuqsJUNECW37DXpnvhcMJMdlH2u3MRkq1sAI0LJcXP1i/Py0KbSIC4UDj8YHPrTn5YsL+Q==}
 
   /case-sensitive-paths-webpack-plugin@2.4.0:
     resolution: {integrity: sha512-roIFONhcxog0JSSWbvVAh3OocukmSgpqOH6YpMkCvav/ySIV3JKg4Dc8vYtQjYi/UxpNE36r/9v+VqTQqgkYmw==}
@@ -9437,17 +9437,17 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw-storybook-addon@1.10.0(msw@2.2.4):
+  /msw-storybook-addon@1.10.0(msw@2.2.5):
     resolution: {integrity: sha512-soCTMTf7DnLeaMnFHPrtVgbyeFTJALVvnDHpzzXpJad+HOzJgQdwU4EAzVfDs1q+X5cVEgxOdAhSMC7ljvnSXg==}
     peerDependencies:
       msw: '>=0.35.0 <2.0.0'
     dependencies:
       is-node-process: 1.2.0
-      msw: 2.2.4(typescript@5.4.2)
+      msw: 2.2.5(typescript@5.4.2)
     dev: true
 
-  /msw@2.2.4(typescript@5.4.2):
-    resolution: {integrity: sha512-jFRVA8megbf134fZsddsEuZZCe0O0NIaW3NssSya4ZJ7jODRUodKMFjVjphA+ckS9pPhIrE/ehTrgccShAKU2A==}
+  /msw@2.2.5(typescript@5.4.2):
+    resolution: {integrity: sha512-9JTDvKTc7Weu8iF0JQeW3+ispwR12rJyHgqncoTBdQZ4L41Acm09i8CViY2c2ULaVTFhhorDwECR27QiXpPw5g==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -9548,7 +9548,7 @@ packages:
       '@next/env': 14.1.3
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001597
+      caniuse-lite: 1.0.30001598
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.2.0
