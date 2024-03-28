@@ -51,7 +51,7 @@ devDependencies:
     version: 14.1.4
   '@storybook/addon-essentials':
     specifier: ^8.0.5
-    version: 8.0.5(@types/react@18.2.72)(react-dom@18.2.0)(react@18.2.0)
+    version: 8.0.5(@types/react@18.2.73)(react-dom@18.2.0)(react@18.2.0)
   '@storybook/addon-interactions':
     specifier: ^8.0.5
     version: 8.0.5
@@ -66,7 +66,7 @@ devDependencies:
     version: 1.3.7(@types/react-dom@18.2.22)(@types/react@18.2.73)(less@4.2.0)(postcss@8.4.38)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.3)(webpack@5.91.0)
   '@storybook/blocks':
     specifier: ^8.0.5
-    version: 8.0.5(@types/react@18.2.72)(react-dom@18.2.0)(react@18.2.0)
+    version: 8.0.5(@types/react@18.2.73)(react-dom@18.2.0)(react@18.2.0)
   '@storybook/nextjs':
     specifier: ^8.0.5
     version: 8.0.5(esbuild@0.18.20)(next@14.1.4)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.3)(webpack@5.91.0)
@@ -3506,7 +3506,7 @@ packages:
       - react-dom
     dev: true
 
-  /@storybook/blocks@8.0.5(@types/react@18.2.72)(react-dom@18.2.0)(react@18.2.0):
+  /@storybook/blocks@8.0.5(@types/react@18.2.73)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-zfcwJ0yE5HM28BxZeNU4SYF8zxq2PEqLP1aWCdRuZT9k8lgnBwAKzlvt50LtPzOfGtKuGnvIEriELx/i+Qh4Sw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -3519,7 +3519,7 @@ packages:
     dependencies:
       '@storybook/channels': 8.0.5
       '@storybook/client-logger': 8.0.5
-      '@storybook/components': 8.0.5(@types/react@18.2.72)(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/components': 8.0.5(@types/react@18.2.73)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/core-events': 8.0.5
       '@storybook/csf': 0.1.3
       '@storybook/docs-tools': 8.0.5
