@@ -140,3 +140,5 @@ yarn-error.log*
 *.sarif
 src/tsconfig.json
 src/next-env.d.ts
+
+storybook-static
