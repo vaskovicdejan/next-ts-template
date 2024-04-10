@@ -31,13 +31,13 @@ jobs:
         node-version: 20.x
         check-latest: true
 
-    - name: lint
-      run: |
-        pnpm lint
-
     - name: build
       run: |
         pnpm build
+
+    - name: lint report
+      run: |
+        pnpm eslint:report
 
     - uses: github/codeql-action/upload-sarif@v3
       with:

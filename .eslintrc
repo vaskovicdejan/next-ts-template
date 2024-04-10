@@ -16,7 +16,6 @@
     "tsconfigRootDir": "__dirname"
   },
   "extends": [
-    "airbnb-typescript/base",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
@@ -32,11 +31,11 @@
     }
   },
   "rules": {
-    "@typescript-eslint/indent": ["off"],
-    "@typescript-eslint/semi": ["off"],
-    "@typescript-eslint/comma-dangle": ["off"],
-    "@typescript-eslint/member-delimiter-style": ["off"],
-    "@typescript-eslint/space-before-function-paren": ["off"],
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/semi": "off",
+    "@typescript-eslint/comma-dangle": "off",
+    "@typescript-eslint/member-delimiter-style": "off",
+    "@typescript-eslint/space-before-function-paren": "off",
     "spaced-comment": [
       "error",
       "always",
