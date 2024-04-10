@@ -24,8 +24,7 @@ const font = Inter({
   display: 'swap',
 });
 
-// eslint-disable-next-line @typescript-eslint/ban-types
-type Width = (string & {}) | number;
+type Width = (string & object) | number;
 
 function MenuItemContent({
   text,
