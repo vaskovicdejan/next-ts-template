@@ -1,5 +1,0 @@
-**/*.d.ts
-*.js
-src/tsconfig.json
-src/next-env.d.ts
-src/stories
